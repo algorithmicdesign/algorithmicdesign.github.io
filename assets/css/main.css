@@ -1545,7 +1545,7 @@
 		.\-1u\28mobile\29 {
 			margin-left: 8.33333%;
 		}
-
+        
 	}
 
 /* Basic */
@@ -1816,6 +1816,33 @@
 				display: block;
 				width: 100%;
 			}
+
+
+
+
+
+    /* medium+ screen sizes */
+@media all and (min-width:841px) {
+    .image.desktop {
+        display: block !important; 
+        margin: 0 0 2em 0;
+    }
+    
+    .image.desktop img {
+        display: block !important; 
+        width: 100%;
+    }
+}
+ 
+/* small screen sizes */
+@media all and (max-width: 840px) {
+    .image.desktop {
+        display:none !important; 
+    }
+}
+
+
+
 
 /* Icon */
 
@@ -2778,6 +2805,10 @@
 				display: block;
 				padding: 1em 0 0 0;
 			}
+        
+        image.desktop {
+				display: none;
+        }
 
 		/* Header */
 
@@ -3100,6 +3131,10 @@
 			ul.buttons {
 				text-align: center;
 			}
+        
+            image.desktop {
+                display: none;
+            }   
 
 		/* Wrapper */
 
