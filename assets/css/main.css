@@ -48,6 +48,7 @@
 		-webkit-text-size-adjust: none;
 	}
 
+
 /* Box Model */
 
 	*, *:before, *:after {
@@ -1832,6 +1833,13 @@
         display: block !important; 
         width: 100%;
     }
+    .mobile-only {
+            display:none !important;
+    }
+
+    .desktop-only {
+            display:block !important;
+    }
 }
  
 /* small screen sizes */
@@ -1839,9 +1847,14 @@
     .image.desktop {
         display:none !important; 
     }
+    .mobile-only {
+            display:block !important;
+    }
+
+    .desktop-only {
+            display:none !important;
+    }
 }
-
-
 
 
 /* Icon */
