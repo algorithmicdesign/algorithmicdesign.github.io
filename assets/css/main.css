@@ -2683,7 +2683,7 @@
 		/* Section/Article */
 
 			header br {
-				display: none;
+				display: block;
 			}
 
 			header.major {
@@ -2707,7 +2707,7 @@
 			}
 
 				.wrapper.special br {
-					display: none;
+					display: block;
 				}
 
 				.wrapper.style1 {
@@ -3157,7 +3157,7 @@
 			}
 
 				.wrapper.special br {
-					display: none;
+					display: block;
 				}
 
 				.wrapper.style1 {
@@ -3197,7 +3197,7 @@
 					}
 
 					#banner .inner br {
-						display: none;
+						display: block;
 					}
 
 		/* Main */
