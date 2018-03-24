@@ -2331,7 +2331,7 @@
 			animation: none;
 			background: transparent;
 			box-shadow: none;
-			color: #fff;
+			color: #7c8081;
 			padding: 2em 2.5em;
 			position: absolute;
 		}
@@ -2342,6 +2342,27 @@
 			}
 
 				#header.alt nav ul li.active > a, #header.alt nav ul li:hover > a {
+					border: solid 1px;
+				}
+
+        #header.b {
+                    -moz-animation: none;
+                    -webkit-animation: none;
+                    -ms-animation: none;
+                    animation: none;
+                    background: transparent;
+                    box-shadow: none;
+                    color: #fff;
+                    padding: 2em 2.5em;
+                    position: absolute;
+                }
+
+                #header.b nav {
+				right: 2.5em;
+				top: 1.75em;
+			}
+
+				#header.b nav ul li.active > a, #header.alt nav ul li:hover > a {
 					border: solid 1px;
 				}
 
@@ -2683,7 +2704,7 @@
 		/* Section/Article */
 
 			header br {
-				display: none;
+				display: block;
 			}
 
 			header.major {
@@ -2707,7 +2728,7 @@
 			}
 
 				.wrapper.special br {
-					display: none;
+					display: block;
 				}
 
 				.wrapper.style1 {
@@ -3157,7 +3178,7 @@
 			}
 
 				.wrapper.special br {
-					display: none;
+					display: block;
 				}
 
 				.wrapper.style1 {
@@ -3197,7 +3218,7 @@
 					}
 
 					#banner .inner br {
-						display: none;
+						display: block;
 					}
 
 		/* Main */
