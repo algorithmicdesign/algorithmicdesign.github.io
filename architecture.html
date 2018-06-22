@@ -15,6 +15,7 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->         
         <link rel="shortcut icon" href="images/index/A-sqr.png" type="image/ico"/>
+        <link href='assets/css/simplelightbox.min.css' rel='stylesheet' type='text/css'/>
     </head>
 	<body class="index">
 		<div id="page-wrapper">
@@ -64,18 +65,8 @@
 						<h2>ARCHITECTURE</h2>
 						<pcenter>Here you can find some of the competences of our team in the area of <b>Architecture</b></pcenter>
 					</header>
-                    
-                
-                                    
-                    <!-- <a href="images/architecture/5.bmp" class="image featured"><img src="images/architecture/5.bmp" alt="" /></a> --> 
-                    <!-- Parametric Modelling --> 
-               
-                    
-                                     
-              
-                    
-                    
-                    
+                      
+                     
                     <section class="wrapper style3 container special">
 				        <div class="content">
                                 <header>
@@ -84,7 +75,16 @@
                             <p>In the past years, there has been an increased use of programming tools in architectural design, not only because it allows architects to achieve nouvelle shapes, but also allows them to rapidly experiment and vary their designs. ADA has developed textual generative design tools which allow scaling of architectural designs in a more rapid and efficient way, when compared with visual programming tools. The following case studies were all modelled and generated using our tools.</p>
                             <!-- Using our generative design tools, we are able to develop parametric models of both large and small buildings to support architectural design activities --> 
                         </div>
-                        <div class="row">
+              <div class="row">          
+                        <div class="gallery">
+                    <a href="images/architecture/85.png" class="big"><img src="images/architecture/85.png" alt="" title="Beautiful Image" /></a>
+                    <a href="images/architecture/85.png"><img src="images/architecture/85.png" alt="" title=""/></a>
+                    <a href="images/architecture/85.png"><img src="images/architecture/85.png" alt="" title="Beautiful Image"/></a>
+                    <a href="images/architecture/85.png"><img src="images/architecture/85.png" alt="" title=""/></a>
+                    <div class="clear"></div>
+		</div></div>
+
+                        <div class="row">          
 				            <div class="4u 12u(narrower)">
                                 <section>
 										<a href="images/architecture/85.png" class="image featured"><img src="images/architecture/85.png" alt="" /></a>
@@ -331,6 +331,11 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+            <script type="text/javascript" src="assets/js/simple-lightbox.js"></script>
+<script>
+	$(function(){
+		var $gallery = $('.gallery a').simpleLightbox();});
+</script>
 
 	</body>
 </html>
