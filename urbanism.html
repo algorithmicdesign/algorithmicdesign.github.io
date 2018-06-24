@@ -15,6 +15,7 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->         
         <link rel="shortcut icon" href="images/index/A-sqr.png" type="image/ico"/>
+        <link href='assets/css/simplelightbox.min.css' rel='stylesheet' type='text/css'/>
     </head>
 	<body class="index">
 		<div id="page-wrapper">
@@ -60,13 +61,16 @@
 			<!-- Main -->
 				<article id="main">
 
+                     <div class="gallery">
+                         
 					<header class="special container">
 						<span class="icon fa-th"></span>
 						<h2>URBANISM</h2>
 						<pcenter>Here you can find some of the competences of our team in the area of <b>Urbanism</b></pcenter>
 					</header>
                     
-                     <!-- City Modelling -->
+                         
+<!-- _______________City Modelling_______________ -->
                     
                      <section class="wrapper style3 container special">
 				        <div class="content">
@@ -78,31 +82,32 @@
                         <div class="row">
 				            <div class="4u 12u(narrower)">
                                 <section>
-										<a href="images/urbanism/EFG1112.png" class="image featured"><img src="images/urbanism/EFG1112.png" alt="" /></a>
+										<a href="images/urbanism/EFG1112.png" class="image featured"><img src="images/urbanism/EFG1112.png" alt="" title="Generation of Lisbon's Urban Fabric"/></a>
                                         <pcenter>GENERATION OF LISBON'S URBAN FABRIC</pcenter>
                                 </section>    
                             </div>
                             <div class="4u 12u(narrower)">
                                     <section>
-										<a href="images/urbanism/NY.jpg" class="image featured"><img src="images/urbanism/NY.jpg" alt="" /></a>
+										<a href="images/urbanism/NY.jpg" class="image featured"><img src="images/urbanism/NY.jpg" alt="" title="Precedural Generation of City Models" /></a>
                                         <pcenter>PROCEDURAL GENERATION OF CITY MODELS</pcenter>  
 									</section>
 							</div>
                             <div class="4u 12u(narrower)">
                                     <section>
-										<a href="images/urbanism/cidadeHL1.jpg" class="image featured"><img src="images/urbanism/cidadeHL1.jpg" alt="" /></a>
+										<a href="images/urbanism/cidadeHL1.jpg" class="image featured"><img src="images/urbanism/cidadeHL1.jpg" alt="" title="Modelling of Fictional Cities"/></a>
                                         <pcenter>MODELLING OF FICTIONAL CITIES</pcenter>
 				                    </section> 
 							</div>    
                         </div> 
-				    </section>          
+				    </section>       
                     
-                    <!-- Urban Analysis -->
+                    
+<!-- ______________Urban Analysis________________ -->
                  
                     <section class="wrapper style2 container special">
 							<div class="row 50%">
 								<div class="6u 12u(narrower) important(narrower)">
-                                    <a href="images/urbanism/cidadecourtyard.png" class="image featured"><img src="images/urbanism/cidadecourtyard.png" alt="" /></a>
+                                    <a href="images/urbanism/cidadecourtyard.png" class="image featured"><img src="images/urbanism/cidadecourtyard.png" alt="" title="URBAN ANALYSIS"/></a>
                                 </div>
                                 <div class="6u 12u(narrower)">
 									<header>
@@ -114,7 +119,8 @@
                          </div>
 				    </section> 
                     
-                    <!-- Road Optimization -->
+                    
+<!-- ____________Road Optimization_________________ -->
                     
                      <section class="wrapper style3 container special">
 							<div class="row 50%">
@@ -125,10 +131,11 @@
 									<p> This work is part of an experiment conducted by our team that aims to reduce the number of roads that need to be built by exploring a physics-inspired optimization algorithm. This algorithm minimizes the total energy of a system of masses and springs simulating roads or traffic.</p>
                                </div>
                                <div class="6u 12u(narrower) important(narrower)">
-                                    <a href="images/urbanism/estradas-film.gif" class="image featured"><img src="images/urbanism/estradas-film.gif" alt="" /></a>
+                                    <a href="images/urbanism/estradas-film.gif" class="image featured"><img src="images/urbanism/estradas-film.gif" alt="" title="ROAD OPTIMIZATION"/></a>
                                 </div>
                          </div>
 				    </section> 
+             </div>  
                    
                    <!-- Three -->
                     
@@ -183,10 +190,7 @@
 								
 							</div>
 						</section>
-                    
-                    
-
-                    
+                         
 
 				</article>
 
@@ -210,6 +214,11 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
-
+            <script type="text/javascript" src="assets/js/simple-lightbox.js"></script>
+            <script>
+                $(function(){
+                    var $gallery = $('.gallery a').simpleLightbox();});
+            </script>
+        
 	</body>
 </html>
