@@ -15,6 +15,7 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->         
         <link rel="shortcut icon" href="images/index/A-sqr.png" type="image/ico"/>
+        <link href='assets/css/simplelightbox.min.css' rel='stylesheet' type='text/css'/>
     </head>
 	<body class="index">
 		<div id="page-wrapper">
@@ -67,14 +68,17 @@
 							Here you may find the Generative Design tools for Architecture created by our group
                     	</pcenter>
 					</header>
+                    
 
-					<!-- One -->
+<!--_______________TOOLS_______________-->
+                    
+                                            
 						<section class="wrapper style4 container special">
 
 							<!-- Content -->
 								<div class="row">
                                     <div class="6u 12u(narrower)"> 
-                                            <a class="image featured"><img src="images/tools/logos-03.png" alt="" /></a>
+                                        <div class="gallery"><a href="images/tools/logos-03.png" class="image featured"><img src="images/tools/logos-03.png" alt="" title="ROSETTA"/></a></div>
                                     </div> 
                                     <div class="6u 12u(narrower)"> 
                                             <section>
@@ -91,7 +95,7 @@
                                 </div>
                             <div class="row">
                                     <div class="6u 12u(narrower)"> 
-                                            <a class="image featured"><img src="images/tools/logos-02.png" alt="" /></a>
+                                        <div class="gallery"><a href="images/tools/logos-02.png" class="image featured"><img src="images/tools/logos-02.png" alt="" title="KHEPRI"/></a></div>
                                     </div> 
                                     <div class="6u 12u(narrower)">
                                         <section>
@@ -108,7 +112,7 @@
                                 </div>
                                   <div class="row">
                                     <div class="6u 12u(narrower)"> 
-                                            <a class="image featured"><img src="images/tools/logos-01.png" alt="" /></a>
+                                        <div class="gallery"><a href="images/tools/logos-01.png" class="image featured"><img src="images/tools/logos-01.png" alt="" title="LUNA MOTH"/></a></div>
                                     </div> 
                                     <div class="6u 12u(narrower)"> 
                                             <section>
@@ -123,6 +127,7 @@
                                     </div>   
                                 </div>
 						</section>
+                        
 
             </article>
 
@@ -146,6 +151,11 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
-
+            <script type="text/javascript" src="assets/js/simple-lightbox.js"></script>
+            <script>
+                $(function(){
+                    var $gallery = $('.gallery a').simpleLightbox();});
+            </script>
+        
 	</body>
 </html>
