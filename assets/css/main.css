@@ -1819,9 +1819,6 @@
 			}
 
 
-
-
-
     /* medium+ screen sizes */
 @media all and (min-width:841px) {
     .image.desktop {
@@ -1855,6 +1852,37 @@
             display:none !important;
     }
 }
+
+
+/* Video */
+
+.Rvideo-box 
+	{
+	background-color: #000000;
+	text-align: center;
+	padding: 0px;
+	margin: 0px auto 0px auto;
+	width: 100%;
+	max-width: 1000px;
+	height: auto;
+	border: 1px solid #000000;
+	}
+
+.Rvideo-box video 
+	{
+	width: 100%;
+	height: auto;
+	display: block;
+	padding: 0px;
+	margin: 0px;
+	}
+
+.Rvideo-nosupport
+	{
+	color: #FFFFFF;
+	padding-top: 110px;
+	padding-bottom: 110px;
+	}
 
 
 /* Icon */
