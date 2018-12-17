@@ -1598,6 +1598,11 @@
         text-align: justify;
 	}
 
+    pright {
+		margin: 0 0 2em 0;
+        text-align: right;
+	}
+
     pcenter, ul, ol, dl, table, blockquote {
 		margin: 0 0 2em 0;
         text-align: center;
