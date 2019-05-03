@@ -15,6 +15,7 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->         
         <link rel="shortcut icon" href="images/index/A-sqr.png" type="image/ico"/>
+        <link href='assets/css/simplelightbox.min.css' rel='stylesheet' type='text/css'/>
     </head>
 	<body class="index">
 		<div id="page-wrapper">
@@ -52,7 +53,7 @@
 				</header>
 
 			<!-- Main -->
-				<article id="main">
+				<article id="main"> <div class="gallery">
 
 					<header class="special container">
 						<span class="icon fa-trophy"></span>
@@ -69,7 +70,17 @@
                             <div class="row">
                                 
                                   <div class="4u 12u(narrower)">
-                                         <a class="image featured"><img src="images/awards/caadria2019.png" alt="" /></a>
+                                        <a href="images/awards/caadria2019_paper.png" class="image featured"><img src="images/awards/caadria2019.png" alt="" title="CAADRIA Best Paper Award 2019" /></a>
+								        <header> 
+											<a href="http://caadria.org/man/recipient.html">
+                                                <h3>CAADRIA Best Paper Award
+                                                    <br />2019</h3></a> 
+                                        </header>
+                                        <pcenter><strong>Maria João Sammer, António Leitão & Inês Caetano </strong> with  
+                                        <br />"From Visual Input to Visual Output in Textual Programming"</pcenter>
+                                </div>
+                                <div class="4u 12u(narrower)">
+                                        <a href="images/awards/caadria2019_presentation.png" class="image featured"><img src="images/awards/caadria2019.png" alt="" title="CAADRIA Best Presentation Award 2019" /></a>
 								        <header>
 											<a href="http://caadria.org/man/recipient.html">
                                                 <h3>CAADRIA Best Presentation Award
@@ -77,16 +88,6 @@
                                         </header>
                                         <pcenter><strong>Renata Castelo-Branco </strong> with  
 								        <br />"Game of Renders: The Use of Game Engines for Architectural Visualization"</pcenter>
-                                </div>
-                                <div class="4u 12u(narrower)">
-                                         <a class="image featured"><img src="images/awards/caadria2019.png" alt="" /></a>
-								        <header>
-											<a href="http://caadria.org/man/recipient.html">
-                                                <h3>CAADRIA Best Paper Award
-                                                    <br />2019</h3></a> 
-                                        </header>
-                                        <pcenter><strong>Maria João Sammer, António Leitão & Inês Caetano </strong> with  
-                                        <br />"From Visual Input to Visual Output in Textual Programming"</pcenter>
                                 </div>
                                 <div class="4u 12u(narrower)">
                                          <a class="image featured"><img src="images/awards/ptbim2018.png" alt="" /></a>
@@ -218,7 +219,7 @@
                                 </div>
 							</div>
 						</section>	
-
+                    </div>
 					</article>
             
             
@@ -243,6 +244,11 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+            <script type="text/javascript" src="assets/js/simple-lightbox.js"></script>
+            <script>
+                $(function(){
+                    var $gallery = $('.gallery a').simpleLightbox();});
+            </script>
 
 	</body>
 </html>
