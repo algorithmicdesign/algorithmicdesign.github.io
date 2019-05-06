@@ -42,7 +42,7 @@ $.fn.simpleLightbox = function( options )
 		scaleImageToRatio: false,
 		disableRightClick: false,
 		disableScroll: true,
-		alertError: true,
+		alertError: false,
 		alertErrorMessage: 'Image not found, next image will be loaded',
 		additionalHtml: false,
 		history: true
