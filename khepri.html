@@ -1,0 +1,154 @@
+<!DOCTYPE HTML>
+<!--
+	Twenty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+        <!--<a class="image featured"><img src="images/index/ADA_black.png" alt="" /></a>-->
+		<title>ADA</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->         
+        <link rel="shortcut icon" href="images/index/A-sqr.png" type="image/ico"/>
+        <link href='assets/css/simplelightbox.min.css' rel='stylesheet' type='text/css'/>
+    </head>
+	<body class="index">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header" class="alt">
+				 <!-- <h1 id="logo"><a href="index.html" class="image"><img src="images/index/ADA_black.png" alt="" width="60"/></a></h1> -->
+                    <h1 id="logo"><a href="index.html" class="image"><img src="images/index/ADA_grey1.png" alt="" width="50"/></a></h1>
+					<nav id="nav">
+						<ul>
+                            <li><a href="index.html" class="mobile-only">ADA</a></li>
+                            <!--<li><a href="projects.html">Projects</a></li>-->
+							<li class="submenu">
+								<a href="#">Expertise</a>
+								<ul> 
+                                    <li><a href="architecture.html">Architecture</a></li>
+									<li><a href="performance.html">Performance</a></li>
+									<li><a href="structures.html">Structures</a></li>
+                                    <li><a href="urbanism.html">Urbanism</a></li>
+                                </ul>
+							</li>
+                            <li class="current"><a href="tools.html">Tools</a></li>
+                            <li class="submenu">
+								<a href="#">Research</a>
+								<ul>
+									<li><a href="publications.html">Publications</a></li>
+									<li><a href="awards.html">Awards</a></li>
+                                    <li><a href="talks.html">Talks</a></li>
+									<li><a href="theses.html">Theses</a></li>
+                                </ul>
+							</li>
+                            <li><a href="team.html">Team</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Main -->
+				<article id="main">
+
+					<header class="special container">
+						<span class="icon fa-cog"></span>
+						<h2>KHEPRI</h2>
+						<pcenter>
+							Here you may find some of the necessary instructions and documentation to use the Khepri AD tool
+                    	</pcenter>
+					</header>                    
+                                            
+					<section class="wrapper style3 container special">
+				        <div class="content">
+                            <header> <h2>Installation Instructions</h2></header>
+                            
+                            <p> In order to use Khepri you will need the programming language <b>Julia </b>and the programming editor <b>Atom </b>complemented with <b>Juno</b>.          <br /><br />  
+                                
+                            JULIA
+                                <br /><br />
+                            First, install <b>Julia</b>: <a href="https://julialang.org/downloads/">https://julialang.org/downloads/</a>
+                                <br />
+                            More specifically, use: <a href="https://julialang-s3.julialang.org/bin/winnt/x64/1.0/julia-1.0.0-win64.exe">https://julialang-s3.julialang.org/bin/winnt/x64/1.0/julia-1.0.0-win64.exe</a>
+                                <br />
+                            We recommend that you accept the default installation options.
+                                 <br /> <br /> 
+                                
+                            ATOM
+                                <br /><br />
+                            Second, install <b>Atom</b>: <a href="https://atom.io/">https://atom.io/</a>
+                                <br />
+                            More specifically, use: <a href="https://atom.io/download/windows_x64">https://atom.io/download/windows_x64</a>
+                                <br />
+                            Again, we recommend that you accept the default installation options.
+                                <br /><br />
+                                
+                            JUNO
+                                <br /><br />
+                            Third, launch <b>Atom </b>and install <b>Juno</b>.
+                                <br />
+                            In <b>Atom</b>, either choose <i>Install Package</i> in the list of options that appear or go to <i>Settings </i>(Ctrl&#43;,) and go to the <i>Install</i> panel. Type <b>uber-juno</b> into the search box and hit enter. Click the <i>Install</i> button on the package of the same name and wait. <b>Atom </b>will install several packages and will inform you when it&#39;s done. You can answer <i>Yes</i> to all questions presented by <b>Atom</b>.
+                                <br /><br />
+                            When the installation completes, you will have a pane in the bottom for interacting with <b>Julia</b>. Click on that pane and press enter. <b>Julia </b>should have started and will begin its own installation process. When it&#39;s done, press the <b>]</b> key. You will notice that the prompt changed. Then write
+                                <br /><br />
+                            add https://github.com/aptmcl/Khepri.jl
+                                <br /><br />
+                            When it&#39;s done, press <i>backspace</i>.
+                                <br /><br />
+                            To test if the installation worked, on a new file write:
+                                <br /><br />
+                            using Khepri <br /> backend(autocad) <br /> circle()
+                                <br /><br />
+                            and evaluate the file (using the <i>Start </i>icon (a triangle)) on the left. You must also start AutoCAD. If, after starting it, you see an AutoCAD dialog asking if you want to load Khepri, click on the button &#39;<i>Always Load</i>&#39;. You should then see a circle in AutoCAD.
+                                <br /><br />
+                            Note: in case Atom shows errors and messages such as
+                                <br /><br />
+                            Please, close AutoCAD and retry.
+                                <br />
+                            or
+                                <br />
+                            Please, start/restart AutoCAD.
+                                <br /><br />
+                            just do what it says.
+                            </p>
+                            
+                        </div>
+                             
+                   </section>     
+                                                
+
+            </article>
+
+			<!-- Footer -->
+				<footer id="footer">
+
+					<ul class="copyright">
+						<li>2019 &copy; Algorithmic Design for Architecture</li>
+					</ul>
+
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollgress.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+            <script type="text/javascript" src="assets/js/simple-lightbox.js"></script>
+            <script>
+                $(function(){
+                    var $gallery = $('.gallery a').simpleLightbox();});
+            </script>
+        
+	</body>
+</html>
