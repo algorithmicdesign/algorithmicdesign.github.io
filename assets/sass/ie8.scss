@@ -26,7 +26,7 @@
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: auto;
-		-ms-behavior: url('assets/js/ie/backgroundsize.min.htc');
+		-ms-behavior: url('../assets/js/ie/backgroundsize.min.htc');
 
 		.inner {
 			background: _palette(banner, inner-bg);
@@ -40,5 +40,5 @@
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: auto;
-		-ms-behavior: url('assets/js/ie/backgroundsize.min.htc');
+		-ms-behavior: url('../assets/js/ie/backgroundsize.min.htc');
 	}
