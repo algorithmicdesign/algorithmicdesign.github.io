@@ -59,80 +59,108 @@
 
 					<header class="special container">
                         <h2><strong>OPTIMIZATION</strong></h2>
-						<pcenter>Here you can find some of the work we are developing on single and multi-objective optimization mechanisms of algorithmic architectural designs</pcenter>
+						<pcenter>Here you can find some of the work we are developing on single and multi-objective
+                            <br/> optimization mechanisms of algorithmic architectural designs</pcenter>
 					</header>
                     
                     
-<!-- ____________Performance-based Design_____________ -->
+<!-- ____________Single-Objective_____________ -->
                     
-                    <!-- <a href="#" class="image featured"><img src="performance/Picture2.png" alt="" /></a> -->
-                    <!-- Analysis and Simulation -->
-                    
+                                      
                     <section class="wrapper style3 container special">
+                            <header><pcenter><h2>Single-Objective </h2></pcenter></header>
+                            <pcenter>
+                            <b>Project:</b> Ericeira House Façade
+                            <br/><b>Objective:</b> Daylight
+                            </pcenter>  
+                            <br/><br/>
+                            <p>
+				            This project involved the optimization of the daylight conditions of a room in an isolated private house in Portugal. The room was designed with a set of façade shading panels that modulate the daylight conditions in the interior of the room. The panels are composed of a set of horizontal wood bars of different sizes. Initially, the goal was to find a solution for the shading panels that maximized the room's daylight performance, which was measured using the spatial Useful Daylight Illuminance (sUDI) metric. While, in general, it is known that the more openings in the shading panels, the more daylight enter the room, this may also cause situations of uncomfortable glare.
+                            </p>
+                        
                         <div class="gallery">
-				        <div class="content">
-                                <header>
-										<pcenter><h2>ANALYSIS AND SIMULATION</h2></pcenter>
-									</header>
-									<p>With the growing need for safer and more sustainable buildings, it has become crucial for architects to take building performance into account during the development of their projects, especially during the initial design stages. Nowadays, analysis tools can help architects make design decisions informed by building performance, having become important tools for the design process. Using the tools developed by our team, we seek to make analysis tools easier, faster and more convenient to use.</p>
-                                    <!-- Using our Algorithmic-based Analysis approach -->
-                        </div>
                         <div class="row">
-				            <div class="4u 12u(narrower)">
+				            <div class="6u 12u(narrower)">
                                 <section>
-                                        <a href="performance/RenderInteriorTranslucentPlastic.jpg" class="image featured"><img src="performance/RenderInterior.jpg" alt="" title="LIGHTING ANALYSIS "/></a>
-                                        <pcenter>LIGHTING ANALYSIS 
-                                        <!--<br/>Including Illuminance, Luminance, Solar Radiation, Glare </pcenter> -->
-                                        <br/>Lighting conditions can have a significant impact on visual comfort and work productivity. </pcenter> 
+                                        <a href="optimization/ericeira.jpg" class="image featured"><img src="optimization/ericeira.jpg" alt="" title="Ericeira House"/></a>
                                 </section>    
                             </div>
-                            <div class="4u 12u(narrower)">
-                                    <section>
-										<a href="performance/Picture5.png" class="image featured"><img src="performance/Picture5.png" alt="" title="ENERGY ANALYSIS"/></a>
-                                        <pcenter>ENERGY ANALYSIS
-                                        <!--<br/>Work in Progress</pcenter> -->   
-                                        <br/>Energy analysis should be a crucial concern to ensure both thermal comfort and energy efficiency of a building.</pcenter> 
-									</section>
-							</div>
-				            <div class="4u 12u(narrower)">
-                                <section>
-										<a href="performance/Stress%20Analysis.png" class="image featured"><img src="performance/Stress%20Analysis.png" alt="" title="STRUCTURAL ANALYSIS" /></a>
-                                        <pcenter>STRUCTURAL ANALYSIS
-                                        <!--<br/>Including Stress Calculations, Bending moments </pcenter>  --> 
-                                        <br/>Structure plays an important role in a  building's physical integrity. Ensuring structural requirements leads to more robust and safe constructions.</pcenter> 
-                                </section>    
-                            </div> 
-                        </div> 
-                        
-                        <div class="row">
-                            <div class="4u 12u(narrower)">
-                                    <section>
-										<a href="performance/Evacuation%20Simulation.png" class="image featured"><img src="performance/Evacuation%20Simulation.png" alt="" title="EVACUATION SIMULATION"/></a>
-                                        <pcenter>EVACUATION SIMULATION
-                                        <br/>Evacuation simulations can help architects understand and improve the safety measures of a building and avoid crowd disasters in case of an emergency.</pcenter>
-									</section>
-							</div>
-                        </div> 
+                             <video controls preload="auto" id="Ericeira Optimization Film" class="6u 12u(narrower)">
+                                    <source src="optimization/eri_graph_clip.mp4" type="video/mp4">
+                                </video> 
+                        </div>  
                         </div>
 				</section>  
                  
                     
-<!-- ____________Optimization________________ -->   
+<!-- ____________Multi-Objective_____________ -->
                     
-                <section class="wrapper style2 container special">
-                    <div class="gallery">
-                    <div class="row 50%">
-                        <div class="6u 12u(narrower) important(narrower)">
-                            <a href="performance/Capturar2.PNG" class="image featured"><img src="performance/Capturar2.PNG" alt="" title="OPTIMIZATION"/></a>
+                                      
+                    <section class="wrapper style3 container special">
+                            <header><pcenter><h2>Multi-Objective </h2></pcenter></header>
+                            <pcenter>
+                            <b>Project:</b> Space Frame
+                            <br/><b>Objectives:</b> Structural + Geometry
+                            </pcenter>  
+                            <br/><br/>
+                            <p>
+				            This project consisted in the optimization of both the structural behavior and an ad-hoc measure of the irregularity of an arc-shaped space frame. To instill irregularities in the space frame, we introduced three attractors that cause a deformation in the shape of the truss. To measure the goals for each design variant, we used the Robot analysis tool to compute the maximum displacement of the structure, and the sum of the Euclidean distances between the attractors. To increase the interest of this case study, we set out to minimize both objectives, thus promoting the conflict between them: placing the attractors near each other would weaken the structure and, thus, increase the maximum displacement of the space frame.
+                            </p>
+                        
+                        <div class="gallery">
+                        <div class="row">
+				            <div class="4u 12u(narrower)">
+                                <br/>
+                                <section>
+                                        <a href="optimization/truss.gif" class="image featured"><img src="optimization/truss3.png" alt="" title="Space Frame Attractors"/></a>
+                                </section>    
+                            </div>
+                            <div class="8u 12u(narrower)">
+                                <section>
+                                        <a href="optimization/algorithms.png" class="image featured"><img src="optimization/algorithms.png" alt="" title="Optimization Algorithms"/></a>
+                                </section>    
+                            </div> 
+                        </div>  
                         </div>
-				        <div class="6u 12u(narrower)">
-									<header>
-                                        <pcenter><h2>OPTIMIZATION</h2></pcenter>
-									</header>
-									<p> Optimization, in the context of architectural design, can be defined as the search for the best performing design from a set of different solutions, according to certain criteria. Our approach to optimization relies on algorithms to automatically search for the optimal version of a design amongst many. By letting performance guide the design process of a project to achieve better performing solutions, we can reach Performance-Based Design.</p>
+				</section>   
+                    
+                    
+<!-- ____________Multi-Objective_____________ -->
+                    
+                                      
+                    <section class="wrapper style3 container special">
+                            <header><pcenter><h2>Multi-Objective </h2></pcenter></header>
+                            <pcenter>
+                            <b>Project:</b> Black Pavilion Skylights
+                            <br/><b>Objectives:</b> Daylight + Cost
+                            </pcenter>  
+                            <br/><br/>
+                            <p>
+				            This project consisted in a design problem where a two-floor service building, the Black Pavilion, was being adapted to work as a museum. The architects planned to incorporate a skylight in the second floor of the building to improve the daylight conditions of an art exhibition space. The problem was to find the height, the width, the length, and the material of the skylight that maximized the daylight conditions, measured using the spatial Useful Daylight Illuminance (sUDI) metric, while minimizing the cost of the skylight (approximated using a formula that depends on the skylight dimensions). For this case, we used the Radiance lighting analysis tool to measure the sUDI of different designs.
+                            </p>
+                        
+                        <div class="gallery">
+                        <div class="row">
+				            <div class="4u 12u(narrower)">
+                                <section>
+                                        <a href="optimization/Falsecolor_PF_122212_01.png" class="image featured"><img src="optimization/Falsecolor_PF_122212_01.png" alt="" title="Space Frame Attractors"/></a>
+                                </section>    
+                            </div>
+                            <div class="4u 12u(narrower)">
+                                <section>
+                                        <a href="optimization/Falsecolor_PF_122212_13.png" class="image featured"><img src="optimization/Falsecolor_PF_122212_13.png" alt="" title="Optimization Algorithms"/></a>
+                                </section>    
+                            </div> 
+                            <div class="4u 12u(narrower)">
+                                <section>
+                                        <a href="optimization/Falsecolor_PF_122212_22.png" class="image featured"><img src="optimization/Falsecolor_PF_122212_22.png" alt="" title="Optimization Algorithms"/></a>
+                                </section>    
+                            </div> 
                         </div>
-                        </div> </div>
-				</section> 
+                        <pcenter>False color luminance images representing three of the optimal solutions <br/> (belonging to the Pareto front) for the winter solstice at midday</pcenter>
+                        </div>
+				</section>  
+                    
    
 <!-- _______________Three______________ -->
                     
@@ -142,13 +170,13 @@
 
 									<section>
 										<header>
-											<h3>ARCHITECTURE</h3>
+											<h3>Fabrication </h3>
 										</header>
-										<pcenter>Press to find out more about <br/> our architectural competences.</pcenter> 
+										<pcenter>Press to find out more about <br/> our fabrication work</pcenter> 
                                         <p> </p>
 										<footer>
 											<ul class="buttons">
-												<li><a href="architecture.html" class="button small">Learn More</a></li>
+												<li><a href="fabrication.html" class="button small">Learn More</a></li>
 											</ul>
 										</footer>
 									</section>
@@ -160,13 +188,13 @@
 
 									<section>
 										<header>
-											<h3>STRUCTURES</h3>
+											<h3>Education </h3>
 										</header>
-								        <pcenter>Press to find out more about <br/> our structural competences.</pcenter>
+								        <pcenter>Press to find out more about <br/> our educational work</pcenter>
                                         <p> </p>
 										<footer>
 											<ul class="buttons">
-												<li><a href="structures.html" class="button small">Learn More</a></li>
+												<li><a href="education.html" class="button small">Learn More</a></li>
 											</ul>
 										</footer>
 									</section>
@@ -177,13 +205,13 @@
 
 									<section>
 										<header>
-											<h3>URBANISM</h3>
+											<h3>Modelling </h3>
 										</header>
-								        <pcenter>Press to find out more about <br/> our urban competences.</pcenter> 
+								        <pcenter>Press to find out more about <br/> our modelling work</pcenter> 
                                         <p> </p>
 										<footer>
 											<ul class="buttons">
-												<li><a href="urbanism.html" class="button small">Learn More</a></li>
+												<li><a href="modelling.html" class="button small">Learn More</a></li>
 											</ul>
 										</footer>
 									</section>
