@@ -1593,6 +1593,10 @@
 		font-weight: 400;
 	}
 
+	i {
+		font-style: italic;
+	}
+
 	p {
 		margin: 0 0 2em 0;
         text-align: justify;
@@ -2496,7 +2500,7 @@
 	#banner {
 		background-attachment: fixed;
 		background-color: #645862;
-		background-image: url("../../index/dubai_towers.jpg");
+		background-image: url("../../home/dubai_towers.jpg");
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -2594,7 +2598,7 @@
 	#cta {
 		background-attachment: fixed;
 		background-color: #645862;
-		background-image:  url("../../index/dubai_towers.jpg");
+		background-image:  url("../../home/dubai_towers.jpg");
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
