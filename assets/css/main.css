@@ -1593,6 +1593,10 @@
 		font-weight: 400;
 	}
 
+	i {
+		font-style: italic;
+	}
+
 	p {
 		margin: 0 0 2em 0;
         text-align: justify;
@@ -1667,8 +1671,8 @@
 	}
 
 	header.special {
-		margin-bottom: 5em;
-		padding-top: 7em;
+		margin-bottom: 4em;
+		padding-top: 5em;
 		position: relative;
 		text-align: center;
 	}
@@ -1681,7 +1685,7 @@
 			opacity: 0.1;
 			position: absolute;
 			top: 1.75em;
-			width: 43%;
+			width: 50%;
 		}
 
 		header.special:before {
@@ -1795,7 +1799,7 @@
 	}
 
 		.image:before {
-		/* 	background: url("images/overlay.png"); */ 
+		/* 	background: url("overlay.png"); */ 
 			content: '';
 			height: 100%;
 			left: 0;
@@ -2187,7 +2191,7 @@
 
 		.wrapper.style2 {
 			background-color: #9F9F9F;
-			/*background-image: url("images/light-bl.svg"), url("images/light-br.svg");*/
+			/*background-image: url("light-bl.svg"), url("light-br.svg");*/
 			background-position: bottom left, bottom right;
 			background-repeat: no-repeat, no-repeat;
 			background-size: 25em, 25em;
@@ -2496,7 +2500,7 @@
 	#banner {
 		background-attachment: fixed;
 		background-color: #645862;
-		background-image: url("../../images/index/dubai%20towers.jpg");
+		background-image: url("../../home/dubai_towers.jpg");
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -2562,7 +2566,7 @@
 /* Main */
 
 	#main {
-		background-image: url("images/dark-tl.svg"), url("images/dark-tr.svg"), url("images/dark-bl.svg"), url("images/dark-br.svg");
+		background-image: url("dark-tl.svg"), url("dark-tr.svg"), url("dark-bl.svg"), url("dark-br.svg");
 		background-position: top left, top right, bottom left, bottom right;
 		background-repeat: no-repeat;
 		background-size: 25em;
@@ -2594,7 +2598,7 @@
 	#cta {
 		background-attachment: fixed;
 		background-color: #645862;
-		background-image:  url("../../images/index/dubai%20towers.jpg");
+		background-image:  url("../../home/dubai_towers.jpg");
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;

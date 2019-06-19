@@ -13,39 +13,41 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->         
-        <link rel="shortcut icon" href="images/index/A-sqr.png" type="image/ico"/>
+        <link rel="shortcut icon" href="home/A-sqr.png" type="image/ico"/>
     </head>
 	<body class="contact">
 		<div id="page-wrapper">
 
 			<!-- Header -->
 				<header id="header" class="alt">
-				    <h1 id="logo"><a href="index.html" class="image"><img src="images/index/ADA_grey1.png" alt="" width="50"/></a></h1>
+                    <h1 id="logo"><a href="home.html" class="image"><img src="home/ADA_grey1.png" alt="" width="50"/></a></h1>
 					<nav id="nav">
 						<ul>
-                            <li><a href="index.html" class="mobile-only">ADA</a></li>
-							<!--<li><a href="projects.html">Projects</a></li>-->
-                            <li class="submenu">
+                            <li><a href="home.html" class="mobile-only">ADA</a></li>
+							<li class="submenu">
 								<a href="#">Expertise</a>
-								<ul>            
-                                    <li><a href="architecture.html">Architecture</a></li>
-									<li><a href="performance.html">Performance</a></li>
-									<li><a href="structures.html">Structures</a></li>
-                                    <li><a href="urbanism.html">Urbanism</a></li>
+								<ul> 
+                                    <li><a href="expertise/modelling.html">Modelling</a></li>
+									<li><a href="expertise/visualization.html">Visualization</a></li>
+									<li><a href="expertise/analysis.html">Analysis</a></li>
+                                    <li><a href="expertise/optimization.html">Optimization</a></li>
+                                    <li><a href="expertise/fabrication.html">Fabrication</a></li>
+                                    <li><a href="expertise/education.html">Education</a></li>
                                 </ul>
 							</li>
                             <li><a href="tools.html">Tools</a></li>
                             <li class="submenu">
 								<a href="#">Research</a>
 								<ul>
-									<li><a href="publications.html">Publications</a></li>
-									<li><a href="awards.html">Awards</a></li>
-                                    <li><a href="talks.html">Talks</a></li>
-									<li><a href="theses.html">Theses</a></li>
+									<li><a href="research/publications.html">Publications</a></li>
+									<li><a href="research/awards.html">Awards</a></li>
+                                    <li><a href="research/talks.html">Talks</a></li>
+									<li><a href="research/theses.html">Theses</a></li>
+									<li><a href="research/projects.html">Projects</a></li>
                                 </ul>
 							</li>
                             <li><a href="team.html">Team</a></li>
-                            <li><a href="contact.html">Contact</a></li>
+                            <li class="current"><a href="contact.html">Contact</a></li>
 						</ul>
 					</nav>
 				</header>
@@ -54,8 +56,7 @@
 				<article id="main">
 
 					<header class="special container">
-						<span class="icon fa-envelope"></span>
-						<h2>Get In Touch</h2>
+                        <h2><strong>Get In Touch</strong></h2>
 						<pcenter>For inquiries, suggestions or requests, please fill out the form below</pcenter>
 					</header>
 
@@ -109,15 +110,20 @@
 
 		</div>
 
-		<!-- Scripts -->
+		!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.dropotron.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/jquery.scrollgress.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<!--[if lte IE 8]><script src="../assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+            <script type="text/javascript" src="assets/js/simple-lightbox.js"></script>
+            <script>
+                $(function(){
+                    var $gallery = $('.gallery a').simpleLightbox();});
+            </script>
 
 	</body>
 </html>
