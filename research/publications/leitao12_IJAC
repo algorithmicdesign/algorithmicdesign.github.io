@@ -1,0 +1,12 @@
+@article{leitao12:IJAC,
+	author		= {Leit{\~a}o, Ant{\'o}nio and Lopes, Jos{\'e} and Santos, Lu{\'i}s},
+	title		= {{Programming Languages for Generative Design: A Comparative Study}},
+	journal		= {{International Journal of Architectural Computing}},
+	publisher	= {{SAGE Publications}},
+	year		= {2012},
+	volume		= {10},
+	number		= {1},
+	pages		= {139 - 162},
+	issn    	= {1478-0771},
+	doi     	= {10.1260/1478-0771.10.1.139}
+}

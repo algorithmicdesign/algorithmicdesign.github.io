@@ -1,0 +1,10 @@
+@inproceedings{castelobranco19:eCAADe,
+	author		= {Castelo-Branco, Renata and Leit{\~a}o, Ant{\'o}nio and Santos, Guilherme},
+	title		= {{Immersive Algorithmic Design: Live Coding in Virtual Reality}},
+	booktitle	= {{Architecture in the Age of the 4\textsuperscript{th} Industrial Revolution: Proceedings of the 37\textsuperscript{th} Education and research in Computer Aided Architectural Design in Europe (eCAADe) Conference}},
+	editor		= {Sousa, Jos{\'e} Pedro and Henriques, Gon{\c{c}}alo Castro and Xavier, Jo{\~a}o Pedro},
+	volume		= {2},
+	pages		= {455 - 464},
+	year		= {2019},
+	address     = {University of Porto, Porto, Portugal}
+}

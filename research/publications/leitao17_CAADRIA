@@ -1,0 +1,9 @@
+@inproceedings{leitao17:CAADRIA,
+	author		= {Leit{\~a}o, Ant{\'o}nio and Castelo-Branco, Renata and Cardoso, Carmo},
+	title		= {{Algorithmic-Based Analysis: Design and Analysis in a Multi Back-End Generative Tool}},
+	booktitle	= {{Protocols, Flows and Glitches: Proceedings of the 22\textsuperscript{nd} Annual Conference of the Association for Computer-Aided Architectural Design Research in Asia (CAADRIA) Conference}},
+	editor		= {Janssen, Patrick and Loh, Paul and Raonic, Aleksandra and Schnabel, Marc Aurel},
+	pages		= {137 - 147},
+	year		= {2017},
+	address     = {Xi'an Jiaotong-Liverpool University, Suzhou, China}
+}

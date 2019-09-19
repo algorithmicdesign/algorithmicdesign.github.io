@@ -1,0 +1,9 @@
+@inproceedings{ramos14:SLATE,
+	author		= {Ramos, Pedro and Leit{\~a}o, Ant{\'o}nio},
+	title		= {{Implementing Python for DrRacket}},
+	booktitle	= {{Proceedings of the 3\textsuperscript{rd} International Symposium on Languages, Applications and Technologies (SLATE)}},
+	editor		= {Pereira, Maria Jo{\~a}o and Leal, Jos{\'e} Paulo and Sim{\~o}es, Alberto},
+	pages		= {127 - 141},
+	year		= {2014},
+	address     = {Instituto Politécnico de Bragan{\c{c}}a, Bragan{\c{c}}a, Portugal}
+}

@@ -1,0 +1,12 @@
+@article{santos18:SE,
+	author		= {Santos, Lu{\'i}s and Leit{\~a}o, Ant{\'o}nio and Caldas, Luisa},
+	title		= {{A Comparison of Two Light-Redirecting Fenestration Systems Using a Modified Modeling Technique for Radiance 3-Phase Method Simulations}},
+	journal		= {{Solar Energy}},
+	publisher	= {Elsevier},
+	year		= {2018},
+	volume		= {161},
+	number		= {3},
+	pages		= {47 - 63},
+	issn    	= {0038-092X},
+	doi     	= {10.1016/j.solener.2017.12.020}
+}
