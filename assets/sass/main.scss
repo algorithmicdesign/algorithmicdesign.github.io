@@ -90,8 +90,24 @@
 		font-weight: 400;
 	}
 
-	p, ul, ol, dl, table, blockquote {
+	i {
+		font-style: italic;
+	}
+
+	p, pright, pcenter, ul, ol, dl, table, blockquote {
 		margin: 0 0 2em 0;
+	}
+
+	p {
+        text-align: justify;
+	}
+
+    pright {
+        text-align: right;
+	}
+
+	pcenter, ul, ol, dl, table, blockquote {
+		text-align: center;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -156,8 +172,8 @@
 		}
 
 		&.special {
-			margin-bottom: 5em;
-			padding-top: 7em;
+			margin-bottom: 4em;
+			padding-top: 5em;
 			position: relative;
 			text-align: center;
 
@@ -170,7 +186,7 @@
 				opacity: 0.1;
 				position: absolute;
 				top: 1.75em;
-				width: 43%;
+				width: 50%;
 			}
 
 			&:before {
@@ -213,7 +229,7 @@
 		}
 
 		&.major {
-			padding-top: 0;
+			padding-top: 3em;
 		}
 	}
 
@@ -278,7 +294,7 @@
 		position: relative;
 
 		&:before {
-			background: url('images/overlay.png');
+			//background: url('images/overlay.png');
 			content: '';
 			height: 100%;
 			left: 0;
@@ -306,6 +322,70 @@
 			}
 		}
 	}
+
+/* medium+ screen sizes */
+@media all and (min-width:841px) {
+    .image.desktop {
+        display: block !important; 
+        margin: 0 0 2em 0;
+    }
+    
+    .image.desktop img {
+        display: block !important; 
+        width: 100%;
+    }
+    .mobile-only {
+            display:none !important;
+    }
+
+    .desktop-only {
+            display:block !important;
+    }
+}
+ 
+/* small screen sizes */
+@media all and (max-width: 840px) {
+    .image.desktop {
+		display:none !important; 
+	}
+    .mobile-only {
+            display:block !important;
+    }
+    .desktop-only {
+            display:none !important;
+    }
+}
+
+/* Video */
+
+.Rvideo-box 
+	{
+	background-color: #000000; // FIXME Trocar estas cores hardcoded por variáveis
+	text-align: center;
+	padding: 0px;
+	margin: 0px auto 0px auto;
+	width: 100%;
+	max-width: 1000px;
+	height: auto;
+	border: 1px solid #000000; // FIXME Idem
+	}
+
+.Rvideo-box video 
+	{
+	width: 100%;
+	height: auto;
+	display: block;
+	padding: 0px;
+	margin: 0px;
+	}
+
+.Rvideo-nosupport
+	{
+	color: #FFFFFF; // FIXME Idem
+	padding-top: 110px;
+	padding-bottom: 110px;
+	}
+
 
 /* Icon */
 
@@ -550,13 +630,13 @@
 		}
 
 		&.special {
-			background: _palette(one, bg);
-			border-color: _palette(one, bg);
+			background: rgba(26, 30, 29, 0.5); // FIXME antes estava _palette(one, bg) em vez deste valor
+			border-color: rgba(26, 30, 29, 0.5); // idem
 			color: _palette(one, fg) !important;
 
 			&:hover {
-				background: lighten(_palette(one, bg), 5) !important;
-				border-color: lighten(_palette(one, bg), 5) !important;
+				background: #303433 !important; // FIXME antes estava lighten(_palette(one, bg), 5)
+				border-color: #303433 !important; // FIXME idem
 			}
 		}
 
@@ -582,8 +662,8 @@
 		}
 
 		&.style2 {
-			background-color: _palette(one, bg);
-			background-image: url('images/light-bl.svg'), url('images/light-br.svg');
+			background-color: #9F9F9F; // FIXME antes estava _palette(one, bg)
+			/* background-image: url('images/light-bl.svg'), url('images/light-br.svg'); */
 			background-position: bottom left, bottom right;
 			background-repeat: no-repeat, no-repeat;
 			background-size: $pattern-background-size, $pattern-background-size;
@@ -618,6 +698,11 @@
 			padding: 4em;
 		}
 	}
+
+        
+image.desktop {
+		display: none;
+}
 
 /* Header */
 
@@ -718,7 +803,7 @@
 			@include vendor('animation', 'none');
 			background: _palette(header, alt-bg);
 			box-shadow: none;
-			color: _palette(header, alt-fg);
+			color: #7c8081; // FIXME antes estava _palette(header, alt-fg)
 			padding: 2em 2.5em;
 			position: absolute;
 
@@ -738,11 +823,35 @@
 				}
 			}
 		}
+
+		&.b {
+			@include vendor('animation', 'none');
+			background: transparent;
+			box-shadow: none;
+			color: #fff; // FIXME Renata, vê se esta cor corresponde a uma das variáveis
+			padding: 2em 2.5em;
+			position: absolute;
+
+			nav {
+				right: 2.5em;
+				top: 1.75em;
+			}
+		}
+
+		&.b, &.alt {
+			nav ul li.active > {
+				a {
+				border: solid 1 px;
+				}
+			}
+		}
+
 	}
+
 
 /* Dropotron */
 
-	.dropotron {
+.dropotron {
 		background: #fff;
 		box-shadow: 0 1px 2px 0 rgba(0,0,0,0.075);
 		line-height: 2.25em;
@@ -799,15 +908,15 @@
 	}
 
 	#banner {
-		background-attachment: scroll, scroll, scroll, fixed;
+		background-attachment: fixed;
 		background-color: _palette(three, bg);
-		background-image: url('images/light-bl.svg'), url('images/light-br.svg'), url('images/overlay.png'), url('../../images/banner.jpg');
-		background-position: bottom left, bottom right, top left, top center;
-		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
-		background-size: $pattern-background-size, $pattern-background-size, auto, cover;
+		background-image: url('../../index/dubai_towers.jpg');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
 		color: _palette(banner, fg);
 		cursor: default;
-		padding: 6em 0;
+		padding: 12em 0;
 		text-align: center;
 
 		.inner {
@@ -893,12 +1002,12 @@
 /* CTA */
 
 	#cta {
-		background-attachment: scroll, scroll, scroll, fixed;
+		background-attachment: fixed;
 		background-color: _palette(three, bg);
-		background-image: url('images/light-tl.svg'), url('images/light-tr.svg'), url('images/overlay.png'), url('../../images/banner.jpg');
-		background-position: top left, top right, top left, bottom center;
-		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
-		background-size: $pattern-background-size, $pattern-background-size, auto, cover;
+		background-image: url('../../index/dubai_towers.jpg');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
 		color: _palette(three, fg);
 		padding: 5em;
 		text-align: center;
@@ -970,6 +1079,7 @@
 				font-size: 13pt;
 				letter-spacing: 0.025em;
 				line-height: 1.65em;
+				text-align: justify;
 			}
 
 			h1, h2, h3, h4, h5, h6 {
@@ -989,6 +1099,11 @@
 					padding-top: 2em;
 				}
 			}
+
+        
+            image.desktop {
+                display: none;
+            }   
 
 		/* Wrapper */
 
@@ -1052,7 +1167,7 @@
 
 			header {
 				br {
-					display: none;
+					display: block;
 				}
 
 				&.major {
@@ -1079,7 +1194,7 @@
 
 				&.special {
 					br {
-						display: none;
+						display: block;
 					}
 				}
 
@@ -1099,7 +1214,8 @@
 		/* Banner */
 
 			#banner {
-				background-size: $pattern-background-size, $pattern-background-size, auto, cover;
+				background-attachment: fixed;
+				background-size: cover;
 			}
 
 		/* Main */
@@ -1111,7 +1227,8 @@
 		/* CTA */
 
 			#cta {
-				background-size: $pattern-background-size, $pattern-background-size, auto, cover;
+				background-attachment: fixed;
+				background-size: cover;
 				padding: 3em;
 			}
 
@@ -1197,6 +1314,12 @@
 						display: block;
 						padding: 1em 0 0 0;
 					}
+				}
+			}
+
+			image {
+				&.desktop {
+					display: none;
 				}
 			}
 
@@ -1438,6 +1561,45 @@
 				}
 			}
 
+
+
+
+
+			/* medium+ screen sizes */
+			@media all and (min-width:841px) {
+				.image.desktop {
+					display: block !important; 
+					margin: 0 0 2em 0;
+				}
+				
+				.image.desktop img {
+					display: block !important; 
+					width: 100%;
+				}
+
+				.mobile-only {
+						display:none !important;
+				}
+
+				.desktop-only {
+						display:block !important;
+				}
+			}
+			
+			/* small screen sizes */
+			@media all and (max-width: 840px) {
+				.image.desktop {
+					display:none !important; 
+				}
+
+				.mobile-only {
+						display:block !important;
+				}
+
+				.desktop-only {
+						display:none !important;
+				}
+			}
 		/* Icon */
 
 			.icon {
@@ -1482,6 +1644,12 @@
 				}
 			}
 
+			image {
+				&.desktop {
+					display: none;
+				}
+			}
+
 		/* Wrapper */
 
 			.wrapper {
@@ -1490,7 +1658,7 @@
 
 				&.special {
 					br {
-						display: none;
+						display: block;
 					}
 				}
 
@@ -1512,7 +1680,8 @@
 		/* Banner */
 
 			#banner {
-				background-size: $pattern-background-size, $pattern-background-size, auto, cover;
+				background-attachment: fixed;
+				background-size: cover;
 				padding: 6em 0;
 
 				.inner {
@@ -1531,7 +1700,7 @@
 					}
 
 					br {
-						display: none;
+						display: block;
 					}
 				}
 			}
@@ -1554,7 +1723,7 @@
 		/* CTA */
 
 			#cta {
-				background-size: $pattern-background-size, $pattern-background-size, auto, cover;
+				background-size: cover;
 				padding: 3em 1.5em;
 			}
 

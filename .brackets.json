@@ -1,5 +1,5 @@
 {
     "sass.options": {
-        "outputDir": "../css-test/"
+        "outputDir": "../css/"
     }
 }

@@ -1,9 +1,7 @@
-/* line 27, ../sass/simplelightbox.scss */
 body.hidden-scroll {
   overflow: hidden;
 }
 
-/* line 30, ../sass/simplelightbox.scss */
 .sl-overlay {
   position: fixed;
   left: 0;
@@ -16,11 +14,9 @@ body.hidden-scroll {
   z-index: 1050;
 }
 
-/* line 41, ../sass/simplelightbox.scss */
 .sl-wrapper {
   z-index: 1040;
 }
-/* line 43, ../sass/simplelightbox.scss */
 .sl-wrapper button {
   border: 0 none;
   background: transparent;
@@ -28,11 +24,9 @@ body.hidden-scroll {
   padding: 0;
   cursor: pointer;
 }
-/* line 49, ../sass/simplelightbox.scss */
 .sl-wrapper button:hover {
   opacity: 0.7;
 }
-/* line 54, ../sass/simplelightbox.scss */
 .sl-wrapper .sl-close {
   display: none;
   position: fixed;
@@ -48,11 +42,9 @@ body.hidden-scroll {
   color: #000;
   font-size: 3rem;
 }
-/* line 69, ../sass/simplelightbox.scss */
 .sl-wrapper .sl-close:focus {
   outline: none;
 }
-/* line 74, ../sass/simplelightbox.scss */
 .sl-wrapper .sl-counter {
   display: none;
   position: fixed;
@@ -62,12 +54,10 @@ body.hidden-scroll {
   color: #000;
   font-size: 1rem;
 }
-/* line 84, ../sass/simplelightbox.scss */
 .sl-wrapper .sl-navigation {
   width: 100%;
   display: none;
 }
-/* line 87, ../sass/simplelightbox.scss */
 .sl-wrapper .sl-navigation button {
   position: fixed;
   top: 50%;
@@ -81,60 +71,49 @@ body.hidden-scroll {
   font-family: Arial, Baskerville, monospace;
   color: #000;
 }
-/* line 99, ../sass/simplelightbox.scss */
 .sl-wrapper .sl-navigation button.sl-next {
   right: 5px;
   font-size: 2rem;
 }
-/* line 104, ../sass/simplelightbox.scss */
 .sl-wrapper .sl-navigation button.sl-prev {
   left: 5px;
   font-size: 2rem;
 }
-/* line 109, ../sass/simplelightbox.scss */
 .sl-wrapper .sl-navigation button:focus {
   outline: none;
 }
 @media (min-width: 35.5em) {
-  /* line 87, ../sass/simplelightbox.scss */
   .sl-wrapper .sl-navigation button {
     width: 44px;
   }
-  /* line 116, ../sass/simplelightbox.scss */
   .sl-wrapper .sl-navigation button.sl-next {
     right: 10px;
     font-size: 3rem;
   }
-  /* line 121, ../sass/simplelightbox.scss */
   .sl-wrapper .sl-navigation button.sl-prev {
     left: 10px;
     font-size: 3rem;
   }
 }
 @media (min-width: 50em) {
-  /* line 87, ../sass/simplelightbox.scss */
   .sl-wrapper .sl-navigation button {
     width: 44px;
   }
-  /* line 129, ../sass/simplelightbox.scss */
   .sl-wrapper .sl-navigation button.sl-next {
     right: 20px;
     font-size: 3rem;
   }
-  /* line 134, ../sass/simplelightbox.scss */
   .sl-wrapper .sl-navigation button.sl-prev {
     left: 20px;
     font-size: 3rem;
   }
 }
-/* line 142, ../sass/simplelightbox.scss */
 .sl-wrapper .sl-image {
   position: fixed;
   -ms-touch-action: none;
   touch-action: none;
   z-index: 10000;
 }
-/* line 147, ../sass/simplelightbox.scss */
 .sl-wrapper .sl-image img {
   margin: 0;
   padding: 0;
@@ -142,35 +121,29 @@ body.hidden-scroll {
   border: 0 none;
 }
 @media (min-width: 35.5em) {
-  /* line 147, ../sass/simplelightbox.scss */
   .sl-wrapper .sl-image img {
     border: 0 none;
   }
 }
 @media (min-width: 50em) {
-  /* line 147, ../sass/simplelightbox.scss */
   .sl-wrapper .sl-image img {
     border: 0 none;
   }
 }
-/* line 160, ../sass/simplelightbox.scss */
 .sl-wrapper .sl-image iframe {
   background: #000;
   border: 0 none;
 }
 @media (min-width: 35.5em) {
-  /* line 160, ../sass/simplelightbox.scss */
   .sl-wrapper .sl-image iframe {
     border: 0 none;
   }
 }
 @media (min-width: 50em) {
-  /* line 160, ../sass/simplelightbox.scss */
   .sl-wrapper .sl-image iframe {
     border: 0 none;
   }
 }
-/* line 170, ../sass/simplelightbox.scss */
 .sl-wrapper .sl-image .sl-caption {
   display: none;
   padding: 10px;
@@ -182,16 +155,13 @@ body.hidden-scroll {
   left: 0;
   right: 0;
 }
-/* line 181, ../sass/simplelightbox.scss */
 .sl-wrapper .sl-image .sl-caption.pos-top {
   bottom: auto;
   top: 0;
 }
-/* line 186, ../sass/simplelightbox.scss */
 .sl-wrapper .sl-image .sl-caption.pos-outside {
   bottom: auto;
 }
-/* line 191, ../sass/simplelightbox.scss */
 .sl-wrapper .sl-image .sl-download {
   display: none;
   position: absolute;
@@ -201,7 +171,6 @@ body.hidden-scroll {
   z-index: 1060;
 }
 
-/* line 202, ../sass/simplelightbox.scss */
 .sl-spinner {
   display: none;
   border: 5px solid #333;
@@ -221,7 +190,6 @@ body.hidden-scroll {
   animation: pulsate 1s ease-out infinite;
 }
 
-/* line 221, ../sass/simplelightbox.scss */
 .sl-scrollbar-measure {
   position: absolute;
   top: -9999px;
@@ -233,7 +201,7 @@ body.hidden-scroll {
 @-webkit-keyframes pulsate {
   0% {
     transform: scale(0.1);
-    opacity: 0.0;
+    opacity: 0;
   }
   50% {
     opacity: 1;
@@ -246,7 +214,7 @@ body.hidden-scroll {
 @keyframes pulsate {
   0% {
     transform: scale(0.1);
-    opacity: 0.0;
+    opacity: 0;
   }
   50% {
     opacity: 1;
@@ -259,7 +227,7 @@ body.hidden-scroll {
 @-moz-keyframes pulsate {
   0% {
     transform: scale(0.1);
-    opacity: 0.0;
+    opacity: 0;
   }
   50% {
     opacity: 1;
@@ -272,7 +240,7 @@ body.hidden-scroll {
 @-o-keyframes pulsate {
   0% {
     transform: scale(0.1);
-    opacity: 0.0;
+    opacity: 0;
   }
   50% {
     opacity: 1;
@@ -285,7 +253,7 @@ body.hidden-scroll {
 @-ms-keyframes pulsate {
   0% {
     transform: scale(0.1);
-    opacity: 0.0;
+    opacity: 0;
   }
   50% {
     opacity: 1;
@@ -295,3 +263,5 @@ body.hidden-scroll {
     opacity: 0;
   }
 }
+
+/*# sourceMappingURL=simplelightbox.css.map */
