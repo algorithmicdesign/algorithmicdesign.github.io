@@ -23,14 +23,14 @@
 	@include skel-layout((
 		reset: 'full',
 		boxModel: 'border',
-		grid: ( gutters: (50px, 50px) ),
+		grid: ( gutters: (50px, 10px) ),
 		conditionals: true,
 		containers: 1400px,
 		breakpoints: (
 			wide: (
 				containers: 1200px,
 				grid: (
-					gutters: (40px, 40px)
+					gutters: (40px, 10px)
 				),
 			),
 			normal: (
@@ -39,7 +39,7 @@
 			narrow: (
 				containers: 95%,
 				grid: (
-					gutters: (30px, 30px)
+					gutters: (30px, 10px)
 				),
 			),
 			narrower: (
@@ -314,7 +314,7 @@
 
 		&.featured {
 			display: block;
-			margin: 0 0 2em 0;
+			margin: 0 0 1.3em 0;
 
 			img {
 				display: block;
