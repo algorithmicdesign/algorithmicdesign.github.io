@@ -7,8 +7,7 @@
 section > .last-child, section.last-child,
 article > .last-child,
 article.last-child {
-  margin-bottom: 0;
-}
+  margin-bottom: 0; }
 
 /* Banner */
 #banner {
@@ -16,11 +15,9 @@ article.last-child {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: auto;
-  -ms-behavior: url("../assets/js/ie/backgroundsize.min.htc");
-}
-#banner .inner {
-  background: #341b2b;
-}
+  -ms-behavior: url("../assets/js/ie/backgroundsize.min.htc"); }
+  #banner .inner {
+    background: #341b2b; }
 
 /* CTA  */
 #cta {
@@ -28,7 +25,6 @@ article.last-child {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: auto;
-  -ms-behavior: url("../assets/js/ie/backgroundsize.min.htc");
-}
+  -ms-behavior: url("../assets/js/ie/backgroundsize.min.htc"); }
 
 /*# sourceMappingURL=ie8.css.map */
