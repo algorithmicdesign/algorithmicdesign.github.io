@@ -6,7 +6,6 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 /* Reset */
-/* line 538, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -15,1273 +14,1184 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   font: inherit;
   vertical-align: baseline; }
 
-/* line 538, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
   display: block; }
 
-/* line 538, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
 body {
   line-height: 1; }
 
-/* line 538, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
 ol, ul {
   list-style: none; }
 
-/* line 538, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
 blockquote, q {
   quotes: none; }
 
-/* line 538, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
 blockquote:before, blockquote:after, q:before, q:after {
   content: '';
   content: none; }
 
-/* line 538, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 538, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
 body {
   -webkit-text-size-adjust: none; }
 
 /* Box Model */
-/* line 168, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
 /* Containers */
-/* line 395, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
 .container {
   margin-left: auto;
   margin-right: auto; }
 
-/* line 222, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-.container.\31 25\25		{
+.container.\31 25\% {
   width: 100%;
   max-width: 1750px;
   min-width: 1400px; }
 
-/* line 223, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-.container.\37 5\25			{
+.container.\37 5\% {
   width: 1050px; }
 
-/* line 224, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-.container.\35 0\25			{
+.container.\35 0\% {
   width: 700px; }
 
-/* line 225, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-.container.\32 5\25			{
+.container.\32 5\% {
   width: 350px; }
 
-/* line 228, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
 .container {
   width: 1400px; }
 
 @media screen and (max-width: 1680px) {
-  /* line 222, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .container.\31 25\25		{
+  .container.\31 25\% {
     width: 100%;
     max-width: 1500px;
     min-width: 1200px; }
-  /* line 223, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .container.\37 5\25			{
+
+  .container.\37 5\% {
     width: 900px; }
-  /* line 224, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .container.\35 0\25			{
+
+  .container.\35 0\% {
     width: 600px; }
-  /* line 225, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .container.\32 5\25			{
+
+  .container.\32 5\% {
     width: 300px; }
-  /* line 228, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
+
   .container {
     width: 1200px; } }
-
 @media screen and (max-width: 1280px) {
-  /* line 222, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .container.\31 25\25		{
+  .container.\31 25\% {
     width: 100%;
     max-width: 1200px;
     min-width: 960px; }
-  /* line 223, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .container.\37 5\25			{
+
+  .container.\37 5\% {
     width: 720px; }
-  /* line 224, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .container.\35 0\25			{
+
+  .container.\35 0\% {
     width: 480px; }
-  /* line 225, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .container.\32 5\25			{
+
+  .container.\32 5\% {
     width: 240px; }
-  /* line 228, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
+
   .container {
     width: 960px; } }
-
 @media screen and (max-width: 980px) {
-  /* line 222, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .container.\31 25\25		{
+  .container.\31 25\% {
     width: 100%;
     max-width: 118.75%;
     min-width: 95%; }
-  /* line 223, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .container.\37 5\25			{
+
+  .container.\37 5\% {
     width: 71.25%; }
-  /* line 224, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .container.\35 0\25			{
+
+  .container.\35 0\% {
     width: 47.5%; }
-  /* line 225, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .container.\32 5\25			{
+
+  .container.\32 5\% {
     width: 23.75%; }
-  /* line 228, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
+
   .container {
     width: 95%; } }
-
 @media screen and (max-width: 840px) {
-  /* line 222, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .container.\31 25\25		{
+  .container.\31 25\% {
     width: 100%;
     max-width: 118.75%;
     min-width: 95%; }
-  /* line 223, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .container.\37 5\25			{
+
+  .container.\37 5\% {
     width: 71.25%; }
-  /* line 224, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .container.\35 0\25			{
+
+  .container.\35 0\% {
     width: 47.5%; }
-  /* line 225, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .container.\32 5\25			{
+
+  .container.\32 5\% {
     width: 23.75%; }
-  /* line 228, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
+
   .container {
     width: 95% !important; } }
-
 @media screen and (max-width: 736px) {
-  /* line 222, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .container.\31 25\25		{
+  .container.\31 25\% {
     width: 100%;
     max-width: 125%;
     min-width: 100%; }
-  /* line 223, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .container.\37 5\25			{
+
+  .container.\37 5\% {
     width: 75%; }
-  /* line 224, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .container.\35 0\25			{
+
+  .container.\35 0\% {
     width: 50%; }
-  /* line 225, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .container.\32 5\25			{
+
+  .container.\32 5\% {
     width: 25%; }
-  /* line 228, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
+
   .container {
     width: 100% !important; } }
-
 /* Grid */
-/* line 455, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
 .row {
   border-bottom: solid 1px transparent;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* line 462, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
 .row > * {
   float: left;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* line 469, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
 .row:after, .row:before {
   content: '';
   display: block;
   clear: both;
   height: 0; }
 
-/* line 476, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
 .row.uniform > * > :first-child {
   margin-top: 0; }
 
-/* line 480, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
 .row.uniform > * > :last-child {
   margin-bottom: 0; }
 
-/* line 323, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-.row.\30 \25 > * {
+.row.\30 \% > * {
   padding: 0px 0 0 0px; }
 
-/* line 324, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-.row.\30 \25 {
+.row.\30 \% {
   margin: 0px 0 -1px 0px; }
 
-/* line 327, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-.row.uniform.\30 \25 > * {
+.row.uniform.\30 \% > * {
   padding: 0px 0 0 0px; }
 
-/* line 328, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-.row.uniform.\30 \25 {
+.row.uniform.\30 \% {
   margin: 0px 0 -1px 0px; }
 
-/* line 323, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
 .row > * {
   padding: 10px 0 0 50px; }
 
-/* line 324, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
 .row {
   margin: -10px 0 -1px -50px; }
 
-/* line 327, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
 .row.uniform > * {
   padding: 50px 0 0 50px; }
 
-/* line 328, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
 .row.uniform {
   margin: -50px 0 -1px -50px; }
 
-/* line 323, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-.row.\32 00\25 > * {
+.row.\32 00\% > * {
   padding: 20px 0 0 100px; }
 
-/* line 324, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-.row.\32 00\25 {
+.row.\32 00\% {
   margin: -20px 0 -1px -100px; }
 
-/* line 327, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-.row.uniform.\32 00\25 > * {
+.row.uniform.\32 00\% > * {
   padding: 100px 0 0 100px; }
 
-/* line 328, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-.row.uniform.\32 00\25 {
+.row.uniform.\32 00\% {
   margin: -100px 0 -1px -100px; }
 
-/* line 323, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-.row.\31 50\25 > * {
+.row.\31 50\% > * {
   padding: 15px 0 0 75px; }
 
-/* line 324, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-.row.\31 50\25 {
+.row.\31 50\% {
   margin: -15px 0 -1px -75px; }
 
-/* line 327, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-.row.uniform.\31 50\25 > * {
+.row.uniform.\31 50\% > * {
   padding: 75px 0 0 75px; }
 
-/* line 328, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-.row.uniform.\31 50\25 {
+.row.uniform.\31 50\% {
   margin: -75px 0 -1px -75px; }
 
-/* line 323, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-.row.\35 0\25 > * {
+.row.\35 0\% > * {
   padding: 5px 0 0 25px; }
 
-/* line 324, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-.row.\35 0\25 {
+.row.\35 0\% {
   margin: -5px 0 -1px -25px; }
 
-/* line 327, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-.row.uniform.\35 0\25 > * {
+.row.uniform.\35 0\% > * {
   padding: 25px 0 0 25px; }
 
-/* line 328, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-.row.uniform.\35 0\25 {
+.row.uniform.\35 0\% {
   margin: -25px 0 -1px -25px; }
 
-/* line 323, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-.row.\32 5\25 > * {
+.row.\32 5\% > * {
   padding: 2.5px 0 0 12.5px; }
 
-/* line 324, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-.row.\32 5\25 {
+.row.\32 5\% {
   margin: -2.5px 0 -1px -12.5px; }
 
-/* line 327, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-.row.uniform.\32 5\25 > * {
+.row.uniform.\32 5\% > * {
   padding: 12.5px 0 0 12.5px; }
 
-/* line 328, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-.row.uniform.\32 5\25 {
+.row.uniform.\32 5\% {
   margin: -12.5px 0 -1px -12.5px; }
 
-/* line 258, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-.\31 2u, .\31 2u\24 {
+.\31 2u, .\31 2u\$ {
   width: 100%;
   clear: none;
   margin-left: 0; }
 
-/* line 259, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-.\31 1u, .\31 1u\24 {
+.\31 1u, .\31 1u\$ {
   width: 91.6666666667%;
   clear: none;
   margin-left: 0; }
 
-/* line 260, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-.\31 0u, .\31 0u\24 {
+.\31 0u, .\31 0u\$ {
   width: 83.3333333333%;
   clear: none;
   margin-left: 0; }
 
-/* line 261, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-.\39 u, .\39 u\24 {
+.\39 u, .\39 u\$ {
   width: 75%;
   clear: none;
   margin-left: 0; }
 
-/* line 262, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-.\38 u, .\38 u\24 {
+.\38 u, .\38 u\$ {
   width: 66.6666666667%;
   clear: none;
   margin-left: 0; }
 
-/* line 263, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-.\37 u, .\37 u\24 {
+.\37 u, .\37 u\$ {
   width: 58.3333333333%;
   clear: none;
   margin-left: 0; }
 
-/* line 264, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-.\36 u, .\36 u\24 {
+.\36 u, .\36 u\$ {
   width: 50%;
   clear: none;
   margin-left: 0; }
 
-/* line 265, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-.\35 u, .\35 u\24 {
+.\35 u, .\35 u\$ {
   width: 41.6666666667%;
   clear: none;
   margin-left: 0; }
 
-/* line 266, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-.\34 u, .\34 u\24 {
+.\34 u, .\34 u\$ {
   width: 33.3333333333%;
   clear: none;
   margin-left: 0; }
 
-/* line 267, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-.\33 u, .\33 u\24 {
+.\33 u, .\33 u\$ {
   width: 25%;
   clear: none;
   margin-left: 0; }
 
-/* line 268, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-.\32 u, .\32 u\24 {
+.\32 u, .\32 u\$ {
   width: 16.6666666667%;
   clear: none;
   margin-left: 0; }
 
-/* line 269, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-.\31 u, .\31 u\24 {
+.\31 u, .\31 u\$ {
   width: 8.3333333333%;
   clear: none;
   margin-left: 0; }
 
-/* line 271, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-.\31 2u\24 + *,
-.\31 1u\24 + *,
-.\31 0u\24 + *,
-.\39 u\24 + *,
-.\38 u\24 + *,
-.\37 u\24 + *,
-.\36 u\24 + *,
-.\35 u\24 + *,
-.\34 u\24 + *,
-.\33 u\24 + *,
-.\32 u\24 + *,
-.\31 u\24 + * {
+.\31 2u\$ + *,
+.\31 1u\$ + *,
+.\31 0u\$ + *,
+.\39 u\$ + *,
+.\38 u\$ + *,
+.\37 u\$ + *,
+.\36 u\$ + *,
+.\35 u\$ + *,
+.\34 u\$ + *,
+.\33 u\$ + *,
+.\32 u\$ + *,
+.\31 u\$ + * {
   clear: left; }
 
-/* line 286, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
 .\-11u {
   margin-left: 91.6666666667%; }
 
-/* line 287, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
 .\-10u {
   margin-left: 83.3333333333%; }
 
-/* line 288, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
 .\-9u {
   margin-left: 75%; }
 
-/* line 289, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
 .\-8u {
   margin-left: 66.6666666667%; }
 
-/* line 290, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
 .\-7u {
   margin-left: 58.3333333333%; }
 
-/* line 291, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
 .\-6u {
   margin-left: 50%; }
 
-/* line 292, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
 .\-5u {
   margin-left: 41.6666666667%; }
 
-/* line 293, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
 .\-4u {
   margin-left: 33.3333333333%; }
 
-/* line 294, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
 .\-3u {
   margin-left: 25%; }
 
-/* line 295, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
 .\-2u {
   margin-left: 16.6666666667%; }
 
-/* line 296, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
 .\-1u {
   margin-left: 8.3333333333%; }
 
 @media screen and (max-width: 1680px) {
-  /* line 323, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
   .row > * {
     padding: 10px 0 0 40px; }
-  /* line 324, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
+
   .row {
     margin: -10px 0 -1px -40px; }
-  /* line 327, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
+
   .row.uniform > * {
     padding: 40px 0 0 40px; }
-  /* line 328, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
+
   .row.uniform {
     margin: -40px 0 -1px -40px; }
-  /* line 323, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.\32 00\25 > * {
+
+  .row.\32 00\% > * {
     padding: 20px 0 0 80px; }
-  /* line 324, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.\32 00\25 {
+
+  .row.\32 00\% {
     margin: -20px 0 -1px -80px; }
-  /* line 327, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.uniform.\32 00\25 > * {
+
+  .row.uniform.\32 00\% > * {
     padding: 80px 0 0 80px; }
-  /* line 328, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.uniform.\32 00\25 {
+
+  .row.uniform.\32 00\% {
     margin: -80px 0 -1px -80px; }
-  /* line 323, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.\31 50\25 > * {
+
+  .row.\31 50\% > * {
     padding: 15px 0 0 60px; }
-  /* line 324, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.\31 50\25 {
+
+  .row.\31 50\% {
     margin: -15px 0 -1px -60px; }
-  /* line 327, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.uniform.\31 50\25 > * {
+
+  .row.uniform.\31 50\% > * {
     padding: 60px 0 0 60px; }
-  /* line 328, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.uniform.\31 50\25 {
+
+  .row.uniform.\31 50\% {
     margin: -60px 0 -1px -60px; }
-  /* line 323, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.\35 0\25 > * {
+
+  .row.\35 0\% > * {
     padding: 5px 0 0 20px; }
-  /* line 324, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.\35 0\25 {
+
+  .row.\35 0\% {
     margin: -5px 0 -1px -20px; }
-  /* line 327, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.uniform.\35 0\25 > * {
+
+  .row.uniform.\35 0\% > * {
     padding: 20px 0 0 20px; }
-  /* line 328, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.uniform.\35 0\25 {
+
+  .row.uniform.\35 0\% {
     margin: -20px 0 -1px -20px; }
-  /* line 323, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.\32 5\25 > * {
+
+  .row.\32 5\% > * {
     padding: 2.5px 0 0 10px; }
-  /* line 324, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.\32 5\25 {
+
+  .row.\32 5\% {
     margin: -2.5px 0 -1px -10px; }
-  /* line 327, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.uniform.\32 5\25 > * {
+
+  .row.uniform.\32 5\% > * {
     padding: 10px 0 0 10px; }
-  /* line 328, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.uniform.\32 5\25 {
+
+  .row.uniform.\32 5\% {
     margin: -10px 0 -1px -10px; }
-  /* line 258, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\31 2u\28wide\29, .\31 2u\24\28wide\29 {
+
+  .\31 2u\(wide\), .\31 2u\$\(wide\) {
     width: 100%;
     clear: none;
     margin-left: 0; }
-  /* line 259, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\31 1u\28wide\29, .\31 1u\24\28wide\29 {
+
+  .\31 1u\(wide\), .\31 1u\$\(wide\) {
     width: 91.6666666667%;
     clear: none;
     margin-left: 0; }
-  /* line 260, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\31 0u\28wide\29, .\31 0u\24\28wide\29 {
+
+  .\31 0u\(wide\), .\31 0u\$\(wide\) {
     width: 83.3333333333%;
     clear: none;
     margin-left: 0; }
-  /* line 261, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\39 u\28wide\29, .\39 u\24\28wide\29 {
+
+  .\39 u\(wide\), .\39 u\$\(wide\) {
     width: 75%;
     clear: none;
     margin-left: 0; }
-  /* line 262, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\38 u\28wide\29, .\38 u\24\28wide\29 {
+
+  .\38 u\(wide\), .\38 u\$\(wide\) {
     width: 66.6666666667%;
     clear: none;
     margin-left: 0; }
-  /* line 263, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\37 u\28wide\29, .\37 u\24\28wide\29 {
+
+  .\37 u\(wide\), .\37 u\$\(wide\) {
     width: 58.3333333333%;
     clear: none;
     margin-left: 0; }
-  /* line 264, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\36 u\28wide\29, .\36 u\24\28wide\29 {
+
+  .\36 u\(wide\), .\36 u\$\(wide\) {
     width: 50%;
     clear: none;
     margin-left: 0; }
-  /* line 265, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\35 u\28wide\29, .\35 u\24\28wide\29 {
+
+  .\35 u\(wide\), .\35 u\$\(wide\) {
     width: 41.6666666667%;
     clear: none;
     margin-left: 0; }
-  /* line 266, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\34 u\28wide\29, .\34 u\24\28wide\29 {
+
+  .\34 u\(wide\), .\34 u\$\(wide\) {
     width: 33.3333333333%;
     clear: none;
     margin-left: 0; }
-  /* line 267, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\33 u\28wide\29, .\33 u\24\28wide\29 {
+
+  .\33 u\(wide\), .\33 u\$\(wide\) {
     width: 25%;
     clear: none;
     margin-left: 0; }
-  /* line 268, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\32 u\28wide\29, .\32 u\24\28wide\29 {
+
+  .\32 u\(wide\), .\32 u\$\(wide\) {
     width: 16.6666666667%;
     clear: none;
     margin-left: 0; }
-  /* line 269, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\31 u\28wide\29, .\31 u\24\28wide\29 {
+
+  .\31 u\(wide\), .\31 u\$\(wide\) {
     width: 8.3333333333%;
     clear: none;
     margin-left: 0; }
-  /* line 271, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\31 2u\24\28wide\29 + *,
-  .\31 1u\24\28wide\29 + *,
-  .\31 0u\24\28wide\29 + *,
-  .\39 u\24\28wide\29 + *,
-  .\38 u\24\28wide\29 + *,
-  .\37 u\24\28wide\29 + *,
-  .\36 u\24\28wide\29 + *,
-  .\35 u\24\28wide\29 + *,
-  .\34 u\24\28wide\29 + *,
-  .\33 u\24\28wide\29 + *,
-  .\32 u\24\28wide\29 + *,
-  .\31 u\24\28wide\29 + * {
-    clear: left; }
-  /* line 286, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\-11u\28wide\29 {
-    margin-left: 91.6666666667%; }
-  /* line 287, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\-10u\28wide\29 {
-    margin-left: 83.3333333333%; }
-  /* line 288, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\-9u\28wide\29 {
-    margin-left: 75%; }
-  /* line 289, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\-8u\28wide\29 {
-    margin-left: 66.6666666667%; }
-  /* line 290, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\-7u\28wide\29 {
-    margin-left: 58.3333333333%; }
-  /* line 291, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\-6u\28wide\29 {
-    margin-left: 50%; }
-  /* line 292, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\-5u\28wide\29 {
-    margin-left: 41.6666666667%; }
-  /* line 293, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\-4u\28wide\29 {
-    margin-left: 33.3333333333%; }
-  /* line 294, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\-3u\28wide\29 {
-    margin-left: 25%; }
-  /* line 295, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\-2u\28wide\29 {
-    margin-left: 16.6666666667%; }
-  /* line 296, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\-1u\28wide\29 {
-    margin-left: 8.3333333333%; } }
 
+  .\31 2u\$\(wide\) + *,
+  .\31 1u\$\(wide\) + *,
+  .\31 0u\$\(wide\) + *,
+  .\39 u\$\(wide\) + *,
+  .\38 u\$\(wide\) + *,
+  .\37 u\$\(wide\) + *,
+  .\36 u\$\(wide\) + *,
+  .\35 u\$\(wide\) + *,
+  .\34 u\$\(wide\) + *,
+  .\33 u\$\(wide\) + *,
+  .\32 u\$\(wide\) + *,
+  .\31 u\$\(wide\) + * {
+    clear: left; }
+
+  .\-11u\(wide\) {
+    margin-left: 91.6666666667%; }
+
+  .\-10u\(wide\) {
+    margin-left: 83.3333333333%; }
+
+  .\-9u\(wide\) {
+    margin-left: 75%; }
+
+  .\-8u\(wide\) {
+    margin-left: 66.6666666667%; }
+
+  .\-7u\(wide\) {
+    margin-left: 58.3333333333%; }
+
+  .\-6u\(wide\) {
+    margin-left: 50%; }
+
+  .\-5u\(wide\) {
+    margin-left: 41.6666666667%; }
+
+  .\-4u\(wide\) {
+    margin-left: 33.3333333333%; }
+
+  .\-3u\(wide\) {
+    margin-left: 25%; }
+
+  .\-2u\(wide\) {
+    margin-left: 16.6666666667%; }
+
+  .\-1u\(wide\) {
+    margin-left: 8.3333333333%; } }
 @media screen and (max-width: 1280px) {
-  /* line 323, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
   .row > * {
     padding: 10px 0 0 40px; }
-  /* line 324, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
+
   .row {
     margin: -10px 0 -1px -40px; }
-  /* line 327, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
+
   .row.uniform > * {
     padding: 40px 0 0 40px; }
-  /* line 328, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
+
   .row.uniform {
     margin: -40px 0 -1px -40px; }
-  /* line 323, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.\32 00\25 > * {
+
+  .row.\32 00\% > * {
     padding: 20px 0 0 80px; }
-  /* line 324, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.\32 00\25 {
+
+  .row.\32 00\% {
     margin: -20px 0 -1px -80px; }
-  /* line 327, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.uniform.\32 00\25 > * {
+
+  .row.uniform.\32 00\% > * {
     padding: 80px 0 0 80px; }
-  /* line 328, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.uniform.\32 00\25 {
+
+  .row.uniform.\32 00\% {
     margin: -80px 0 -1px -80px; }
-  /* line 323, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.\31 50\25 > * {
+
+  .row.\31 50\% > * {
     padding: 15px 0 0 60px; }
-  /* line 324, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.\31 50\25 {
+
+  .row.\31 50\% {
     margin: -15px 0 -1px -60px; }
-  /* line 327, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.uniform.\31 50\25 > * {
+
+  .row.uniform.\31 50\% > * {
     padding: 60px 0 0 60px; }
-  /* line 328, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.uniform.\31 50\25 {
+
+  .row.uniform.\31 50\% {
     margin: -60px 0 -1px -60px; }
-  /* line 323, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.\35 0\25 > * {
+
+  .row.\35 0\% > * {
     padding: 5px 0 0 20px; }
-  /* line 324, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.\35 0\25 {
+
+  .row.\35 0\% {
     margin: -5px 0 -1px -20px; }
-  /* line 327, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.uniform.\35 0\25 > * {
+
+  .row.uniform.\35 0\% > * {
     padding: 20px 0 0 20px; }
-  /* line 328, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.uniform.\35 0\25 {
+
+  .row.uniform.\35 0\% {
     margin: -20px 0 -1px -20px; }
-  /* line 323, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.\32 5\25 > * {
+
+  .row.\32 5\% > * {
     padding: 2.5px 0 0 10px; }
-  /* line 324, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.\32 5\25 {
+
+  .row.\32 5\% {
     margin: -2.5px 0 -1px -10px; }
-  /* line 327, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.uniform.\32 5\25 > * {
+
+  .row.uniform.\32 5\% > * {
     padding: 10px 0 0 10px; }
-  /* line 328, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.uniform.\32 5\25 {
+
+  .row.uniform.\32 5\% {
     margin: -10px 0 -1px -10px; }
-  /* line 258, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\31 2u\28normal\29, .\31 2u\24\28normal\29 {
+
+  .\31 2u\(normal\), .\31 2u\$\(normal\) {
     width: 100%;
     clear: none;
     margin-left: 0; }
-  /* line 259, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\31 1u\28normal\29, .\31 1u\24\28normal\29 {
+
+  .\31 1u\(normal\), .\31 1u\$\(normal\) {
     width: 91.6666666667%;
     clear: none;
     margin-left: 0; }
-  /* line 260, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\31 0u\28normal\29, .\31 0u\24\28normal\29 {
+
+  .\31 0u\(normal\), .\31 0u\$\(normal\) {
     width: 83.3333333333%;
     clear: none;
     margin-left: 0; }
-  /* line 261, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\39 u\28normal\29, .\39 u\24\28normal\29 {
+
+  .\39 u\(normal\), .\39 u\$\(normal\) {
     width: 75%;
     clear: none;
     margin-left: 0; }
-  /* line 262, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\38 u\28normal\29, .\38 u\24\28normal\29 {
+
+  .\38 u\(normal\), .\38 u\$\(normal\) {
     width: 66.6666666667%;
     clear: none;
     margin-left: 0; }
-  /* line 263, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\37 u\28normal\29, .\37 u\24\28normal\29 {
+
+  .\37 u\(normal\), .\37 u\$\(normal\) {
     width: 58.3333333333%;
     clear: none;
     margin-left: 0; }
-  /* line 264, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\36 u\28normal\29, .\36 u\24\28normal\29 {
+
+  .\36 u\(normal\), .\36 u\$\(normal\) {
     width: 50%;
     clear: none;
     margin-left: 0; }
-  /* line 265, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\35 u\28normal\29, .\35 u\24\28normal\29 {
+
+  .\35 u\(normal\), .\35 u\$\(normal\) {
     width: 41.6666666667%;
     clear: none;
     margin-left: 0; }
-  /* line 266, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\34 u\28normal\29, .\34 u\24\28normal\29 {
+
+  .\34 u\(normal\), .\34 u\$\(normal\) {
     width: 33.3333333333%;
     clear: none;
     margin-left: 0; }
-  /* line 267, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\33 u\28normal\29, .\33 u\24\28normal\29 {
+
+  .\33 u\(normal\), .\33 u\$\(normal\) {
     width: 25%;
     clear: none;
     margin-left: 0; }
-  /* line 268, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\32 u\28normal\29, .\32 u\24\28normal\29 {
+
+  .\32 u\(normal\), .\32 u\$\(normal\) {
     width: 16.6666666667%;
     clear: none;
     margin-left: 0; }
-  /* line 269, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\31 u\28normal\29, .\31 u\24\28normal\29 {
+
+  .\31 u\(normal\), .\31 u\$\(normal\) {
     width: 8.3333333333%;
     clear: none;
     margin-left: 0; }
-  /* line 271, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\31 2u\24\28normal\29 + *,
-  .\31 1u\24\28normal\29 + *,
-  .\31 0u\24\28normal\29 + *,
-  .\39 u\24\28normal\29 + *,
-  .\38 u\24\28normal\29 + *,
-  .\37 u\24\28normal\29 + *,
-  .\36 u\24\28normal\29 + *,
-  .\35 u\24\28normal\29 + *,
-  .\34 u\24\28normal\29 + *,
-  .\33 u\24\28normal\29 + *,
-  .\32 u\24\28normal\29 + *,
-  .\31 u\24\28normal\29 + * {
-    clear: left; }
-  /* line 286, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\-11u\28normal\29 {
-    margin-left: 91.6666666667%; }
-  /* line 287, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\-10u\28normal\29 {
-    margin-left: 83.3333333333%; }
-  /* line 288, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\-9u\28normal\29 {
-    margin-left: 75%; }
-  /* line 289, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\-8u\28normal\29 {
-    margin-left: 66.6666666667%; }
-  /* line 290, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\-7u\28normal\29 {
-    margin-left: 58.3333333333%; }
-  /* line 291, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\-6u\28normal\29 {
-    margin-left: 50%; }
-  /* line 292, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\-5u\28normal\29 {
-    margin-left: 41.6666666667%; }
-  /* line 293, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\-4u\28normal\29 {
-    margin-left: 33.3333333333%; }
-  /* line 294, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\-3u\28normal\29 {
-    margin-left: 25%; }
-  /* line 295, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\-2u\28normal\29 {
-    margin-left: 16.6666666667%; }
-  /* line 296, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\-1u\28normal\29 {
-    margin-left: 8.3333333333%; } }
 
+  .\31 2u\$\(normal\) + *,
+  .\31 1u\$\(normal\) + *,
+  .\31 0u\$\(normal\) + *,
+  .\39 u\$\(normal\) + *,
+  .\38 u\$\(normal\) + *,
+  .\37 u\$\(normal\) + *,
+  .\36 u\$\(normal\) + *,
+  .\35 u\$\(normal\) + *,
+  .\34 u\$\(normal\) + *,
+  .\33 u\$\(normal\) + *,
+  .\32 u\$\(normal\) + *,
+  .\31 u\$\(normal\) + * {
+    clear: left; }
+
+  .\-11u\(normal\) {
+    margin-left: 91.6666666667%; }
+
+  .\-10u\(normal\) {
+    margin-left: 83.3333333333%; }
+
+  .\-9u\(normal\) {
+    margin-left: 75%; }
+
+  .\-8u\(normal\) {
+    margin-left: 66.6666666667%; }
+
+  .\-7u\(normal\) {
+    margin-left: 58.3333333333%; }
+
+  .\-6u\(normal\) {
+    margin-left: 50%; }
+
+  .\-5u\(normal\) {
+    margin-left: 41.6666666667%; }
+
+  .\-4u\(normal\) {
+    margin-left: 33.3333333333%; }
+
+  .\-3u\(normal\) {
+    margin-left: 25%; }
+
+  .\-2u\(normal\) {
+    margin-left: 16.6666666667%; }
+
+  .\-1u\(normal\) {
+    margin-left: 8.3333333333%; } }
 @media screen and (max-width: 980px) {
-  /* line 323, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
   .row > * {
     padding: 10px 0 0 30px; }
-  /* line 324, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
+
   .row {
     margin: -10px 0 -1px -30px; }
-  /* line 327, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
+
   .row.uniform > * {
     padding: 30px 0 0 30px; }
-  /* line 328, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
+
   .row.uniform {
     margin: -30px 0 -1px -30px; }
-  /* line 323, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.\32 00\25 > * {
+
+  .row.\32 00\% > * {
     padding: 20px 0 0 60px; }
-  /* line 324, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.\32 00\25 {
+
+  .row.\32 00\% {
     margin: -20px 0 -1px -60px; }
-  /* line 327, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.uniform.\32 00\25 > * {
+
+  .row.uniform.\32 00\% > * {
     padding: 60px 0 0 60px; }
-  /* line 328, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.uniform.\32 00\25 {
+
+  .row.uniform.\32 00\% {
     margin: -60px 0 -1px -60px; }
-  /* line 323, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.\31 50\25 > * {
+
+  .row.\31 50\% > * {
     padding: 15px 0 0 45px; }
-  /* line 324, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.\31 50\25 {
+
+  .row.\31 50\% {
     margin: -15px 0 -1px -45px; }
-  /* line 327, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.uniform.\31 50\25 > * {
+
+  .row.uniform.\31 50\% > * {
     padding: 45px 0 0 45px; }
-  /* line 328, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.uniform.\31 50\25 {
+
+  .row.uniform.\31 50\% {
     margin: -45px 0 -1px -45px; }
-  /* line 323, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.\35 0\25 > * {
+
+  .row.\35 0\% > * {
     padding: 5px 0 0 15px; }
-  /* line 324, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.\35 0\25 {
+
+  .row.\35 0\% {
     margin: -5px 0 -1px -15px; }
-  /* line 327, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.uniform.\35 0\25 > * {
+
+  .row.uniform.\35 0\% > * {
     padding: 15px 0 0 15px; }
-  /* line 328, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.uniform.\35 0\25 {
+
+  .row.uniform.\35 0\% {
     margin: -15px 0 -1px -15px; }
-  /* line 323, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.\32 5\25 > * {
+
+  .row.\32 5\% > * {
     padding: 2.5px 0 0 7.5px; }
-  /* line 324, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.\32 5\25 {
+
+  .row.\32 5\% {
     margin: -2.5px 0 -1px -7.5px; }
-  /* line 327, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.uniform.\32 5\25 > * {
+
+  .row.uniform.\32 5\% > * {
     padding: 7.5px 0 0 7.5px; }
-  /* line 328, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.uniform.\32 5\25 {
+
+  .row.uniform.\32 5\% {
     margin: -7.5px 0 -1px -7.5px; }
-  /* line 258, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\31 2u\28narrow\29, .\31 2u\24\28narrow\29 {
+
+  .\31 2u\(narrow\), .\31 2u\$\(narrow\) {
     width: 100%;
     clear: none;
     margin-left: 0; }
-  /* line 259, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\31 1u\28narrow\29, .\31 1u\24\28narrow\29 {
+
+  .\31 1u\(narrow\), .\31 1u\$\(narrow\) {
     width: 91.6666666667%;
     clear: none;
     margin-left: 0; }
-  /* line 260, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\31 0u\28narrow\29, .\31 0u\24\28narrow\29 {
+
+  .\31 0u\(narrow\), .\31 0u\$\(narrow\) {
     width: 83.3333333333%;
     clear: none;
     margin-left: 0; }
-  /* line 261, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\39 u\28narrow\29, .\39 u\24\28narrow\29 {
+
+  .\39 u\(narrow\), .\39 u\$\(narrow\) {
     width: 75%;
     clear: none;
     margin-left: 0; }
-  /* line 262, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\38 u\28narrow\29, .\38 u\24\28narrow\29 {
+
+  .\38 u\(narrow\), .\38 u\$\(narrow\) {
     width: 66.6666666667%;
     clear: none;
     margin-left: 0; }
-  /* line 263, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\37 u\28narrow\29, .\37 u\24\28narrow\29 {
+
+  .\37 u\(narrow\), .\37 u\$\(narrow\) {
     width: 58.3333333333%;
     clear: none;
     margin-left: 0; }
-  /* line 264, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\36 u\28narrow\29, .\36 u\24\28narrow\29 {
+
+  .\36 u\(narrow\), .\36 u\$\(narrow\) {
     width: 50%;
     clear: none;
     margin-left: 0; }
-  /* line 265, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\35 u\28narrow\29, .\35 u\24\28narrow\29 {
+
+  .\35 u\(narrow\), .\35 u\$\(narrow\) {
     width: 41.6666666667%;
     clear: none;
     margin-left: 0; }
-  /* line 266, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\34 u\28narrow\29, .\34 u\24\28narrow\29 {
+
+  .\34 u\(narrow\), .\34 u\$\(narrow\) {
     width: 33.3333333333%;
     clear: none;
     margin-left: 0; }
-  /* line 267, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\33 u\28narrow\29, .\33 u\24\28narrow\29 {
+
+  .\33 u\(narrow\), .\33 u\$\(narrow\) {
     width: 25%;
     clear: none;
     margin-left: 0; }
-  /* line 268, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\32 u\28narrow\29, .\32 u\24\28narrow\29 {
+
+  .\32 u\(narrow\), .\32 u\$\(narrow\) {
     width: 16.6666666667%;
     clear: none;
     margin-left: 0; }
-  /* line 269, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\31 u\28narrow\29, .\31 u\24\28narrow\29 {
+
+  .\31 u\(narrow\), .\31 u\$\(narrow\) {
     width: 8.3333333333%;
     clear: none;
     margin-left: 0; }
-  /* line 271, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\31 2u\24\28narrow\29 + *,
-  .\31 1u\24\28narrow\29 + *,
-  .\31 0u\24\28narrow\29 + *,
-  .\39 u\24\28narrow\29 + *,
-  .\38 u\24\28narrow\29 + *,
-  .\37 u\24\28narrow\29 + *,
-  .\36 u\24\28narrow\29 + *,
-  .\35 u\24\28narrow\29 + *,
-  .\34 u\24\28narrow\29 + *,
-  .\33 u\24\28narrow\29 + *,
-  .\32 u\24\28narrow\29 + *,
-  .\31 u\24\28narrow\29 + * {
-    clear: left; }
-  /* line 286, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\-11u\28narrow\29 {
-    margin-left: 91.6666666667%; }
-  /* line 287, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\-10u\28narrow\29 {
-    margin-left: 83.3333333333%; }
-  /* line 288, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\-9u\28narrow\29 {
-    margin-left: 75%; }
-  /* line 289, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\-8u\28narrow\29 {
-    margin-left: 66.6666666667%; }
-  /* line 290, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\-7u\28narrow\29 {
-    margin-left: 58.3333333333%; }
-  /* line 291, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\-6u\28narrow\29 {
-    margin-left: 50%; }
-  /* line 292, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\-5u\28narrow\29 {
-    margin-left: 41.6666666667%; }
-  /* line 293, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\-4u\28narrow\29 {
-    margin-left: 33.3333333333%; }
-  /* line 294, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\-3u\28narrow\29 {
-    margin-left: 25%; }
-  /* line 295, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\-2u\28narrow\29 {
-    margin-left: 16.6666666667%; }
-  /* line 296, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\-1u\28narrow\29 {
-    margin-left: 8.3333333333%; } }
 
+  .\31 2u\$\(narrow\) + *,
+  .\31 1u\$\(narrow\) + *,
+  .\31 0u\$\(narrow\) + *,
+  .\39 u\$\(narrow\) + *,
+  .\38 u\$\(narrow\) + *,
+  .\37 u\$\(narrow\) + *,
+  .\36 u\$\(narrow\) + *,
+  .\35 u\$\(narrow\) + *,
+  .\34 u\$\(narrow\) + *,
+  .\33 u\$\(narrow\) + *,
+  .\32 u\$\(narrow\) + *,
+  .\31 u\$\(narrow\) + * {
+    clear: left; }
+
+  .\-11u\(narrow\) {
+    margin-left: 91.6666666667%; }
+
+  .\-10u\(narrow\) {
+    margin-left: 83.3333333333%; }
+
+  .\-9u\(narrow\) {
+    margin-left: 75%; }
+
+  .\-8u\(narrow\) {
+    margin-left: 66.6666666667%; }
+
+  .\-7u\(narrow\) {
+    margin-left: 58.3333333333%; }
+
+  .\-6u\(narrow\) {
+    margin-left: 50%; }
+
+  .\-5u\(narrow\) {
+    margin-left: 41.6666666667%; }
+
+  .\-4u\(narrow\) {
+    margin-left: 33.3333333333%; }
+
+  .\-3u\(narrow\) {
+    margin-left: 25%; }
+
+  .\-2u\(narrow\) {
+    margin-left: 16.6666666667%; }
+
+  .\-1u\(narrow\) {
+    margin-left: 8.3333333333%; } }
 @media screen and (max-width: 840px) {
-  /* line 323, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
   .row > * {
     padding: 10px 0 0 30px; }
-  /* line 324, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
+
   .row {
     margin: -10px 0 -1px -30px; }
-  /* line 327, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
+
   .row.uniform > * {
     padding: 30px 0 0 30px; }
-  /* line 328, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
+
   .row.uniform {
     margin: -30px 0 -1px -30px; }
-  /* line 323, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.\32 00\25 > * {
+
+  .row.\32 00\% > * {
     padding: 20px 0 0 60px; }
-  /* line 324, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.\32 00\25 {
+
+  .row.\32 00\% {
     margin: -20px 0 -1px -60px; }
-  /* line 327, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.uniform.\32 00\25 > * {
+
+  .row.uniform.\32 00\% > * {
     padding: 60px 0 0 60px; }
-  /* line 328, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.uniform.\32 00\25 {
+
+  .row.uniform.\32 00\% {
     margin: -60px 0 -1px -60px; }
-  /* line 323, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.\31 50\25 > * {
+
+  .row.\31 50\% > * {
     padding: 15px 0 0 45px; }
-  /* line 324, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.\31 50\25 {
+
+  .row.\31 50\% {
     margin: -15px 0 -1px -45px; }
-  /* line 327, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.uniform.\31 50\25 > * {
+
+  .row.uniform.\31 50\% > * {
     padding: 45px 0 0 45px; }
-  /* line 328, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.uniform.\31 50\25 {
+
+  .row.uniform.\31 50\% {
     margin: -45px 0 -1px -45px; }
-  /* line 323, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.\35 0\25 > * {
+
+  .row.\35 0\% > * {
     padding: 5px 0 0 15px; }
-  /* line 324, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.\35 0\25 {
+
+  .row.\35 0\% {
     margin: -5px 0 -1px -15px; }
-  /* line 327, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.uniform.\35 0\25 > * {
+
+  .row.uniform.\35 0\% > * {
     padding: 15px 0 0 15px; }
-  /* line 328, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.uniform.\35 0\25 {
+
+  .row.uniform.\35 0\% {
     margin: -15px 0 -1px -15px; }
-  /* line 323, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.\32 5\25 > * {
+
+  .row.\32 5\% > * {
     padding: 2.5px 0 0 7.5px; }
-  /* line 324, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.\32 5\25 {
+
+  .row.\32 5\% {
     margin: -2.5px 0 -1px -7.5px; }
-  /* line 327, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.uniform.\32 5\25 > * {
+
+  .row.uniform.\32 5\% > * {
     padding: 7.5px 0 0 7.5px; }
-  /* line 328, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.uniform.\32 5\25 {
+
+  .row.uniform.\32 5\% {
     margin: -7.5px 0 -1px -7.5px; }
-  /* line 258, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\31 2u\28narrower\29, .\31 2u\24\28narrower\29 {
+
+  .\31 2u\(narrower\), .\31 2u\$\(narrower\) {
     width: 100%;
     clear: none;
     margin-left: 0; }
-  /* line 259, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\31 1u\28narrower\29, .\31 1u\24\28narrower\29 {
+
+  .\31 1u\(narrower\), .\31 1u\$\(narrower\) {
     width: 91.6666666667%;
     clear: none;
     margin-left: 0; }
-  /* line 260, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\31 0u\28narrower\29, .\31 0u\24\28narrower\29 {
+
+  .\31 0u\(narrower\), .\31 0u\$\(narrower\) {
     width: 83.3333333333%;
     clear: none;
     margin-left: 0; }
-  /* line 261, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\39 u\28narrower\29, .\39 u\24\28narrower\29 {
+
+  .\39 u\(narrower\), .\39 u\$\(narrower\) {
     width: 75%;
     clear: none;
     margin-left: 0; }
-  /* line 262, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\38 u\28narrower\29, .\38 u\24\28narrower\29 {
+
+  .\38 u\(narrower\), .\38 u\$\(narrower\) {
     width: 66.6666666667%;
     clear: none;
     margin-left: 0; }
-  /* line 263, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\37 u\28narrower\29, .\37 u\24\28narrower\29 {
+
+  .\37 u\(narrower\), .\37 u\$\(narrower\) {
     width: 58.3333333333%;
     clear: none;
     margin-left: 0; }
-  /* line 264, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\36 u\28narrower\29, .\36 u\24\28narrower\29 {
+
+  .\36 u\(narrower\), .\36 u\$\(narrower\) {
     width: 50%;
     clear: none;
     margin-left: 0; }
-  /* line 265, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\35 u\28narrower\29, .\35 u\24\28narrower\29 {
+
+  .\35 u\(narrower\), .\35 u\$\(narrower\) {
     width: 41.6666666667%;
     clear: none;
     margin-left: 0; }
-  /* line 266, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\34 u\28narrower\29, .\34 u\24\28narrower\29 {
+
+  .\34 u\(narrower\), .\34 u\$\(narrower\) {
     width: 33.3333333333%;
     clear: none;
     margin-left: 0; }
-  /* line 267, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\33 u\28narrower\29, .\33 u\24\28narrower\29 {
+
+  .\33 u\(narrower\), .\33 u\$\(narrower\) {
     width: 25%;
     clear: none;
     margin-left: 0; }
-  /* line 268, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\32 u\28narrower\29, .\32 u\24\28narrower\29 {
+
+  .\32 u\(narrower\), .\32 u\$\(narrower\) {
     width: 16.6666666667%;
     clear: none;
     margin-left: 0; }
-  /* line 269, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\31 u\28narrower\29, .\31 u\24\28narrower\29 {
+
+  .\31 u\(narrower\), .\31 u\$\(narrower\) {
     width: 8.3333333333%;
     clear: none;
     margin-left: 0; }
-  /* line 271, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\31 2u\24\28narrower\29 + *,
-  .\31 1u\24\28narrower\29 + *,
-  .\31 0u\24\28narrower\29 + *,
-  .\39 u\24\28narrower\29 + *,
-  .\38 u\24\28narrower\29 + *,
-  .\37 u\24\28narrower\29 + *,
-  .\36 u\24\28narrower\29 + *,
-  .\35 u\24\28narrower\29 + *,
-  .\34 u\24\28narrower\29 + *,
-  .\33 u\24\28narrower\29 + *,
-  .\32 u\24\28narrower\29 + *,
-  .\31 u\24\28narrower\29 + * {
-    clear: left; }
-  /* line 286, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\-11u\28narrower\29 {
-    margin-left: 91.6666666667%; }
-  /* line 287, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\-10u\28narrower\29 {
-    margin-left: 83.3333333333%; }
-  /* line 288, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\-9u\28narrower\29 {
-    margin-left: 75%; }
-  /* line 289, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\-8u\28narrower\29 {
-    margin-left: 66.6666666667%; }
-  /* line 290, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\-7u\28narrower\29 {
-    margin-left: 58.3333333333%; }
-  /* line 291, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\-6u\28narrower\29 {
-    margin-left: 50%; }
-  /* line 292, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\-5u\28narrower\29 {
-    margin-left: 41.6666666667%; }
-  /* line 293, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\-4u\28narrower\29 {
-    margin-left: 33.3333333333%; }
-  /* line 294, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\-3u\28narrower\29 {
-    margin-left: 25%; }
-  /* line 295, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\-2u\28narrower\29 {
-    margin-left: 16.6666666667%; }
-  /* line 296, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\-1u\28narrower\29 {
-    margin-left: 8.3333333333%; } }
 
+  .\31 2u\$\(narrower\) + *,
+  .\31 1u\$\(narrower\) + *,
+  .\31 0u\$\(narrower\) + *,
+  .\39 u\$\(narrower\) + *,
+  .\38 u\$\(narrower\) + *,
+  .\37 u\$\(narrower\) + *,
+  .\36 u\$\(narrower\) + *,
+  .\35 u\$\(narrower\) + *,
+  .\34 u\$\(narrower\) + *,
+  .\33 u\$\(narrower\) + *,
+  .\32 u\$\(narrower\) + *,
+  .\31 u\$\(narrower\) + * {
+    clear: left; }
+
+  .\-11u\(narrower\) {
+    margin-left: 91.6666666667%; }
+
+  .\-10u\(narrower\) {
+    margin-left: 83.3333333333%; }
+
+  .\-9u\(narrower\) {
+    margin-left: 75%; }
+
+  .\-8u\(narrower\) {
+    margin-left: 66.6666666667%; }
+
+  .\-7u\(narrower\) {
+    margin-left: 58.3333333333%; }
+
+  .\-6u\(narrower\) {
+    margin-left: 50%; }
+
+  .\-5u\(narrower\) {
+    margin-left: 41.6666666667%; }
+
+  .\-4u\(narrower\) {
+    margin-left: 33.3333333333%; }
+
+  .\-3u\(narrower\) {
+    margin-left: 25%; }
+
+  .\-2u\(narrower\) {
+    margin-left: 16.6666666667%; }
+
+  .\-1u\(narrower\) {
+    margin-left: 8.3333333333%; } }
 @media screen and (max-width: 736px) {
-  /* line 323, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
   .row > * {
     padding: 10px 0 0 30px; }
-  /* line 324, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
+
   .row {
     margin: -10px 0 -1px -30px; }
-  /* line 327, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
+
   .row.uniform > * {
     padding: 30px 0 0 30px; }
-  /* line 328, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
+
   .row.uniform {
     margin: -30px 0 -1px -30px; }
-  /* line 323, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.\32 00\25 > * {
+
+  .row.\32 00\% > * {
     padding: 20px 0 0 60px; }
-  /* line 324, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.\32 00\25 {
+
+  .row.\32 00\% {
     margin: -20px 0 -1px -60px; }
-  /* line 327, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.uniform.\32 00\25 > * {
+
+  .row.uniform.\32 00\% > * {
     padding: 60px 0 0 60px; }
-  /* line 328, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.uniform.\32 00\25 {
+
+  .row.uniform.\32 00\% {
     margin: -60px 0 -1px -60px; }
-  /* line 323, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.\31 50\25 > * {
+
+  .row.\31 50\% > * {
     padding: 15px 0 0 45px; }
-  /* line 324, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.\31 50\25 {
+
+  .row.\31 50\% {
     margin: -15px 0 -1px -45px; }
-  /* line 327, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.uniform.\31 50\25 > * {
+
+  .row.uniform.\31 50\% > * {
     padding: 45px 0 0 45px; }
-  /* line 328, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.uniform.\31 50\25 {
+
+  .row.uniform.\31 50\% {
     margin: -45px 0 -1px -45px; }
-  /* line 323, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.\35 0\25 > * {
+
+  .row.\35 0\% > * {
     padding: 5px 0 0 15px; }
-  /* line 324, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.\35 0\25 {
+
+  .row.\35 0\% {
     margin: -5px 0 -1px -15px; }
-  /* line 327, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.uniform.\35 0\25 > * {
+
+  .row.uniform.\35 0\% > * {
     padding: 15px 0 0 15px; }
-  /* line 328, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.uniform.\35 0\25 {
+
+  .row.uniform.\35 0\% {
     margin: -15px 0 -1px -15px; }
-  /* line 323, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.\32 5\25 > * {
+
+  .row.\32 5\% > * {
     padding: 2.5px 0 0 7.5px; }
-  /* line 324, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.\32 5\25 {
+
+  .row.\32 5\% {
     margin: -2.5px 0 -1px -7.5px; }
-  /* line 327, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.uniform.\32 5\25 > * {
+
+  .row.uniform.\32 5\% > * {
     padding: 7.5px 0 0 7.5px; }
-  /* line 328, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .row.uniform.\32 5\25 {
+
+  .row.uniform.\32 5\% {
     margin: -7.5px 0 -1px -7.5px; }
-  /* line 258, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\31 2u\28mobile\29, .\31 2u\24\28mobile\29 {
+
+  .\31 2u\(mobile\), .\31 2u\$\(mobile\) {
     width: 100%;
     clear: none;
     margin-left: 0; }
-  /* line 259, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\31 1u\28mobile\29, .\31 1u\24\28mobile\29 {
+
+  .\31 1u\(mobile\), .\31 1u\$\(mobile\) {
     width: 91.6666666667%;
     clear: none;
     margin-left: 0; }
-  /* line 260, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\31 0u\28mobile\29, .\31 0u\24\28mobile\29 {
+
+  .\31 0u\(mobile\), .\31 0u\$\(mobile\) {
     width: 83.3333333333%;
     clear: none;
     margin-left: 0; }
-  /* line 261, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\39 u\28mobile\29, .\39 u\24\28mobile\29 {
+
+  .\39 u\(mobile\), .\39 u\$\(mobile\) {
     width: 75%;
     clear: none;
     margin-left: 0; }
-  /* line 262, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\38 u\28mobile\29, .\38 u\24\28mobile\29 {
+
+  .\38 u\(mobile\), .\38 u\$\(mobile\) {
     width: 66.6666666667%;
     clear: none;
     margin-left: 0; }
-  /* line 263, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\37 u\28mobile\29, .\37 u\24\28mobile\29 {
+
+  .\37 u\(mobile\), .\37 u\$\(mobile\) {
     width: 58.3333333333%;
     clear: none;
     margin-left: 0; }
-  /* line 264, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\36 u\28mobile\29, .\36 u\24\28mobile\29 {
+
+  .\36 u\(mobile\), .\36 u\$\(mobile\) {
     width: 50%;
     clear: none;
     margin-left: 0; }
-  /* line 265, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\35 u\28mobile\29, .\35 u\24\28mobile\29 {
+
+  .\35 u\(mobile\), .\35 u\$\(mobile\) {
     width: 41.6666666667%;
     clear: none;
     margin-left: 0; }
-  /* line 266, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\34 u\28mobile\29, .\34 u\24\28mobile\29 {
+
+  .\34 u\(mobile\), .\34 u\$\(mobile\) {
     width: 33.3333333333%;
     clear: none;
     margin-left: 0; }
-  /* line 267, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\33 u\28mobile\29, .\33 u\24\28mobile\29 {
+
+  .\33 u\(mobile\), .\33 u\$\(mobile\) {
     width: 25%;
     clear: none;
     margin-left: 0; }
-  /* line 268, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\32 u\28mobile\29, .\32 u\24\28mobile\29 {
+
+  .\32 u\(mobile\), .\32 u\$\(mobile\) {
     width: 16.6666666667%;
     clear: none;
     margin-left: 0; }
-  /* line 269, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\31 u\28mobile\29, .\31 u\24\28mobile\29 {
+
+  .\31 u\(mobile\), .\31 u\$\(mobile\) {
     width: 8.3333333333%;
     clear: none;
     margin-left: 0; }
-  /* line 271, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\31 2u\24\28mobile\29 + *,
-  .\31 1u\24\28mobile\29 + *,
-  .\31 0u\24\28mobile\29 + *,
-  .\39 u\24\28mobile\29 + *,
-  .\38 u\24\28mobile\29 + *,
-  .\37 u\24\28mobile\29 + *,
-  .\36 u\24\28mobile\29 + *,
-  .\35 u\24\28mobile\29 + *,
-  .\34 u\24\28mobile\29 + *,
-  .\33 u\24\28mobile\29 + *,
-  .\32 u\24\28mobile\29 + *,
-  .\31 u\24\28mobile\29 + * {
-    clear: left; }
-  /* line 286, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\-11u\28mobile\29 {
-    margin-left: 91.6666666667%; }
-  /* line 287, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\-10u\28mobile\29 {
-    margin-left: 83.3333333333%; }
-  /* line 288, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\-9u\28mobile\29 {
-    margin-left: 75%; }
-  /* line 289, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\-8u\28mobile\29 {
-    margin-left: 66.6666666667%; }
-  /* line 290, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\-7u\28mobile\29 {
-    margin-left: 58.3333333333%; }
-  /* line 291, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\-6u\28mobile\29 {
-    margin-left: 50%; }
-  /* line 292, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\-5u\28mobile\29 {
-    margin-left: 41.6666666667%; }
-  /* line 293, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\-4u\28mobile\29 {
-    margin-left: 33.3333333333%; }
-  /* line 294, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\-3u\28mobile\29 {
-    margin-left: 25%; }
-  /* line 295, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\-2u\28mobile\29 {
-    margin-left: 16.6666666667%; }
-  /* line 296, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_skel.scss */
-  .\-1u\28mobile\29 {
-    margin-left: 8.3333333333%; } }
 
+  .\31 2u\$\(mobile\) + *,
+  .\31 1u\$\(mobile\) + *,
+  .\31 0u\$\(mobile\) + *,
+  .\39 u\$\(mobile\) + *,
+  .\38 u\$\(mobile\) + *,
+  .\37 u\$\(mobile\) + *,
+  .\36 u\$\(mobile\) + *,
+  .\35 u\$\(mobile\) + *,
+  .\34 u\$\(mobile\) + *,
+  .\33 u\$\(mobile\) + *,
+  .\32 u\$\(mobile\) + *,
+  .\31 u\$\(mobile\) + * {
+    clear: left; }
+
+  .\-11u\(mobile\) {
+    margin-left: 91.6666666667%; }
+
+  .\-10u\(mobile\) {
+    margin-left: 83.3333333333%; }
+
+  .\-9u\(mobile\) {
+    margin-left: 75%; }
+
+  .\-8u\(mobile\) {
+    margin-left: 66.6666666667%; }
+
+  .\-7u\(mobile\) {
+    margin-left: 58.3333333333%; }
+
+  .\-6u\(mobile\) {
+    margin-left: 50%; }
+
+  .\-5u\(mobile\) {
+    margin-left: 41.6666666667%; }
+
+  .\-4u\(mobile\) {
+    margin-left: 33.3333333333%; }
+
+  .\-3u\(mobile\) {
+    margin-left: 25%; }
+
+  .\-2u\(mobile\) {
+    margin-left: 16.6666666667%; }
+
+  .\-1u\(mobile\) {
+    margin-left: 8.3333333333%; } }
 /* Basic */
-/* line 58, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
 body {
   background: #f3f6fa; }
-  /* line 62, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   body.is-loading *, body.is-loading *:before, body.is-loading *:after {
     -moz-animation: none !important;
     -webkit-animation: none !important;
@@ -1292,7 +1202,6 @@ body {
     -ms-transition: none !important;
     transition: none !important; }
 
-/* line 69, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
 body, input, select, textarea {
   color: #7c8081;
   font-family: 'Lato', sans-serif;
@@ -1301,7 +1210,6 @@ body, input, select, textarea {
   letter-spacing: 0.025em;
   line-height: 1.75em; }
 
-/* line 78, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
 a {
   -moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
   -webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
@@ -1310,97 +1218,77 @@ a {
   color: #3fb1a3;
   text-decoration: none;
   border-bottom: dotted 1px; }
-  /* line 84, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   a:hover {
     border-bottom-color: transparent; }
 
-/* line 89, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
 strong, b {
   font-weight: 400; }
 
-/* line 93, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
 i {
   font-style: italic; }
 
-/* line 97, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
 p, pright, pcenter, ul, ol, dl, table, blockquote {
   margin: 0 0 2em 0; }
 
-/* line 101, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
 p {
   text-align: justify; }
 
-/* line 105, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
 pright {
   text-align: right; }
 
-/* line 109, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
 pcenter, ul, ol, dl, table, blockquote {
   text-align: center; }
 
-/* line 113, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
 h1, h2, h3, h4, h5, h6 {
   color: inherit;
   font-weight: 300;
   line-height: 1.75em;
   margin-bottom: 1em;
   text-transform: uppercase; }
-  /* line 120, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     color: inherit;
     text-decoration: none;
     border: 0; }
 
-/* line 127, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
 h2 {
   font-size: 1.5em;
   letter-spacing: 0.1em; }
 
-/* line 132, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
 h3 {
   font-size: 1.15em;
   letter-spacing: 0.025em; }
 
-/* line 137, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
 sub {
   font-size: 0.8em;
   position: relative;
   top: 0.5em; }
 
-/* line 143, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
 sup {
   font-size: 0.8em;
   position: relative;
   top: -0.5em; }
 
-/* line 149, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
 hr {
   border-top: solid 1px rgba(124, 128, 129, 0.2);
   border: 0;
   margin-bottom: 1.5em; }
 
-/* line 155, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
 blockquote {
   border-left: solid 0.5em rgba(124, 128, 129, 0.2);
   font-style: italic;
   padding: 1em 0 1em 2em; }
 
 /* Section/Article */
-/* line 164, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
 section.special, article.special {
   text-align: center; }
 
-/* line 170, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
 header.major {
   padding-bottom: 2em; }
-
-/* line 174, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
 header.special {
   margin-bottom: 4em;
   padding-top: 5em;
   position: relative;
   text-align: center; }
-  /* line 180, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   header.special:before, header.special:after {
     border-bottom: solid 1.5px;
     border-top: solid 1.5px;
@@ -1410,20 +1298,15 @@ header.special {
     position: absolute;
     top: 1.75em;
     width: 50%; }
-  /* line 192, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   header.special:before {
     left: 0; }
-  /* line 196, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   header.special:after {
     right: 0; }
-  /* line 200, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   header.special h2 {
     margin-bottom: 0; }
-  /* line 204, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   header.special h2 + p {
     margin-bottom: 0;
     padding-top: 1.5em; }
-  /* line 209, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   header.special .icon {
     cursor: default;
     height: 7em;
@@ -1432,21 +1315,16 @@ header.special {
     text-align: center;
     top: 1em;
     width: 100%; }
-    /* line 218, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     header.special .icon:before {
       font-size: 3.5em;
       opacity: 0.35; }
 
-/* line 227, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
 footer > :last-child {
   margin-bottom: 0; }
-
-/* line 231, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
 footer.major {
   padding-top: 3em; }
 
 /* Form */
-/* line 238, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
 input[type="text"],
 input[type="password"],
 input[type="email"],
@@ -1467,51 +1345,42 @@ textarea {
   text-decoration: none;
   width: 100%;
   outline: 0; }
-  /* line 253, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   input[type="text"]:focus,
   input[type="password"]:focus,
   input[type="email"]:focus,
   textarea:focus {
     border-color: #83d3c9; }
 
-/* line 258, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
 input[type="text"],
 input[type="password"],
 input[type="email"] {
   line-height: 1em; }
 
-/* line 264, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
 ::-webkit-input-placeholder {
   color: inherit;
   opacity: 0.5;
   position: relative;
   top: 3px; }
 
-/* line 271, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
 :-moz-placeholder {
   color: inherit;
   opacity: 0.5; }
 
-/* line 276, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
 ::-moz-placeholder {
   color: inherit;
   opacity: 0.5; }
 
-/* line 281, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
 :-ms-input-placeholder {
   color: inherit;
   opacity: 0.5; }
 
-/* line 286, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
 .formerize-placeholder {
   color: rgba(124, 128, 129, 0.5) !important; }
 
 /* Image */
-/* line 292, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
 .image {
   border: 0;
   position: relative; }
-  /* line 296, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   .image:before {
     content: '';
     height: 100%;
@@ -1519,53 +1388,44 @@ input[type="email"] {
     position: absolute;
     top: 0;
     width: 100%; }
-  /* line 306, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   .image.fit {
     display: block; }
-    /* line 309, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     .image.fit img {
       display: block;
       width: 100%; }
-  /* line 315, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   .image.featured {
     display: block;
     margin: 0 0 1.3em 0; }
-    /* line 319, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     .image.featured img {
       display: block;
       width: 100%; }
 
 /* medium+ screen sizes */
 @media all and (min-width: 841px) {
-  /* line 328, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   .image.desktop {
     display: block !important;
     margin: 0 0 2em 0; }
-  /* line 333, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
+
   .image.desktop img {
     display: block !important;
     width: 100%; }
-  /* line 337, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
+
   .mobile-only {
     display: none !important; }
-  /* line 341, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
+
   .desktop-only {
     display: block !important; } }
-
 /* small screen sizes */
 @media all and (max-width: 840px) {
-  /* line 348, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   .image.desktop {
     display: none !important; }
-  /* line 351, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
+
   .mobile-only {
     display: block !important; }
-  /* line 354, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
+
   .desktop-only {
     display: none !important; } }
-
 /* Video */
-/* line 361, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
 .Rvideo-box {
   background-color: #000000;
   text-align: center;
@@ -1576,7 +1436,6 @@ input[type="email"] {
   height: auto;
   border: 1px solid #000000; }
 
-/* line 373, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
 .Rvideo-box video {
   width: 100%;
   height: auto;
@@ -1584,18 +1443,15 @@ input[type="email"] {
   padding: 0px;
   margin: 0px; }
 
-/* line 382, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
 .Rvideo-nosupport {
   color: #FFFFFF;
   padding-top: 110px;
   padding-bottom: 110px; }
 
 /* Icon */
-/* line 392, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
 .icon {
   text-decoration: none;
   position: relative; }
-  /* line 8, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_mixins.scss */
   .icon:before {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
@@ -1603,7 +1459,6 @@ input[type="email"] {
     font-style: normal;
     font-weight: normal;
     text-transform: none !important; }
-  /* line 396, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   .icon.circle {
     -moz-transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;
@@ -1620,155 +1475,115 @@ input[type="email"] {
     text-decoration: none;
     top: 0;
     width: 2.25em; }
-    /* line 410, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     .icon.circle:hover {
       top: -0.2em; }
-    /* line 414, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     .icon.circle.fa-twitter {
       background: #70aecd;
       color: #fff; }
-      /* line 418, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
       .icon.circle.fa-twitter:hover {
         background: #7fb7d2; }
-    /* line 423, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     .icon.circle.fa-facebook {
       background: #7490c3;
       color: #fff; }
-      /* line 427, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
       .icon.circle.fa-facebook:hover {
         background: #829bc9; }
-    /* line 432, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     .icon.circle.fa-google-plus {
       background: #db6b67;
       color: #fff; }
-      /* line 436, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
       .icon.circle.fa-google-plus:hover {
         background: #df7b77; }
-    /* line 441, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     .icon.circle.fa-github {
       background: #dcad8b;
       color: #fff; }
-      /* line 445, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
       .icon.circle.fa-github:hover {
         background: #e1b89b; }
-    /* line 450, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     .icon.circle.fa-dribbble {
       background: #da83ae;
       color: #fff; }
-      /* line 454, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
       .icon.circle.fa-dribbble:hover {
         background: #df93b8; }
-  /* line 460, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   .icon.featured {
     cursor: default;
     display: block;
     margin: 0 0 1.5em 0;
     opacity: 0.35;
     text-align: center; }
-    /* line 467, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     .icon.featured:before {
       font-size: 5em;
       line-height: 1em; }
-  /* line 473, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   .icon > .label {
     display: none; }
 
 /* List */
-/* line 481, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
 ol.default {
   list-style: decimal;
   padding-left: 1.25em; }
-  /* line 485, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   ol.default li {
     padding-left: 0.25em; }
 
-/* line 492, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
 ul.default {
   list-style: disc;
   padding-left: 1em; }
-  /* line 496, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   ul.default li {
     padding-left: 0.5em; }
-
-/* line 501, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
 ul.icons {
   cursor: default; }
-  /* line 504, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   ul.icons li {
     display: inline-block;
     line-height: 1em;
     padding-left: 0.5em; }
-    /* line 509, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     ul.icons li:first-child {
       padding-left: 0; }
-
-/* line 515, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
 ul.featured-icons {
   cursor: default;
   margin: -0.75em 0 0 0;
   opacity: 0.35;
   overflow: hidden;
   position: relative; }
-  /* line 522, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   ul.featured-icons li {
     display: block;
     float: left;
     text-align: center;
     width: 50%; }
-    /* line 528, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     ul.featured-icons li .icon {
       display: inline-block;
       font-size: 6.25em;
       height: 1.25em;
       line-height: 1.25em;
       width: 1em; }
-
-/* line 538, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
 ul.buttons {
   cursor: default; }
-  /* line 541, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   ul.buttons:last-child {
     margin-bottom: 0; }
-  /* line 545, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   ul.buttons li {
     display: inline-block;
     padding: 0 0 0 1.5em; }
-    /* line 549, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     ul.buttons li:first-child {
       padding: 0; }
-  /* line 555, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   ul.buttons.vertical li {
     display: block;
     padding: 1.5em 0 0 0; }
-    /* line 559, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     ul.buttons.vertical li:first-child {
       padding: 0; }
 
 /* Table */
-/* line 569, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
 table {
   width: 100%; }
-  /* line 572, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   table.default {
     width: 100%; }
-    /* line 576, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     table.default tbody tr {
       border-bottom: solid 1px rgba(124, 128, 129, 0.2); }
-    /* line 581, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     table.default td {
       padding: 0.5em 1em 0.5em 1em; }
-    /* line 585, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     table.default th {
       font-weight: 400;
       padding: 0.5em 1em 0.5em 1em;
       text-align: left; }
-    /* line 591, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     table.default thead {
       background: #7c8081;
       color: #fff; }
 
 /* Button */
-/* line 606, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
 input[type="button"],
 input[type="submit"],
 input[type="reset"],
@@ -1795,14 +1610,12 @@ input[type="reset"],
   text-align: center;
   text-decoration: none;
   text-transform: uppercase; }
-  /* line 627, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   input[type="button"]:hover,
   input[type="submit"]:hover,
   input[type="reset"]:hover,
   .button:hover {
     background: rgba(188, 202, 206, 0.15);
     border-color: inherit; }
-  /* line 632, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   input[type="button"].special,
   input[type="submit"].special,
   input[type="reset"].special,
@@ -1810,20 +1623,17 @@ input[type="reset"],
     background: rgba(26, 30, 29, 0.5);
     border-color: rgba(26, 30, 29, 0.5);
     color: #fff !important; }
-    /* line 637, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     input[type="button"].special:hover,
     input[type="submit"].special:hover,
     input[type="reset"].special:hover,
     .button.special:hover {
       background: #303433 !important;
       border-color: #303433 !important; }
-  /* line 643, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   input[type="button"].fit,
   input[type="submit"].fit,
   input[type="reset"].fit,
   .button.fit {
     width: 100%; }
-  /* line 647, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   input[type="button"].small,
   input[type="submit"].small,
   input[type="reset"].small,
@@ -1833,14 +1643,11 @@ input[type="reset"],
     padding: 0.5em 0; }
 
 /* Wrapper */
-/* line 656, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
 .wrapper {
   margin-bottom: 5em;
   padding: 5em; }
-  /* line 660, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   .wrapper.style1 {
     padding: 0; }
-  /* line 664, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   .wrapper.style2 {
     background-color: #9F9F9F;
     /* background-image: url('images/light-bl.svg'), url('images/light-br.svg'); */
@@ -1848,29 +1655,23 @@ input[type="reset"],
     background-repeat: no-repeat, no-repeat;
     background-size: 25em, 25em;
     color: #fff; }
-    /* line 673, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     .wrapper.style2 .button:hover {
       background: rgba(255, 255, 255, 0.15) !important; }
-    /* line 677, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     .wrapper.style2 .button.special {
       background: #fff;
       border-color: #fff;
       color: #83d3c9 !important; }
-      /* line 682, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
       .wrapper.style2 .button.special:hover {
         border-color: inherit !important;
         color: #fff !important; }
-  /* line 690, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   .wrapper.style3 {
     background: #fff;
     color: inherit; }
-  /* line 695, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   .wrapper.style4 {
     background: #fff;
     color: inherit;
     padding: 4em; }
 
-/* line 703, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
 image.desktop {
   display: none; }
 
@@ -1880,28 +1681,21 @@ image.desktop {
     top: -5em; }
   100% {
     top: 0; } }
-
 @-webkit-keyframes reveal-header {
   0% {
     top: -5em; }
   100% {
     top: 0; } }
-
 @-ms-keyframes reveal-header {
-  /* line 710, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   0% {
     top: -5em; }
-  /* line 711, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   100% {
     top: 0; } }
-
 @keyframes reveal-header {
   0% {
     top: -5em; }
   100% {
     top: 0; } }
-
-/* line 714, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
 #header {
   background: #fff;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.075);
@@ -1914,28 +1708,22 @@ image.desktop {
   top: 0;
   width: 100%;
   z-index: 10000; }
-  /* line 727, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   #header h1 {
     font-weight: 900;
     margin: 0; }
-    /* line 731, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     #header h1 span {
       font-weight: 300; }
-  /* line 736, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   #header nav {
     letter-spacing: 0.075em;
     position: absolute;
     right: 1.5em;
     text-transform: uppercase;
     top: 0.75em; }
-    /* line 744, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     #header nav ul li {
       display: inline-block;
       margin-left: 1.5em; }
-      /* line 748, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
       #header nav ul li > ul {
         display: none; }
-      /* line 752, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
       #header nav ul li a {
         border: solid 1px transparent;
         color: inherit;
@@ -1943,7 +1731,6 @@ image.desktop {
         line-height: 1em;
         padding: 0.6em 0.75em;
         text-decoration: none; }
-      /* line 761, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
       #header nav ul li input[type="button"],
       #header nav ul li input[type="submit"],
       #header nav ul li input[type="reset"],
@@ -1951,10 +1738,8 @@ image.desktop {
         font-size: 1em;
         min-width: 0;
         width: auto; }
-      /* line 771, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
       #header nav ul li.submenu > a {
         text-decoration: none; }
-        /* line 8, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_mixins.scss */
         #header nav ul li.submenu > a:before {
           -moz-osx-font-smoothing: grayscale;
           -webkit-font-smoothing: antialiased;
@@ -1962,27 +1747,22 @@ image.desktop {
           font-style: normal;
           font-weight: normal;
           text-transform: none !important; }
-        /* line 774, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
         #header nav ul li.submenu > a:before {
           content: '\f107';
           margin-right: 0.65em; }
-      /* line 783, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
       #header nav ul li.active > a, #header nav ul li:hover > a {
         -moz-transition: all 0.2s ease-in-out;
         -webkit-transition: all 0.2s ease-in-out;
         -ms-transition: all 0.2s ease-in-out;
         transition: all 0.2s ease-in-out;
         background: rgba(188, 202, 206, 0.15); }
-      /* line 790, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
       #header nav ul li.current > a {
         font-weight: 900; }
-  /* line 798, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   #header.reveal {
     -moz-animation: reveal-header 0.5s;
     -webkit-animation: reveal-header 0.5s;
     -ms-animation: reveal-header 0.5s;
     animation: reveal-header 0.5s; }
-  /* line 802, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   #header.alt {
     -moz-animation: none;
     -webkit-animation: none;
@@ -1993,14 +1773,11 @@ image.desktop {
     color: #7c8081;
     padding: 2em 2.5em;
     position: absolute; }
-    /* line 810, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     #header.alt nav {
       right: 2.5em;
       top: 1.75em; }
-      /* line 818, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
       #header.alt nav ul li.active > a, #header.alt nav ul li:hover > a {
         border: solid 1px; }
-  /* line 827, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   #header.b {
     -moz-animation: none;
     -webkit-animation: none;
@@ -2011,16 +1788,13 @@ image.desktop {
     color: #fff;
     padding: 2em 2.5em;
     position: absolute; }
-    /* line 835, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     #header.b nav {
       right: 2.5em;
       top: 1.75em; }
-  /* line 843, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   #header.b nav ul li.active > a, #header.alt nav ul li.active > a {
     border: solid 1 px; }
 
 /* Dropotron */
-/* line 854, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
 .dropotron {
   background: #fff;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.075);
@@ -2029,12 +1803,10 @@ image.desktop {
   padding: 1em 0;
   text-transform: uppercase;
   margin-top: calc(-1em + 1px); }
-  /* line 863, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   .dropotron.level-0 {
     font-size: 0.7em;
     font-weight: 400;
     margin-top: 1.5em; }
-    /* line 868, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     .dropotron.level-0:before {
       border-bottom: solid 0.5em #fff;
       border-left: solid 0.5em transparent;
@@ -2043,10 +1815,8 @@ image.desktop {
       left: 0.75em;
       position: absolute;
       top: -0.45em; }
-  /* line 879, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   .dropotron > li {
     border-top: solid 1px rgba(124, 128, 129, 0.2); }
-    /* line 882, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     .dropotron > li > a {
       -moz-transition: none;
       -webkit-transition: none;
@@ -2056,11 +1826,9 @@ image.desktop {
       text-decoration: none;
       padding: 0 1em;
       border: 0; }
-    /* line 891, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     .dropotron > li:hover > a {
       background: #83d3c9;
       color: #fff; }
-    /* line 897, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     .dropotron > li:first-child {
       border-top: 0; }
 
@@ -2070,28 +1838,21 @@ image.desktop {
     opacity: 0; }
   100% {
     opacity: 1; } }
-
 @-webkit-keyframes reveal-banner {
   0% {
     opacity: 0; }
   100% {
     opacity: 1; } }
-
 @-ms-keyframes reveal-banner {
-  /* line 906, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   0% {
     opacity: 0; }
-  /* line 907, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   100% {
     opacity: 1; } }
-
 @keyframes reveal-banner {
   0% {
     opacity: 0; }
   100% {
     opacity: 1; } }
-
-/* line 910, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
 #banner {
   background-attachment: fixed;
   background-color: #645862;
@@ -2103,7 +1864,6 @@ image.desktop {
   cursor: default;
   padding: 12em 0;
   text-align: center; }
-  /* line 922, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   #banner .inner {
     -moz-animation: reveal-banner 1s 0.25s ease-in-out;
     -webkit-animation: reveal-banner 1s 0.25s ease-in-out;
@@ -2119,14 +1879,12 @@ image.desktop {
     opacity: 0;
     padding: 3em;
     text-align: center; }
-    /* line 932, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     #banner .inner header {
       display: inline-block;
       border-bottom: solid 2px;
       border-top: solid 2px;
       margin: 0 0 2em 0;
       padding: 3px 0 3px 0; }
-      /* line 939, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
       #banner .inner header h2 {
         border-bottom: solid 2px;
         border-top: solid 2px;
@@ -2137,48 +1895,39 @@ image.desktop {
         padding-left: 0.05em;
         position: relative;
         text-transform: uppercase; }
-    /* line 952, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     #banner .inner p {
       letter-spacing: 0.1em;
       margin: 0;
       text-transform: uppercase; }
-      /* line 957, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
       #banner .inner p a {
         color: inherit;
         font-weight: 400;
         text-decoration: none; }
-    /* line 964, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     #banner .inner footer {
       margin: 2em 0 0 0; }
 
 /* Main */
-/* line 972, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
 #main {
   background-image: url("images/dark-tl.svg"), url("images/dark-tr.svg"), url("images/dark-bl.svg"), url("images/dark-br.svg");
   background-position: top left, top right, bottom left, bottom right;
   background-repeat: no-repeat;
   background-size: 25em;
   padding: 7em 0; }
-  /* line 979, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   #main > :last-child {
     margin-bottom: 0; }
-  /* line 984, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   #main .sidebar section {
     border-top: solid 1px rgba(124, 128, 129, 0.2);
     margin: 3em 0 0 0;
     padding: 3em 0 0 0; }
-    /* line 989, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     #main .sidebar section:first-child {
       border-top: 0;
       padding-top: 0;
       margin-top: 0; }
 
-/* line 998, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
 body.index #main {
   padding-top: 5em; }
 
 /* CTA */
-/* line 1004, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
 #cta {
   background-attachment: fixed;
   background-color: #645862;
@@ -2189,31 +1938,25 @@ body.index #main {
   color: #fff;
   padding: 5em;
   text-align: center; }
-  /* line 1015, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   #cta header {
     margin-bottom: 2em; }
 
 /* Footer */
-/* line 1022, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
 #footer {
   background: #E8EEF4;
   color: #7c8081;
   padding: 5em 5em 10em 5em;
   text-align: center; }
-  /* line 1028, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   #footer .copyright {
     font-size: 0.8em;
     line-height: 1em; }
-    /* line 1032, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     #footer .copyright a {
       color: inherit; }
-    /* line 1036, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     #footer .copyright li {
       display: inline-block;
       margin-left: 1em;
       padding-left: 1em;
       border-left: dotted 1px; }
-      /* line 1042, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
       #footer .copyright li:first-child {
         margin: 0;
         padding: 0;
@@ -2222,150 +1965,131 @@ body.index #main {
 /* Wide */
 @media screen and (max-width: 1680px) {
   /* Basic */
-  /* line 1057, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   body, input, select, textarea {
     font-size: 14pt; }
+
   /* Section/Article */
-  /* line 1064, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   header.special {
     padding-top: 5.5em;
     margin-bottom: 4em; } }
-
 /* Normal */
 @media screen and (max-width: 1280px) {
   /* Basic */
-  /* line 1078, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   body, input, select, textarea {
     font-size: 13pt;
     letter-spacing: 0.025em;
     line-height: 1.65em;
     text-align: justify; }
-  /* line 1085, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
+
   h1, h2, h3, h4, h5, h6 {
     line-height: 1.5em; }
+
   /* Section/Article */
-  /* line 1092, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   header.major {
     padding-bottom: 1.5em; }
-  /* line 1098, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
+
   footer.major {
     padding-top: 2em; }
-  /* line 1104, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
+
   image.desktop {
     display: none; }
+
   /* Wrapper */
-  /* line 1110, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   .wrapper {
     margin-bottom: 4em;
     padding: 4em 3em; }
-    /* line 1114, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     .wrapper.style4 {
       padding: 3em; }
+
   /* Header */
-  /* line 1124, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   #header nav ul li {
     margin-left: 1em; }
+
   /* Banner */
-  /* line 1133, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   #banner {
     background-attachment: scroll; }
+
   /* CTA */
-  /* line 1139, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   #cta {
     padding: 4em;
     background-attachment: scroll; }
+
   /* Footer */
-  /* line 1146, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   #footer {
     padding: 4em; } }
-
 /* Narrow */
 @media screen and (max-width: 980px) {
   /* Basic */
-  /* line 1160, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   body, input, select, textarea {
     font-size: 13pt;
     letter-spacing: 0.025em;
     line-height: 1.5em; }
+
   /* Section/Article */
-  /* line 1169, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   header br {
     display: block; }
-  /* line 1173, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   header.major {
     padding-bottom: 1em; }
-  /* line 1177, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   header.special {
     padding-left: 2.5em;
     padding-right: 2.5em; }
-  /* line 1184, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
+
   footer.major {
     padding-top: 1.5em; }
+
   /* Wrapper */
-  /* line 1191, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   .wrapper {
     margin-bottom: 3em;
     padding: 3em 2.5em; }
-    /* line 1196, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     .wrapper.special br {
       display: block; }
-    /* line 1201, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     .wrapper.style1 {
       padding: 0 2.5em; }
-    /* line 1205, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     .wrapper.style2 {
       background-size: 15em; }
-    /* line 1209, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     .wrapper.style4 {
       padding: 2.5em; }
+
   /* Banner */
-  /* line 1216, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   #banner {
     background-attachment: fixed;
     background-size: cover; }
+
   /* Main */
-  /* line 1223, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   #main {
     background-size: 15em; }
+
   /* CTA */
-  /* line 1229, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   #cta {
     background-attachment: fixed;
     background-size: cover;
     padding: 3em; } }
-
 /* Narrower */
-/* line 1239, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
 #navPanel, #navButton {
   display: none; }
 
 @media screen and (max-width: 840px) {
   /* Basic */
-  /* line 1247, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   html, body {
     overflow-x: hidden; }
-  /* line 1252, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
+
   header.major {
     padding-bottom: 0.25em; }
-  /* line 1256, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   header.special {
     margin-bottom: 4em;
     padding-top: 5em; }
-    /* line 1260, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     header.special:before, header.special:after {
       width: 40%; }
-    /* line 1265, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     header.special h2 + p {
       padding-top: 1.25em; }
+
   /* Section/Article */
-  /* line 1273, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   section {
     margin: 1em 0 1em 0; }
-    /* line 1276, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     section:first-child {
       margin-top: 0; }
+
   /* Button */
-  /* line 1287, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   input[type="button"].small,
   input[type="submit"].small,
   input[type="reset"].small,
@@ -2373,66 +2097,60 @@ body.index #main {
     font-size: 0.8em;
     min-width: 18em;
     padding: 0.75em 0; }
+
   /* List */
-  /* line 1297, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   ul.featured-icons {
     margin: 0; }
-    /* line 1300, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     ul.featured-icons li {
       display: inline-block;
       float: none;
       width: auto; }
-      /* line 1305, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
       ul.featured-icons li .icon {
         font-size: 4em;
         width: 1.25em; }
-  /* line 1313, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   ul.buttons li {
     display: block;
     padding: 1em 0 0 0; }
-  /* line 1321, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
+
   image.desktop {
     display: none; }
+
   /* Header */
-  /* line 1328, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   #header {
     display: none; }
+
   /* Banner */
-  /* line 1334, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   #banner {
     margin: 0; }
+
   /* Wrapper */
-  /* line 1341, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   .wrapper.special-alt {
     text-align: center; }
-  /* line 1345, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   .wrapper.style4 {
     padding-bottom: 3em; }
+
   /* Main */
-  /* line 1352, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   #main {
     padding: 5em 0; }
-    /* line 1355, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     #main .sidebar {
       border-top: solid 1px rgba(124, 128, 129, 0.1);
       padding-top: 3em; }
-      /* line 1359, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
       #main .sidebar section {
         border-top: 0;
         padding-top: 0; }
-  /* line 1366, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
+
   body.index #main {
     padding-top: 4.5em; }
+
   /* CTA */
-  /* line 1372, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   #cta {
     margin: 0; }
+
   /* Footer */
-  /* line 1378, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   #footer {
     padding: 4em 1.5em; }
+
   /* Off-Canvas Navigation */
-  /* line 1384, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   #page-wrapper {
     -moz-backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
@@ -2443,7 +2161,7 @@ body.index #main {
     -ms-transition: -ms-transform 0.5s ease;
     transition: transform 0.5s ease;
     padding-bottom: 1px; }
-  /* line 1390, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
+
   #navButton {
     -moz-backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
@@ -2460,7 +2178,6 @@ body.index #main {
     top: 0;
     width: 100%;
     z-index: 10001; }
-    /* line 1401, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     #navButton .toggle {
       text-decoration: none;
       height: 60px;
@@ -2471,7 +2188,6 @@ body.index #main {
       width: 100%;
       border: 0;
       outline: 0; }
-      /* line 8, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/libs/_mixins.scss */
       #navButton .toggle:before {
         -moz-osx-font-smoothing: grayscale;
         -webkit-font-smoothing: antialiased;
@@ -2479,7 +2195,6 @@ body.index #main {
         font-style: normal;
         font-weight: normal;
         text-transform: none !important; }
-      /* line 1412, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
       #navButton .toggle:before {
         color: #fff;
         content: '\f0c9';
@@ -2492,7 +2207,6 @@ body.index #main {
         top: 11px;
         width: 60px;
         z-index: 1; }
-      /* line 1426, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
       #navButton .toggle:after {
         background: rgba(163, 169, 170, 0.75);
         border-radius: 2px;
@@ -2502,7 +2216,7 @@ body.index #main {
         position: absolute;
         top: 10px;
         width: 60px; }
-  /* line 1439, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
+
   #navPanel {
     -moz-backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
@@ -2530,7 +2244,6 @@ body.index #main {
     letter-spacing: 0.075em;
     text-transform: uppercase;
     padding: 0.25em 0.75em 1em 0.75em; }
-    /* line 1458, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     #navPanel .link {
       border: 0;
       border-top: solid 1px rgba(255, 255, 255, 0.05);
@@ -2540,204 +2253,223 @@ body.index #main {
       line-height: 3em;
       opacity: 0.75;
       text-decoration: none; }
-      /* line 1468, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
       #navPanel .link.depth-0 {
         font-weight: 900; }
-      /* line 1472, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
       #navPanel .link:first-child {
         border-top: 0; }
-    /* line 1477, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     #navPanel .indent-1 {
       display: inline-block;
       width: 1em; }
-    /* line 1478, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     #navPanel .indent-2 {
       display: inline-block;
       width: 2em; }
-    /* line 1479, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     #navPanel .indent-3 {
       display: inline-block;
       width: 3em; }
-    /* line 1480, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     #navPanel .indent-4 {
       display: inline-block;
       width: 4em; }
-    /* line 1481, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     #navPanel .indent-5 {
       display: inline-block;
       width: 5em; }
-  /* line 1486, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
+
   body.navPanel-visible #page-wrapper {
     -moz-transform: translateX(275px);
     -webkit-transform: translateX(275px);
     -ms-transform: translateX(275px);
     transform: translateX(275px); }
-  /* line 1490, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   body.navPanel-visible #navButton {
     -moz-transform: translateX(275px);
     -webkit-transform: translateX(275px);
     -ms-transform: translateX(275px);
     transform: translateX(275px); }
-  /* line 1494, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   body.navPanel-visible #navPanel {
     -moz-transform: translateX(0);
     -webkit-transform: translateX(0);
     -ms-transform: translateX(0);
     transform: translateX(0); } }
-
 /* Mobile */
 @media screen and (max-width: 736px) {
   /* Basic */
-  /* line 1510, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   body {
     min-width: 320px; }
-  /* line 1514, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
+
   h2 {
     font-size: 1.25em;
     letter-spacing: 0.1em; }
-  /* line 1519, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
+
   h3 {
     font-size: 1em;
     letter-spacing: 0.025em; }
-  /* line 1524, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
+
   p {
     text-align: justify; }
+
   /* Section/Article */
-  /* line 1530, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   header {
     text-align: center; }
-    /* line 1533, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     header.major {
       padding-bottom: 0; }
-    /* line 1537, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     header.special {
       margin-bottom: 3em;
       padding-left: 1.5em;
       padding-right: 1.5em; }
-      /* line 1542, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
       header.special:before, header.special:after {
         width: 38%; }
-      /* line 1547, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
       header.special .icon {
         font-size: 0.75em;
         top: 1.5em; }
-    /* line 1553, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     header p {
       text-align: center; }
-  /* line 1559, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
+
   footer.major {
     padding-top: 0; }
+
   /* medium+ screen sizes */
   /* small screen sizes */
   /* Icon */
-  /* line 1606, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   .icon.circle {
     font-size: 1em; }
+
   /* Button */
-  /* line 1613, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   input[type="button"],
   input[type="submit"],
   input[type="reset"],
   .button {
     max-width: 20em;
     width: 100%; }
-    /* line 1620, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     input[type="button"].fit,
     input[type="submit"].fit,
     input[type="reset"].fit,
     .button.fit {
       width: auto; }
+
   /* List */
-  /* line 1629, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   ul.icons li {
     padding-left: 0.25em; }
-  /* line 1636, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   ul.featured-icons li .icon {
     width: 1.1em; }
-  /* line 1642, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   ul.buttons {
     text-align: center; }
-  /* line 1648, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
+
   image.desktop {
     display: none; }
+
   /* Wrapper */
-  /* line 1655, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   .wrapper {
     margin-bottom: 2.5em;
     padding: 2.25em 1.5em; }
-    /* line 1660, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     .wrapper.special br {
       display: block; }
-    /* line 1665, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     .wrapper.style1 {
       padding: 0 1.5em; }
-    /* line 1669, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     .wrapper.style2 {
       background-size: 10em;
       padding: 2.25em 1.5em; }
-    /* line 1674, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     .wrapper.style4 {
       background-size: 10em;
       padding: 1.5em 1.5em 3em 1.5em; }
+
   /* Banner */
-  /* line 1682, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   #banner {
     background-attachment: fixed;
     background-size: cover;
     padding: 6em 0; }
-    /* line 1687, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     #banner .inner {
       background: none;
       display: block;
       padding: 0 1.5em; }
-      /* line 1693, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
       #banner .inner header h2 {
         font-size: 1.5em; }
-      /* line 1698, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
       #banner .inner p {
         text-align: center; }
-      /* line 1702, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
       #banner .inner br {
         display: block; }
+
   /* Main */
-  /* line 1710, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   #main {
     background-size: 10em;
     padding: 3.5em 0 2.5em 0; }
-  /* line 1715, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
+
   body.index #main {
     padding: 2.5em 0 0 0; }
-  /* line 1719, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
+
   body.contact #main {
     padding-bottom: 0; }
+
   /* CTA */
-  /* line 1725, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   #cta {
     background-size: cover;
     padding: 3em 1.5em; }
+
   /* Footer */
-  /* line 1732, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   #footer {
     padding: 3em 1.5em; }
-    /* line 1736, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
     #footer .copyright li {
       display: block;
       margin: 1em 0 0 0;
       padding: 0;
       border: 0; }
+
   /* Off-Canvas Navigation */
-  /* line 1749, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   #navButton .toggle:before {
     top: 8px;
     left: 8px;
     width: 50px;
     height: 34px;
     line-height: 34px; }
-  /* line 1757, ../../Users/P50/Documents/GitHub/algorithmicdesign.github.io/assets/sass/main.scss */
   #navButton .toggle:after {
     top: 8px;
     left: 8px;
     width: 50px;
     height: 34px; } }
+.bibtex {
+  cursor: pointer; }
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+  overflow: hidden;
+  /* Enable scroll if needed */ }
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 10% auto;
+  /* 15% from the top and centered */
+  padding: 40px;
+  border: 1px solid #fff;
+  width: 70%;
+  /* Could be more or less, depending on screen size */
+  max-height: 70vh;
+  overflow: auto; }
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold; }
+  .close:hover, .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer; }
+
+.bibtex-url {
+  text-align: right; }
 
 /*# sourceMappingURL=main.css.map */
