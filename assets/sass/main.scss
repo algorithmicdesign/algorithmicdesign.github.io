@@ -94,7 +94,7 @@
 		font-style: italic;
 	}
 
-	p, pright, pcenter, ul, ol, dl, table, blockquote {
+	p, pright, pcenter, ul, ol, dl, table, blockquote, code {
 		margin: 0 0 2em 0;
 	}
 
@@ -106,7 +106,7 @@
         text-align: right;
 	}
 
-	pcenter, ul, ol, dl, table, blockquote {
+	pcenter, ul, ol, dl, table, blockquote, code {
 		text-align: center;
 	}
 
@@ -158,6 +158,34 @@
 		padding: 1em 0 1em 2em;
 	}
 
+	code {
+		border-radius: _size(border-radius);
+		border: solid 2px;
+		font-family: "Courier New", monospace;
+		font-size: 1rem;
+		margin: 0 0.1rem;
+		padding: 0.1rem 0.4rem;
+		background: #F6F6F6;
+		border-color: #EEEEEE ;
+	}
+
+	pre {
+		-webkit-overflow-scrolling: touch;
+		font-family: _font(family-fixed);
+		font-size: 1rem;
+		margin: 0 0 _size(element-margin) 0;
+
+		code {
+			display: block;
+			line-height: 1.75;
+			text-align: left;
+			padding: 0rem 0rem;
+			overflow-x: auto;
+			background: #F6F6F6;
+			border-color: #EEEEEE ;
+		}
+	}
+	
 /* Section/Article */
 
 	section, article {
