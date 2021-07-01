@@ -109,7 +109,7 @@
 
                         <video controls preload="auto" id="Khepri.gh Presentation at eCAADe
                         Conference 2020" class="12u 12u(narrower)">
-                                <source src="http://web.ist.utl.pt/antonio.menezes.leitao/ADA/documents/publications_pres/2020_VisualMeetsTextual.mp4" type="video/mp4">
+                                <source src="https://web.ist.utl.pt/antonio.menezes.leitao/ADA/documents/publications_pres/2020_VisualMeetsTextual.mp4" type="video/mp4">
                             </video>
 
                         <pcenter> Skip to min 2:11 for specifics on the project.</pcenter>
@@ -147,7 +147,7 @@
                         <p>Traceability entails the identification of which parts of the model
                         correspond to which parts of the program, and vice-versa, a crucial
                         correlation to understand, maintain, and debug the program. Khepri.gh
-                        maintains Grasshopper’s unidirectional traceability, relating program
+                        maintains Grasshopper&#39;s unidirectional traceability, relating program
                         components to model elements but across multiple backends.
                         </p>
                          
@@ -157,17 +157,17 @@
 
                         <h3>Immediate Feedback</h3>
 
-                        <p>Immediate feedback is the ability to re-compute changes to the program’s
+                        <p>Immediate feedback is the ability to re-compute changes to the program&#39;s
                         input or to the program itself in (near) real time, allowing designers to
-                        easily understand the program’s behavior. Grasshopper immediately updates
+                        easily understand the program&#39;s behavior. Grasshopper immediately updates
                         the geometry upon adding/changing components, Boolean toggles or sliders.
                         Khepri.gh extends this feature to the various backends but performance must
                         be taken into consideration when dealing with complex models. Scale is
-                        already an issue for Grasshopper’s optimized preview mode (i.e., non-baked
+                        already an issue for Grasshopper&#39;s optimized preview mode (i.e., non-baked
                         geometry); even more so for Khepri.gh, which has to generate the geometry in
                         the backends, a somewhat equivalent process to baking. This process is
                         considerably faster in more performative backends, such as game engines, or
-                        using CAD tool’s more performative view options, such as wireframe models.
+                        using CAD tool&#39;s more performative view options, such as wireframe models.
                         </p>
 
                         <h3>Code editing options</h3>
@@ -178,7 +178,7 @@
                         parcel of code, using the textual programming editor available within
                         Grasshopper. However, for more lengthier components, (C) the code can also
                         be accessed in a textual programming editor, such as Atom by right clicking
-                        a component and choosing the ‘Khepri code’ option.
+                        a component and choosing the ‘Khepri code&#39; option.
                         </p>
 
                         <a href="kheprigh/code_options.png" class="image
@@ -187,7 +187,7 @@
 
                         <h3>No Repetition</h3>
 
-                        <p>Following Grasshopper’s native structure, VB, C\# or Python components
+                        <p>Following Grasshopper&#39;s native structure, VB, C\# or Python components
                         motivate the construction of standalone components which both implement and
                         execute operations. When reusing such components, the code is essentially
                         duplicated and further changes to that structure must be performed in all
@@ -239,7 +239,7 @@
 
                         <div class="row">
                             <div class="9u 12u(narrower)">
-                            <p> &#x2714; Download files from <a href="kheprigh_plugins.zip">here</a>.
+                            <p> &#x2714; Download the relevant <a href="kheprigh_plugins.zip">files</a>.
                                 You should have 4 files as shown in the image.
                                 <br />
                                 &#x2714; Make sure the files are unblocked: <i>rigth click > properties >
@@ -388,7 +388,7 @@
                             <img src="kheprigh/3.png" alt="" title="Component Layout"/></a>
 
                         <p>The order of input/output is irrelevant. Use normal Julia programming
-                        order. Note b’s imperative assignment in the following example.     
+                        order. Note b&#39;s imperative assignment in the following example.     
                         </p>
 
                         <div class="row">
@@ -464,15 +464,15 @@
                         <h3>Types explained</h3>
 
                         <p>
-                        <b>Number(ss), Integer(ss), Point(ss), Vector(ss), String(ss), Boolean(ss),
-                        Path(ss)</b>
+                        <b>Number(s(s)), Integer(s(s)), Point(s(s)), Vector(s(s)), String(s(s)), Boolean(s(s)),
+                        Path(s(s))</b>
                         <br /> <br />
                         For the 7 basic types there is a direct correspondence between Julia and
                         Grasshopper. This means you can input and output them at will, interchanging
-                        data between the two programming languages, whist Khepri automatically
+                        data between the two programming languages, whilst Khepri automatically
                         converts from one end to the other as needed.
                         <br /> <br />
-                        <b>Eval(ss)</b>
+                        <b>Eval(s(s))</b>
                         <br /> <br />
                         Eval deals with any Julia expression provided as a sting – these may come
                         from a Grasshopper panel (no quotation marks needed! The panel produces a
@@ -495,22 +495,18 @@
                         Attention: this type cannot be initialized within the component, meaning it
                         cannot have a default.
                         <br /> <br />
-                        <b>JL(ss)</b>
+                        <b>JL(s(s))</b>
                         <br /> <br />
                         Data types only Julia can process. There is no correspondent representation
                         in Grasshopper. Hence, Khepri will return a pointer (memory). You may
                         visualize the pointer using a Grasshopper panel, but you may not operate on
-                        it using Grasshopper components, only Khepri’s. Examples include functions,
+                        it using Grasshopper components, only Khepri&#39;s. Examples include functions,
                         shapes, etc.
                         </p>
 
                         <h3>&#x26A0; Notes for debugging</h3>
 
-                        <p>
-                        &#x2022; &#960; is not a float! It is an irrational. It will not fit the
-                        Number Type.
-                        <br />
-                        &#x2022; Code written in components is more efficient than using panels and Eval
+                        <p> &#x2022; Code written in components is more efficient than using panels and Eval
                         types (although the latter is more visually appealing), because everything is
                         compiled on a first read. Panels being inputted onto an Eval must recompile
                         all the time. this is a time vs. beauty tradeoff.
