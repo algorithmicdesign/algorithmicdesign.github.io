@@ -91,25 +91,42 @@
                      </section>  
 
                      <section class="wrapper style3 container special">
-                        <div class="row"><h3>1.</h3>
-                        <h3> Installing the Julia programming language </h3> </div>
-                            <p> First, install <b>Julia</b>: <a href="https://julialang.org/downloads/">https://julialang.org/downloads/</a>
-                                <br />
-                                More specifically, use: <a href="https://julialang-s3.julialang.org/bin/winnt/x64/1.5/julia-1.5.1-win64.exe">https://julialang-s3.julialang.org/bin/winnt/x64/1.5/julia-1.5.1-win64.exe</a>
-                                <br />
-                                We recommend that you accept the default installation options.
-                            </p>
+                        <div class="row">
+                            <div class="10u 12u">
+                                <div class="row">
+                                    <h3>1.</h3>
+                                    <h3> Installing the Julia programming language </h3>
+                                </div>
+                                <p> First, install <b>Julia</b>: <a href="https://julialang.org/downloads/">https://julialang.org/downloads/</a>
+                                    <br />
+                                    More specifically, use: <a href="https://julialang-s3.julialang.org/bin/winnt/x64/1.5/julia-1.5.1-win64.exe">https://julialang-s3.julialang.org/bin/winnt/x64/1.5/julia-1.5.1-win64.exe</a>
+                                    <br />
+                                    We recommend that you accept the default installation options.
+                                </p>
+                            </div>
+                            <div class="2u 12u">
+                                <a class="image featured"><img src="khepri/julia.png" alt="" title="Julia"/></a>
+                            </div>
+                        </div>
                      </section> 
                          
                      <section class="wrapper style3 container special">
                         <div class="row"><h3>2. OPTION A:</h3>
                         <h3> Installing the Visual Studio Code Programming Environment </h3> </div>
+
+                        <div class="row">
+                            <div class="10u 12u">
                             <p> Second, install <b>Visual Studio Code</b>: <a href="https://code.visualstudio.com/">https://code.visualstudio.com/</a>
                                 <br />
                                 More specifically, use: <a href="https://code.visualstudio.com/Download#">https://code.visualstudio.com/Download#</a>
                                 <br />
                                 Again, we recommend that you accept the default installation options.
                             </p>
+                            </div>
+                            <div class="2u 12u">
+                                <a class="image featured"><img src="khepri/vscode.png" alt="" title="VSCode"/></a>
+                           </div>
+                        </div>
 
                             <h4> Installing the Julia Extension </h4> 
                                 <p> Third, launch Visual Studio Code and install the <b>Julia extension</b>.
@@ -147,13 +164,21 @@
                     <section class="wrapper style3 container special">
                         <div class="row"><h3>2. OPTION B:</h3>
                         <h3> Installing the Atom Programming Environment </h3></div> 
-                            <p> Second, install <b>Atom</b>: <a href="https://atom.io/">https://atom.io/</a>
-                                <br />
-                                More specifically, use: <a href="https://atom.io/download/windows_x64">https://atom.io/download/windows_x64</a>
-                                <br />
-                                Again, we recommend that you accept the default installation options.
-                            </p>
-                            
+
+                        <div class="row">
+                            <div class="10u 12u">
+                                <p> Second, install <b>Atom</b>: <a href="https://atom.io/">https://atom.io/</a>
+                                    <br />
+                                    More specifically, use: <a href="https://atom.io/download/windows_x64">https://atom.io/download/windows_x64</a>
+                                    <br />
+                                    Again, we recommend that you accept the default installation options.
+                                </p>
+                            </div>
+                            <div class="2u 12u">
+                                <a class="image featured"><img src="khepri/atom.png" alt="" title="Atom"/></a>
+                            </div>
+                        </div>
+                                
                             <h4> Installing the Juno Extension </h4> 
                                 <p> Third, launch Atom and install <b>Juno</b>.
                                     <br />
@@ -177,20 +202,29 @@
                     </section> 
                 
                     <section class="wrapper style3 container special">
-                        <div class="row"><h3>3.</h3>
-                        <h3> Installing the Khepri algorithmic design tool </h3> </div>
-                            <p> With the cursor in the REPL press <i>Enter</i>. Julia should have
-                                started and will begin its own installation process. When it's done,
-                                press the <b>]</b> key. You will notice the Julia prompt (<code>julia></code>) change to
-                                a package installation prompt (<code>pkg></code>). In front of it, write:
-                                <code>add https://github.com/aptmcl/Khepri.jl</code>
-                                <br />
-                                When it&#39;s done, press <i>backspace</i> (&#8592) to return to the Julia prompt (<code>julia></code>).
-                                <br /><br />
-                                To test if the installation worked, write the following
-                                lines of code in the REPL and evaluate each one by clicking
-                                Enter after each instruction:
-                            </p>    
+                        <div class="row">
+                            <div class="10u 12u">
+                                <div class="row"><h3>3.</h3>
+                                <h3> Installing the Khepri algorithmic design tool </h3> </div>
+
+                                <p> With the cursor in the REPL press <i>Enter</i>. Julia should have
+                                    started and will begin its own installation process. When it's done,
+                                    press the <b>]</b> key. You will notice the Julia prompt (<code>julia></code>) change to
+                                    a package installation prompt (<code>pkg></code>). In front of it, write:
+                                    <code>add https://github.com/aptmcl/Khepri.jl</code>
+                                    <br />
+                                    When it&#39;s done, press <i>backspace</i> (&#8592) to return to the Julia prompt (<code>julia></code>).
+                                </p> 
+                            </div>
+                            <div class="2u 12u">
+                                <a class="image featured"><img src="khepri/khepri.png" alt="" title="Khepri"/></a>
+                            </div>
+                        </div>
+                        <p> To test if the installation worked, we begin by connecting to the
+                        AutoCAD backends. Write the following lines of code in the REPL and evaluate
+                        each one by clicking <i>Enter</i> after each instruction:
+                        </p>
+
 <pre><code>
     using Khepri
     backend(autocad)
@@ -228,8 +262,14 @@
                             </p>
                  </section>    
 
+            <div class="gallery">     
+
                  <section class="wrapper style3 container special">
-                    <h2> Beginner tips for the Visual Studio Code Programming Environment (option A)</h2>
+                    <h2> Beginner tips for Visual Studio Code (option A)</h2>
+
+                    <a href="khepri/vscode_env.png" class="image featured"><img src="khepri/vscode_env.png"
+                    alt="" title="Visual Studio Code programming environment"/></a>
+                    <br />
 
                    <h4> Opening a Julia file </h4> <!-- &#x2714  -->
                     <p>As you have seen, you can write and run programs directly in the Julia REPL.
@@ -325,8 +365,12 @@
                 </section>    
 
                 <section class="wrapper style3 container special">                    
-                  <h2> Beginner tips for the Atom Programming Environment (option B) </h2>
-                  
+                  <h2> Beginner tips for Atom (option B) </h2>
+
+                  <a href="khepri/atom_env.png" class="image featured"><img src="khepri/atom_env.png"
+                    alt="" title="Atom programming environment"/></a>
+                    <br />
+
                     <h4> Opening a Julia file </h4>
                     <p> As you have seen, you can write and run programs directly in the Julia REPL.
                         However, these instructions cannot be saved for later use. The REPL is useful
@@ -337,7 +381,7 @@
                         To begin programming, open a new text file. Go to the <i>Juno</i> menu in the top
                         bar and choose <i>New Julia File</i>. Alternatively, click on the <i>New Julia File</i>
                         icon on the <i>Juno</i> pane to the left of your workspace. The icon resembles a
-                        sheet of paper with the symbols &#60;/> on it. You can now start developing
+                        sheet of paper with the symbol <code>&#60;/></code> on it. You can now start developing
                         Julia code within the file.
                         <br /><br />
                         Note that Atom offers you a blank file (untitled) to start with, or you can
@@ -368,17 +412,17 @@
                         <br />
                         &#x2022; <i>Interrupt Julia</i> (Ctrl+Shift+C) interrupts or cancels a process. It is
                         useful to break infinite loops or erroneous runs. In the <i>Juno</i> pane, the
-                        icon resembles a pause symbol.
+                        icon resembles a pause symbol: <code>||</code>.
                         <br />
-                        &#x2022; <i>Strop Julia</i> (Ctrl+J Ctrl+K) for exiting the Julia REPL. In the <i>Juno</i> pane,
-                        the icon resembles a stop symbol, a square with rounded corners.
+                        &#x2022; <i>Stop Julia</i> (Ctrl+J Ctrl+K) for exiting the Julia REPL. In the <i>Juno</i> pane,
+                        the icon resembles a stop symbol: <code>&#9724;</code>.
                         <br />
                         &#x2022; In the <i>Juno</i> menu, there is also an option for cleaning the REPL history.
                         Click on <i>Clear REPL</i> (Ctrl+L or Ctrl+J Ctrl +C).
 
-
                </section>  
                                                 
+            </div>
 
             </article>
 
