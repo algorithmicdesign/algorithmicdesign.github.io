@@ -1,7 +1,13 @@
 {
-"version": 3,
-"mappings": "AAKA;;;;EAIE;AAEF,YAAY;AAGV,cAAO;EACN,OAAO,EAAE,GAAG",
-"sources": ["../sass/ie9.scss"],
-"names": [],
-"file": "ie9.css"
+    "version": 3,
+    "mappings": "AAKA;;;;EAIE;AAEF,YAAY;AAEX,AACC,OADM,CACN,MAAM,CAAC;EACN,OAAO,EAAE,GAAG;CACZ",
+    "sources": [
+        "ie9.scss",
+        "libs/_vars.scss",
+        "libs/_functions.scss",
+        "libs/_mixins.scss",
+        "libs/_skel.scss"
+    ],
+    "names": [],
+    "file": "ie9.css"
 }
