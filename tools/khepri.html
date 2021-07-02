@@ -84,7 +84,7 @@
                             <br />
                             3. The algorithmic design tool, <b>Khepri</b>.
                             <br /><br />
-                            This page contains the instructions for the required installations as
+                            This page contains the instructions for the required installations, as
                             well as some beginner tips on how to use either programming
                             environment.    
                         </p>
@@ -139,30 +139,29 @@
                                     In Visual Studio Code click the <i>View</i> menu in the top
                                     bar, and choose <i>Extensions</i> (Ctrl+Shift+X).
                                     <br />
-                                    In the extensions pane, type Julia into the search engine (on top)
+                                    In the extensions pane, type <i>Julia</i> into the search engine (on top)
                                     and select the Julia extension by clicking the <i>install</i> button.
                                     Visual Studio Code will install it. When the installation completes,
-                                    restart  Visual Studio Code.
+                                    restart Visual Studio Code.
                                 </p>
 
                             <h4> Launching the Terminal and the Julia REPL </h4> 
-                                <p> To run code, or to visualize the results of any program you run,
-                                    you must launch the <b>Terminal (or REPL)</b>. If this tab is not already
-                                    visible at the bottom of your workspace, go to the <i>View</i> menu in the
-                                    top bar and choose <i>Terminal</i> (Ctrl+ç in a PT keyboard; Ctrl+` in a US
-                                    keyboard).
-                                    <br />
-                                    The terminal, at the bottom of your screen, should indicate that you
-                                    are running Julia. If you do not see a Julia prompt in your terminal
-                                    (<code>julia></code>), change the dropdown menu on the top right corner of the
-                                    terminal to the <i>Julia REPL</i> option.
-                                    <br /> 
-                                    Another option to start the Julia REPL is available directly through
-                                    the <i>Command Pallet</i>e. Go to the <i>View</i> menu in the top bar and choose
-                                    <i>Command Pallete</i> (Ctrl+Shift+P). Type <i>Julia: Start REPL</i> in the search
-                                    engine that appears and select the corresponding option. The
-                                    terminal should appear at the bottom of your workspace. The same can
-                                    be achieved with the following key bindings: Alt+J Alt+O.
+                                <p> To run code, or to visualize the results of any program, 
+                                launch the <b>Terminal (or REPL)</b> by going to
+                                the <i>View</i> menu in the top bar and choosing <i>Terminal</i>
+                                (Ctrl+ç in a PT keyboard; Ctrl+` in a US keyboard).
+                                <br /> The terminal, which should now be visible at the bottom
+                                of the screen, should also indicate that Julia is running. In
+                                the event a Julia prompt is not visible in the terminal
+                                (<code>julia></code>), change the dropdown menu on the top right
+                                corner of the terminal to the <i>Julia REPL</i> option.
+                                <br /> 
+                                Another option to start the Julia REPL is available directly through
+                                the <i>Command Pallet</i>e. Go to the <i>View</i> menu in the top bar and choose
+                                <i>Command Pallete</i> (Ctrl+Shift+P). Type <i>Julia: Start REPL</i> in the search
+                                engine that appears and select the corresponding option. The
+                                terminal should appear at the bottom of your workspace. The same can
+                                be achieved with the following key bindings: Alt+J Alt+O.
                                 </p>
                                 <br />
                     
@@ -187,21 +186,22 @@
                                 <p> Third, launch Atom and install <b>Juno</b>.
                                     <br />
                                     In Atom, either choose <i>Install Package</i> in the list of options
-                                    that appear or go to <i>Settings</i> (Ctrl+,) and go to the Install
-                                    panel. Type uber-juno into the search box and hit <i>Enter</i>. Click
+                                    that appear or go to <i>Settings</i> (Ctrl+,) and select the <i>Install</i>
+                                    panel. Type <i>uber-juno</i> into the search box and hit <i>Enter</i>. Click
                                     the Install button on the package of the same name and wait.
                                     Atom will install several packages and will inform you when it's
                                     done. You can answer <i>Ye</i>s to all questions presented by Atom.
                                 </p>
 
                             <h4> Opening the Julia REPL </h4> 
-                                <p> When the installation completes, you will have a pane at the
-                                    bottom (<b>REPL</b>) for interacting with Julia. If the REPL does not show,
-                                    go to the <i>Juno</i> menu in the top bar and choose <i>Open REPL</i> (Ctrl+J
-                                    Ctrl+O). Alternatively, use the new <i>Juno tab</i>, which should have
-                                    appeared at the left of your workspace after the Juno installation.
-                                    Find the REPL icon in the tab and click on it. The icon resembles a
-                                    rectangular screen with the symbols <code>>_</code> on it.
+                                <p> When the installation completes, a new pane should appear at the
+                                bottom (<b>REPL</b>) for interacting with Julia. If the REPL does
+                                not show, go to the <i>Juno</i> menu in the top bar and choose
+                                <i>Open REPL</i> (Ctrl+J Ctrl+O). Alternatively, use the new <i>Juno
+                                tab</i>, which should have appeared at the left of your workspace
+                                after the Juno installation, and click on the REPL icon, which
+                                resembles a rectangular screen with the symbols <code>>_</code> on
+                                it.
                                 </p>
                     </section> 
                 
@@ -212,21 +212,22 @@
                                 <h3> Installing the Khepri algorithmic design tool </h3> </div>
 
                                 <p> With the cursor in the REPL press <i>Enter</i>. Julia should have
-                                    started and will begin its own installation process. When it's done,
-                                    press the <b>]</b> key. You will notice the Julia prompt (<code>julia></code>) change to
-                                    a package installation prompt (<code>pkg></code>). In front of it, write:
-                                    <code>add https://github.com/aptmcl/Khepri.jl</code>
+                                    started and will begin its own installation process. When finished,
+                                    press the <b>]</b> key. The Julia prompt (<code>julia></code>) should change to
+                                    a package installation prompt (<code>pkg></code>). In front of it, type
+                                    <code>add https://github.com/aptmcl/Khepri.jl</code> and press <i>Enter</i>.
                                     <br />
-                                    When it&#39;s done, press <i>backspace</i> (&#8592) to return to the Julia prompt (<code>julia></code>).
+                                    After the installation is done, press <i>backspace</i>
+                                    (&#8592;) to return to the Julia prompt (<code>julia></code>).
                                 </p> 
                             </div>
                             <div class="2u 12u">
                                 <a class="image featured"><img src="khepri/khepri.png" alt="" title="Khepri"/></a>
                             </div>
                         </div>
-                        <p> To test if the installation worked, we begin by connecting to the
-                        AutoCAD backends. Write the following lines of code in the REPL and evaluate
-                        each one by clicking <i>Enter</i> after each instruction:
+                        <p> To test if the installation worked, start by connecting to the AutoCAD
+                        backend. Write and evaluate the following lines of code in the REPL by
+                        clicking <i>Enter</i> after each instruction:
                         </p>
 
 <pre><code>
@@ -236,10 +237,9 @@
 
 </code></pre>   
                             <br />
-                            <p> You must also start AutoCAD. If, after starting it, you see an
-                                AutoCAD dialog asking if you want to load <b>Khepri</b>, click on
-                                the button <i>Always Load</i>. You should then see a circle in
-                                AutoCAD.
+                            <p> Then start AutoCAD and open a new drawing. If a dialog box appears
+                            in AutoCAD asking if you want to load <b>Khepri</b>, click on the button
+                            <i>Always Load</i>. A circle should then appear in AutoCAD.
                                 <br /><br />
                                 Note: in case the REPL shows errors and messages such as <i>&#39;Please,
                                 close AutoCAD and retry&#39;</i> or <i>&#39;Please, start/restart
@@ -248,21 +248,21 @@
 
                             <h4> &#x26A0; Troubleshooting </h4> 
 
-                            <p> If an error occurs <b>during the package installation</b> and the following
-                                text appears: <i>ERROR: SystemError: opening file
-                                "C:\\Users\\*name*\\.julia\\registries\\General\\Registry.toml"</i> : No such
-                                file or directory.
-                                <br />
-                                This means the package installer is trying to find a file that is missing.
-                                <i>Registry.toml</i> should be in the path provided and is not, which suggests
-                                Julia was not properly installed. Close the editor (Visual Studio
-                                Code/Atom), and delete the <i>.julia</i> folder from the suggested path
-                                (<i>C:\Users\*name*\.julia,</i> where <i>*name*</i> refers to your own user name). Open
-                                the editor (Visual Studio Code/Atom), launch the <i>Julia REPL</i> and re-try
-                                installing Khepri.
-                                <br />
-                                If this does not work, repeat the process, this time also uninstalling the
-                                Julia language from your computer entirely. Reinstall it again and try anew.
+                            <p> If, <b>during the Khepri package installation</b>, the following
+                            error appears: <i>ERROR: SystemError: opening file "C:\\Users\\&#60;user
+                            name>\\.julia\\registries\\General\\Registry.toml" : No such file or
+                            directory.</i>, it means the package installer is trying to find the
+                            <i>Registry.toml</i> file, which should be in the path provided and is
+                            not. 
+
+                            <br /> Close the editor (Visual Studio Code/Atom), and delete the
+                            <i>.julia</i> folder from the suggested path (<i>C:\Users\&#60;user
+                            name>\.julia</i>). Then, open the editor (Visual Studio Code/Atom),
+                            launch the <i>Julia REPL</i> and repeat Khepri&#39;s inhalation process.
+
+                            <br /> If this does not work, repeat the process once more, this time
+                            also uninstalling the Julia language from your computer entirely.
+                            Reinstall it again and try anew.
                             </p>
                  </section>    
 
@@ -278,94 +278,100 @@
                     <br />
 
                    <h4> Opening a Julia file </h4> <!-- &#x2714  -->
-                    <p>As you have seen, you can write and run programs directly in the Julia REPL.
-                        However, these instructions cannot be saved for later use. The REPL is useful
-                        for testing parts of your program and for visualizing the results of program
-                        runs. For more complex developments, you should work on a Julia file that can be
-                        saved to your computer.
-                        <br /><br />
-                        To begin programming, open a new text file. Go to the <i>File</i> menu in the top
-                        bar and choose <i>New File</i> (Ctrl+N). This will open a new text file. You now
-                        have two options to convert it into a Julia file:
-                        <br />
-                        A. On the bottom right corner of the workspace, you will notice the
-                        file is cataloged as <i>Plain Text</i> in the <i>Select Language Mode</i> button. Click on
-                        it to change the file type. A search engine will appear, where you should
-                        write and select <i>Julia</i>. Your file should now be recognized as a Julia file.
-                        <br />
-                        B. The same effect can be achieved by saving the new text file with the
-                        Julia extension. Select the <i>File</i> menu in the top bar and choose <i>Save As</i>
-                        (Ctrl+Shift+S). In the <i>Save as type</i> dropdown menu select the <i>Julia (*.jl)</i>
-                        option, or simply add the extension yourself to the <i>file name</i> (e.g.,
-                        Untitled.jl).
-                        <br />
-                        You can now start developing Julia code within the file.
+
+                    <p>As mentioned, it is possible to write and run programs directly in the Julia
+                    REPL. However, these instructions cannot be saved for later use. Instead, the
+                    REPL is useful for testing parts of the program and for visualizing the results.
+                    For more complex developments, programs should be developed on a Julia file that can be saved
+                    to the computer.
+                    <br /><br />
+                    To begin programming, open a new text file by going to the <i>File</i> menu in the top
+                    bar and choose <i>New File</i> (Ctrl+N). This will open a new text file. There
+                    are two options to convert it into a Julia file:
+                    <br />
+                    A. On the bottom right corner of the workspace, notice that the
+                    file is cataloged as <i>Plain Text</i> in the <i>Select Language Mode</i> button. Click on
+                    it to change the file type. A search engine will appear, where you should
+                    write and select <i>Julia</i>. The file should now be recognized as a Julia file.
+                    <br />
+                    B. The same effect can be achieved by saving the new text file with the
+                    Julia extension. Select the <i>File</i> menu in the top bar and choose <i>Save As</i>
+                    (Ctrl+Shift+S). In the <i>Save as type</i> dropdown menu select the <i>Julia (*.jl)</i>
+                    option, or simply add the extension to the <i>file name</i> (e.g.,
+                    Untitled.jl).
                     </p>
 
                     <h4> Running Code </h4>
-                    <p>There are several options to run the code in your program. You may run the
-                        full program, or you may prefer to run only parts of it. In either case, the
-                        results of each run will show in the Julia REPL.
+
+                    <p>There are several options to run code in Visual Studio Code: running the
+                        full program or only parts of it. In either case, the
+                        results of each run will appear in the Julia REPL.
                         <br />
                         To run the full program click <i>Shift+Enter</i> when your cursor is anywhere
                         within the program file. 
-                        <br />
-                        To run only parts of the file, you can use <i>Ctrl+Enter</i>, which sends the
-                        current line (where your cursor is) or selection to the REPL, or use
+                        <br /> 
+                        To run only parts of the program file, use <i>Ctrl+Enter</i>, which
+                        sends the current line (where your cursor is) or selection to the REPL and
+                        runs it simultaneously, or use
                         <i>Alt+Enter</i>, which runs the current instruction and moves your cursor
                         downwards simultaneously.
                         <br /><br />
                         Other useful commands include:
                         <br />
-                        &#x2022; <i>Ctrl+D</i> or <i>Alt+J Alt+K</i> for exiting the Julia REPL
+                        &#x2022; <i>Ctrl+D</i> or <i>Alt+J Alt+K</i> to exit the Julia REPL
                         <br />
-                        &#x2022; <i>Ctrl+C</i> to interrupt or cancel a process. Useful to break infinite
-                        loops or erroneous runs.
+                        &#x2022; <i>Ctrl+C</i> to interrupt or cancel a process.
                         <br />
-                        &#x2022; <i>Ctrl+L</i> to clear terminal screen.
+                        &#x2022; <i>Ctrl+L</i> to clear the terminal screen.
                     </p>
 
                     <h4> Inline visualization of results </h4>
-                    <p> We have shown you how to visualize program results in the REPL. There are
-                        other options for the visualization of results, namely <i>inline</i> visualization,
-                        which allows you to see the results of your program directly in the program
-                        file, in front of the line you just ran. Go to the <i>File</i> menu in the top bar,
+
+                    <p> Besides the REPL, there are
+                        other options for the visualization of results, namely the <i>inline</i> visualization,
+                        which shows the results of the program directly in the program
+                        file, in front of the line(S) that were ran. To activate this, go to the <i>File</i> menu in the top bar,
                         choose <i>Preferences</i>, and then <i>Settings</i> (Ctrl+,). Here open the <i>Extensions</i>
                         drop-down menu and find <i>Julia</i>. In the <i>Julia extension settings</i> menu, change the
                         default options in <i>Execution: Result Type</i> to inline or to both.
                     </p>
 
                    <h4> &#x26A0; Troubleshooting </h4> <!-- &#x2718 -->
-                    <p> <b>Julia REPL fails to start</b> and an error message with either of the following
-                        texts appears: <i>The terminal process failed to launch: Path to shell executable
-                        is not a file of a symlink</i> or <i>Path to shell executable does not exist.</i>
-                        <br />
-                        If this is the case, Visual Studio Code could not find the <i>Julia.exe</i> file to
-                        launch the Julia shell in the editor. You must provide the path by hand.
+                   
+                    <p> When the <b>Julia REPL fails to start</b> the following error messages may
+                    appear: <i>The terminal process failed to launch: Path to shell executable is
+                    not a file of a symlink</i> or <i>Path to shell executable does not exist.</i>
                         <br /> 
-                        Go to the <i>File</i> menu in the top bar, choose <i>Preferences</i>, and then <i>Settings</i>
+                        These messages mean that Visual Studio Code could not find the
+                        <i>Julia.exe</i> file to launch the Julia shell in the editor. In these
+                        cases, provide the file path by hand by going to the <i>File</i> menu in the
+                        top bar, choosing <i>Preferences</i>, and then <i>Settings</i>
                         (Ctrl+,). Here open the <i>Extensions</i> drop-down menu and find <i>Julia</i>. In the
-                        <i>Julia extension settings</i> menu, find the <i>Julia: Executable Path</i> option. You
-                        will paste the correct path on the text box below. But first, find the file
-                        on your computer:
+                        <i>Julia extension settings</i> menu, find the <i>Julia: Executable Path</i>
+                        option. The correct path should be pasted on the text box below. To find the
+                        file on the computer:
                         <br /> <br />
-                        A. The <i>Julia.exe</i> should be located deep in the AppData hidden folder.
-                        You will find this folder on your <i>user</i> folder <i>(Users > *User Name*)</i> if you
-                        check the <i>Hiden items</i> option on the <i>View > Show/Hide</i> tab. Alternatively,
-                        type %APPDATA% on the Windows File Explorer search engine and step back one
-                        folder. When in the AppData folder, open the following folders in sequence:
-                        AppData > Local > Programs > Julia > Julia-*.*.* > bin (*.*.* represents the
-                        Julia version you installed).
-                        <br />
-                        Copy this file path, all the way to the <i>Julia.exe</i> file, and paste it on
-                        Visual Studio Code. Add a second set of \ to each folder level. The final
-                        link should look something like <i>C:\\Users\\*User
-                        Name*\\AppData\\Local\\Programs\\Julia\\Julia-*.*.*\\bin\\julia.exe</i>
+
+                        A. The <i>Julia.exe</i> should be located deep in the <i>AppData</i> hidden
+                        folder. This folder can be found at <i>C:\\Users\\&#60;user
+                            name></i> if you check the <i>Hiden items</i> option on the
+                        <i>View > Show/Hide</i> tab. Alternatively, type %APPDATA% on Windows&#39;
+                        File Explorer search engine and step back one folder. When in the AppData
+                        folder, open the following folders in sequence: AppData > Local > Programs >
+                        Julia > Julia-*.*.* > bin (where *.*.* represents the Julia version you
+                        installed).
+                        <br /> 
+                        Then copy this file path, all the way to the <i>Julia.exe</i> file, 
+                        paste it on Visual Studio Code, and add a second set of \ to each folder level.
+                        The final link should look something like <i>C:\\Users\\&#60;user
+                        name>\\AppData\\Local\\Programs\\Julia\\Julia-*.*.*\\bin\\julia.exe</i>
                         <br /> <br />
-                        B. If the file is not located on the AppData folder, as suggested,
-                        find Julia's shortcut either on your <i>Desktop</i> or <i>Start Menu</i>. Right-click on
-                        the icon and choose the option <i>Open File Location</i>. This will most likely
-                        lead you to another shortcut, so repeat the process until you reach the
+
+                        B. In case no Julia file exists on the AppData folder, find Julia&#39;s
+                        shortcut either on your <i>Desktop</i> or <i>Start Menu</i>. Right-click on
+                        the icon and choose the option <i>Open File Location</i>. This will most
+                        likely lead you to another shortcut, so repeat the process until you reach
+                        the
                         <i>Julia.exe</i> file. At this stage, follow the remaining steps in option A.
                     </p>
                     <br />
@@ -377,53 +383,52 @@
                     <br />
 
                     <h4> Opening a Julia file </h4>
-                    <p> As you have seen, you can write and run programs directly in the Julia REPL.
-                        However, these instructions cannot be saved for later use. The REPL is useful
-                        for testing parts of your program and for visualizing the results of program
-                        runs. For more complex developments, you should work on a Julia file that can be
-                        saved to your computer.
+                    <p> As mentioned, it is possible to write and run programs directly in the Julia
+                        REPL. However, these instructions cannot be saved for later use. Instead, the
+                        REPL is useful for testing parts of the program and for visualizing the results.
+                        For more complex developments, programs should be developed on a Julia file that can be saved
+                        to the computer.
                         <br /><br />
-                        To begin programming, open a new text file. Go to the <i>Juno</i> menu in the top
-                        bar and choose <i>New Julia File</i>. Alternatively, click on the <i>New Julia File</i>
-                        icon on the <i>Juno</i> pane to the left of your workspace. The icon resembles a
-                        sheet of paper with the symbol <code>&#60;/></code> on it. You can now start developing
-                        Julia code within the file.
+                        To begin programming, open a new Julia file. Go to the <i>Juno</i> menu in the top
+                        bar and choose <i>New Julia File</i> or click on the <i>New Julia File</i>
+                        icon (<code><!--&#128466;-->&#128196;</code>) on the <i>Juno</i> pane on the left of the workspace, which resembles a
+                        sheet of paper with the symbol <code>&#60;/></code> on it. 
                         <br /><br />
                         Note that Atom offers you a blank file (untitled) to start with, or you can
                         also open another one in the <i>File</i> menu, with the option <i>New File</i> (Ctrl+N).
-                        These files, however, are not Julia files. If you started developing a
-                        program in such a file and wish to convert it to Julia, save it as a Julia
-                        file on your computer. Select the <i>File</i> menu in the top bar and choose <i>Save
+                        However, these are not Julia files. To convert them, save them as Julia
+                        files on the computer by selecting the <i>File</i> menu in the top bar and choosing <i>Save
                         As</i> (Ctrl+Shift+S). The Julia extension will not show in the <i>Save as type</i>
-                        dropdown menu. Hence, you must add the extension (*.jl) yourself to the <i>file
+                        dropdown menu. Hence, add the extension (*.jl) directly to the <i>file
                         name</i> (e.g., Untitled.jl).  
                       </p>
 
                     <h4> Running Code </h4>
-                    <p> There are several options to run the code in your program. You may run the
-                        full program, or you may prefer to run only parts of it.
+                    <p> There are several options to run the code in Atom: running the
+                        full program only parts of it.
                         <br />
                         To run the full program, use the <i>Run all</i> (Ctrl+Shift+Enter) option in the
-                        <i>Juno</i> pane or the <i>Juno</i> menu. In the <i>Juno</i> pane, the icon resembles a triangle.
-                        The results of your program will be shown in the REPL.
+                        <i>Juno</i> pane (i.e., the triangle symbol <code>&#9654;</code>) or the <i>Juno</i> menu. The results of your program
+                        will be shown in the REPL.
                         <br />
                         To run parts of the program, use the <i>Run Block</i> option (Shift +Enter) in the
-                        <i>Juno</i> pane or the <i>Juno</i> menu. In the <i>Juno</i> pane, the icon resembles a lightning
-                        bolt. This action will cause the evaluation of the current line (where your
-                        cursor is) or selection. The result of each instruction will appear inline
-                        in the program file.
+                        <i>Juno</i> pane (i.e., the lightning bolt symbol <code>&#9889;</code>) or the <i>Juno</i> menu.
+                        This will cause the evaluation of the current line (where your cursor
+                        is) or selection. The result of each instruction will appear inline in the
+                        program file and the cursor will automatically move to the following line or
+                        expression.
                         <br /><br />
                         Other useful actions include:
+                        <br /> &#x2022; <i>Interrupt Julia</i> (Ctrl+Shift+C) to interrupt or cancel
+                        a process. In the <i>Juno</i> pane, it corresponds to the pause symbol:
+                        <code>||</code>.
                         <br />
-                        &#x2022; <i>Interrupt Julia</i> (Ctrl+Shift+C) interrupts or cancels a process. It is
-                        useful to break infinite loops or erroneous runs. In the <i>Juno</i> pane, the
-                        icon resembles a pause symbol: <code>||</code>.
-                        <br />
-                        &#x2022; <i>Stop Julia</i> (Ctrl+J Ctrl+K) for exiting the Julia REPL. In the <i>Juno</i> pane,
-                        the icon resembles a stop symbol: <code>&#9724;</code>.
-                        <br />
-                        &#x2022; In the <i>Juno</i> menu, there is also an option for cleaning the REPL history.
-                        Click on <i>Clear REPL</i> (Ctrl+L or Ctrl+J Ctrl +C).
+                        &#x2022; <i>Stop Julia</i> (Ctrl+J Ctrl+K) to exit the Julia REPL. In the <i>Juno</i> pane,
+                        this action corresponds to the stop symbol: <code>&#9724;</code>.
+                        <br /> 
+                        &#x2022; <i>Clear REPL</i> (Ctrl+L or Ctrl+J Ctrl +C) to clean the
+                        REPL history. This action is also available in the 
+                        <i>Juno</i> menu.
 
                </section>  
                                                 
@@ -445,7 +450,7 @@
 
 		</div>
 
-		!-- Scripts -->
+		<!-- Scripts -->
 			<script src="../assets/js/jquery.min.js"></script>
 			<script src="../assets/js/jquery.dropotron.min.js"></script>
 			<script src="../assets/js/jquery.scrolly.min.js"></script>

@@ -118,118 +118,151 @@
 
                     <section class="wrapper style3 container special">
 
-                        <h2>Implementation and Features</h2>
-
-                        <p> Khepri.gh&#39;s implementation is in many ways similar to Grasshopper&#39;s currently
-                        available textual scripting editors: (A) users drag a blank Khepri component
-                        onto the canvas, (B) open up the editor box by double-clicking a component
-                        and develop Julia code within; (C) they can then save the new components
-                        onto a dedicated tab.
-                        </p>
-
-                        <div class="row"><div class="1u 12u"></div>
-                        <div class="10u 12u"> 
-                            <a href="kheprigh/basics.png" class="image
-                            featured"><img src="kheprigh/basics.png" alt="" title="Khepri.gh&#39;s
-                            implementation"></a>
-                            </div></div>
+                        <a class="textmodal" onclick="openModal('refModal1')" href="#refModal1"> <h2>Implementation</h2> </a>
                         
-                        <p> However, while Grasshopper&#39;s C\#, VB, and Python scripting editors only
-                        provide the features of each programming language unless other libraries are
-                        loaded, our implementation not only integrates the Julia language but also
-                        the Khepri programming tool from the start. This means, that besides the
-                        language primitives, users have access to the modeling primitives available
-                        in Khepri, which are transversal to the multiple backends.
-                        </p>
+                        <div id="refModal1" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal('refModal1')" >&times;</span>
+                                <h2>Implementation</h2>
+                                <p> Khepri.gh&#39;s implementation is in many ways similar to Grasshopper&#39;s currently
+                                    available textual scripting editors: (A) users drag a blank Khepri component
+                                    onto the canvas, (B) open up the editor box by double-clicking a component
+                                    and develop Julia code within; (C) they can then save the new components
+                                    onto a dedicated tab.
+                                    </p>     
+                                    <div class="row"><div class="1u 12u"></div>
+                                    <div class="10u 12u"> 
+                                        <a href="kheprigh/basics.png" class="image
+                                        featured"><img src="kheprigh/basics.png" alt="" title="Khepri.gh&#39;s
+                                        implementation"></a>
+                                        </div></div>                                 
+                                    <p> However, while Grasshopper&#39;s C\#, VB, and Python scripting editors only
+                                    provide the features of each programming language unless other libraries are
+                                    loaded, our implementation not only integrates the Julia language but also
+                                    the Khepri programming tool from the start. This means, that besides the
+                                    language primitives, users have access to the modeling primitives available
+                                    in Khepri, which are transversal to the multiple backends.
+                                    </p>              
+                            </div>
+                        </div>
 
-                        <h3>Traceability</h3>
+                        <a class="textmodal" onclick="openModal('refModal2')" href="#refModal2"> <h2>Traceability</h2> </a>
+                        
+                        <div id="refModal2" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal('refModal2')">&times;</span>
+                                <h2>Traceability</h2>
+                                <p>Traceability entails the identification of which parts of the model
+                                    correspond to which parts of the program, and vice-versa, a crucial
+                                    correlation to understand, maintain, and debug the program. Khepri.gh
+                                    maintains Grasshopper&#39;s unidirectional traceability, relating program
+                                    components to model elements but across multiple backends.
+                                </p>  
+                                <a href="kheprigh/traceability.png" class="image
+                                    featured"><img src="kheprigh/traceability.png" alt="" title="Traceability"/></a>
+                            </div>
+                        </div>
 
-                        <p>Traceability entails the identification of which parts of the model
-                        correspond to which parts of the program, and vice-versa, a crucial
-                        correlation to understand, maintain, and debug the program. Khepri.gh
-                        maintains Grasshopper&#39;s unidirectional traceability, relating program
-                        components to model elements but across multiple backends.
-                        </p>
-                         
-                        <a href="kheprigh/traceability.png" class="image
-                            featured"><img src="kheprigh/traceability.png" alt="" title="Traceability"/></a>
-                        <br />
+                        <a class="textmodal" onclick="openModal('refModal3')"><h2>Immediate Feedback</h2> </a>
+                        
+                        <div id="refModal3" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal('refModal3')">&times;</span>
+                                <h2>Immediate Feedback</h2>
+                                <p>Immediate feedback is the ability to re-compute changes to the program&#39;s
+                                input or to the program itself in (near) real time, allowing designers to
+                                easily understand the program&#39;s behavior. Grasshopper immediately updates
+                                the geometry upon adding/changing components, Boolean toggles or sliders.
+                                Khepri.gh extends this feature to the various backends but performance must
+                                be taken into consideration when dealing with complex models. Scale is
+                                already an issue for Grasshopper&#39;s optimized preview mode (i.e., non-baked
+                                geometry); even more so for Khepri.gh, which has to generate the geometry in
+                                the backends, a somewhat equivalent process to baking. This process is
+                                considerably faster in more performative backends, such as game engines, or
+                                using CAD tool&#39;s more performative view options, such as wireframe models.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <a class="textmodal" onclick="openModal('refModal4')"><h2>Code editing options</h2> </a>
+                        
+                        <div id="refModal4" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal('refModal4')">&times;</span>
+                                <h2>Code editing options</h2>
+                                <p>Khepri.gh supports different code editing options. In the visual
+                                    programming environment, the user can (A) manipulate existing Grasshopper
+                                    components and (B) create new Khepri components, each one representing a
+                                    parcel of code, using the textual programming editor available within
+                                    Grasshopper. However, for more lengthier components, (C) the code can also
+                                    be accessed in a textual programming editor, such as Atom by right clicking
+                                    a component and choosing the ‘Khepri code&#39; option.
+                                </p>
 
-                        <h3>Immediate Feedback</h3>
+                                <a href="kheprigh/code_options.png" class="image
+                                featured"><img src="kheprigh/code_options.png" alt="" title="Code
+                                editing options"/></a>
+                        
+                            </div>
+                        </div>
 
-                        <p>Immediate feedback is the ability to re-compute changes to the program&#39;s
-                        input or to the program itself in (near) real time, allowing designers to
-                        easily understand the program&#39;s behavior. Grasshopper immediately updates
-                        the geometry upon adding/changing components, Boolean toggles or sliders.
-                        Khepri.gh extends this feature to the various backends but performance must
-                        be taken into consideration when dealing with complex models. Scale is
-                        already an issue for Grasshopper&#39;s optimized preview mode (i.e., non-baked
-                        geometry); even more so for Khepri.gh, which has to generate the geometry in
-                        the backends, a somewhat equivalent process to baking. This process is
-                        considerably faster in more performative backends, such as game engines, or
-                        using CAD tool&#39;s more performative view options, such as wireframe models.
-                        </p>
+                        <a class="textmodal" onclick="openModal('refModal5')"><h2>No Repetition</h2> </a>
+                        
+                        <div id="refModal5" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal('refModal5')">&times;</span>
+                                <h2>No Repetition</h2>
+                                <p>Following Grasshopper&#39;s native structure, VB, C\# or Python components
+                                    motivate the construction of standalone components which both implement and
+                                    execute operations. When reusing such components, the code is essentially
+                                    duplicated and further changes to that structure must be performed in all
+                                    similar components. Textual programming follows a different logic, where
+                                    repetition is avoided at all costs for logic and organizational purposes.
+                                    This makes the code structure more comprehensible and manageable, sparing
+                                    the user the time-consuming and error-prone task of maintaining several
+                                    versions of the same functionality. 
+                                    <br /><br />
+                                    Khepri.gh follows the textual logic in this issue, introducing a
+                                    fundamental separation between function definitions and function calls.
+                                    All components on canvas are processed on demand, with or without
+                                    inputs, with or without specific modeling instructions. Users may gather
+                                    function definitions, in one or more components, that can be used in all
+                                    the others that call them, thus eliminating repeated definitions. When
+                                    the user edits a definition component, the changes will have automatic
+                                    repercussions in any other components dependent upon this one.
+                                    </p>                     
+                            </div>
+                        </div>
 
-                        <h3>Code editing options</h3>
-
-                        <p>Khepri.gh supports different code editing options. In the visual
-                        programming environment, the user can (A) manipulate existing Grasshopper
-                        components and (B) create new Khepri components, each one representing a
-                        parcel of code, using the textual programming editor available within
-                        Grasshopper. However, for more lengthier components, (C) the code can also
-                        be accessed in a textual programming editor, such as Atom by right clicking
-                        a component and choosing the ‘Khepri code&#39; option.
-                        </p>
-
-                        <a href="kheprigh/code_options.png" class="image
-                        featured"><img src="kheprigh/code_options.png" alt="" title="Code editing options"/></a>
-                        <br />
-
-                        <h3>No Repetition</h3>
-
-                        <p>Following Grasshopper&#39;s native structure, VB, C\# or Python components
-                        motivate the construction of standalone components which both implement and
-                        execute operations. When reusing such components, the code is essentially
-                        duplicated and further changes to that structure must be performed in all
-                        similar components. Textual programming follows a different logic, where
-                        repetition is avoided at all costs for logic and organizational purposes.
-                        This makes the code structure more comprehensible and manageable, sparing
-                        the user the time-consuming and error-prone task of maintaining several
-                        versions of the same functionality. 
-                        <br /><br />
-                        Khepri.gh follows the textual logic in this issue, introducing a
-                        fundamental separation between function definitions and function calls.
-                        All components on canvas are processed on demand, with or without
-                        inputs, with or without specific modeling instructions. Users may gather
-                        function definitions, in one or more components, that can be used in all
-                        the others that call them, thus eliminating repeated definitions. When
-                        the user edits a definition component, the changes will have automatic
-                        repercussions in any other components dependent upon this one.
-                        </p>
-
-                        <h3>Complexity</h3>
-
-                        <p>The scalability issue inherent to visual programming languages affects
-                        many of the features that make these systems so appealing to users in
-                        earlier stages: both immediate feedback and program readability are
-                        compromised as complexity increases. For the first issue, Grasshopper
-                        cleverly offers a solution unsurprisingly inspired in the way textual
-                        programming languages deal with geometry generation: inputting numbers
-                        directly onto sliders instead of dragging them, or even disabling the solver
-                        as we edit the program, thus significantly reducing the number of times the
-                        model is recomputed. 
-                        <br /><br /> For the second problem, the most obvious solution is
-                        abstraction: the possibility to encapsulate complex computations in much
-                        simpler program structures, such as recursive and iterative first-order or
-                        higher-order functions. These mechanisms allow the development of more
-                        complex programs without resorting to the repetition of instructions.
-                        However, most visual programming languages, including Grasshopper, do not
-                        (directly) support these functionalities. Since Khepri.gh is built on top of
-                        the Julia language, any Julia functionality can be used from Grasshopper as
-                        well, meaning that the data that flows between components includes not only
-                        basic data structures, such as numbers and positions, but also functions,
-                        arrays, tuples, dictionaries, etc., and arbitrary combinations of these.
-                        </p>
+                        <a class="textmodal" onclick="openModal('refModal6')"><h2>Complexity</h2> </a>
+                        
+                        <div id="refModal6" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal('refModal6')">&times;</span>
+                                <h2>Complexity</h2>
+                                <p>The scalability issue inherent to visual programming languages affects
+                                    many of the features that make these systems so appealing to users in
+                                    earlier stages: both immediate feedback and program readability are
+                                    compromised as complexity increases. For the first issue, Grasshopper
+                                    cleverly offers a solution unsurprisingly inspired in the way textual
+                                    programming languages deal with geometry generation: inputting numbers
+                                    directly onto sliders instead of dragging them, or even disabling the solver
+                                    as we edit the program, thus significantly reducing the number of times the
+                                    model is recomputed. 
+                                    <br /><br /> For the second problem, the most obvious solution is
+                                    abstraction: the possibility to encapsulate complex computations in much
+                                    simpler program structures, such as recursive and iterative first-order or
+                                    higher-order functions. These mechanisms allow the development of more
+                                    complex programs without resorting to the repetition of instructions.
+                                    However, most visual programming languages, including Grasshopper, do not
+                                    (directly) support these functionalities. Since Khepri.gh is built on top of
+                                    the Julia language, any Julia functionality can be used from Grasshopper as
+                                    well, meaning that the data that flows between components includes not only
+                                    basic data structures, such as numbers and positions, but also functions,
+                                    arrays, tuples, dictionaries, etc., and arbitrary combinations of these.
+                                    </p>                     
+                            </div>
+                        </div>                   
 
                     </section> 
                     
@@ -281,10 +314,11 @@
 
                         <h3>Save Khepri components</h3>
 
-                        <p> Go to <i>File</i> > <i>Create User Object</i>, then select the component
-                        you want to save. You may change the name, nickname, description, and icon
-                        if you want. Saved components will be available in the <i>User</i>
-                        tab.
+                        <p> Select the component you want to save and go to <i>File</i> <i>Create
+                        User Object</i> (note: make sure the <i>Hide Object</i> option is
+                        unchecked). You may change the name, nickname, description, and icon if you
+                        want. Choose a <i>Category</i> tab or create a new one. The saved components
+                        will be available in that tab afterwards.   
                         </p>
 
                         <a href="kheprigh/user_tab.png" class="image featured">
@@ -408,7 +442,7 @@
                         <code>pts > Points("pts_down_curve", "PsC", "List of GH locations for Curve")</code>
                         </p>
 
-                        <h3>Supported Types</h3>
+                        <h3>Supported Variable Types</h3>
 
                         <p>Type Function:</p>
 <pre><code>
@@ -461,7 +495,7 @@
 
 </code></pre>
 <br />  
-                        <h3>Types explained</h3>
+                        <h3>Variable Types explained</h3>
 
                         <p>
                         <b>Number(s(s)), Integer(s(s)), Point(s(s)), Vector(s(s)), String(s(s)), Boolean(s(s)),
@@ -474,7 +508,7 @@
                         <br /> <br />
                         <b>Eval(s(s))</b>
                         <br /> <br />
-                        Eval deals with any Julia expression provided as a sting – these may come
+                        Eval deals with any Julia expression provided as a string – these may come
                         from a Grasshopper panel (no quotation marks needed! The panel produces a
                         string) or from another Khepri component (with eval/evals as an output).
                         Eval evaluates the given expression as Julia code. The result will be a
@@ -629,6 +663,7 @@
                                     <img src="kheprigh/19.png" alt="" title="Tree > Jls > Integerss"/></a>
                                 </div>
                         </div>
+
                     </section> 
 
                 </div>
@@ -647,14 +682,17 @@
 				</footer>
 
 		</div>
+        
 
-		!-- Scripts -->
+		<!-- Scripts -->
 			<script src="../assets/js/jquery.min.js"></script>
 			<script src="../assets/js/jquery.dropotron.min.js"></script>
 			<script src="../assets/js/jquery.scrolly.min.js"></script>
 			<script src="../assets/js/jquery.scrollgress.min.js"></script>
 			<script src="../assets/js/skel.min.js"></script>
 			<script src="../assets/js/util.js"></script>
+            <script src="../assets/js/modal.js"></script>
+            
 			<!--[if lte IE 8]><script src="../assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="../assets/js/main.js"></script>
             <script type="text/javascript" src="../assets/js/simple-lightbox.js"></script>

@@ -2833,6 +2833,10 @@ body.index #main {
   cursor: pointer;
 }
 
+.textmodal {
+  cursor: pointer;
+}
+
 /* The Modal (background) */
 .modal {
   display: none;

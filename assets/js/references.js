@@ -45,3 +45,10 @@ $(function(){
     });
 
 });
+
+window.onclick = function(event) {
+    var modal = document.getElementById('refModal');
+    if (event.target.classList.contains('modal')) {
+        modal.style.display = "none";
+    }
+}
