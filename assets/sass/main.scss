@@ -1797,6 +1797,10 @@ image.desktop {
 	cursor: pointer;
 }
 
+.textmodal {
+	cursor: pointer;
+}
+
 /* The Modal (background) */
 .modal {
 	display: none; /* Hidden by default */
@@ -1814,11 +1818,11 @@ image.desktop {
 /* Modal Content/Box */
 .modal-content {
 	background-color: #fefefe;
-	margin: 10% auto; /* 15% from the top and centered */
+	margin: 6% auto; /* 15% from the top and centered */
 	padding: 40px;
 	border: 1px solid #fff;
 	width: 70%; /* Could be more or less, depending on screen size */
-	max-height: 70vh;
+	max-height: 80vh;
 	overflow: auto;
 }
 

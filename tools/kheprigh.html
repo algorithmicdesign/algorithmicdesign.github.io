@@ -109,7 +109,7 @@
 
                         <video controls preload="auto" id="Khepri.gh Presentation at eCAADe
                         Conference 2020" class="12u 12u(narrower)">
-                                <source src="http://web.ist.utl.pt/antonio.menezes.leitao/ADA/documents/publications_pres/2020_VisualMeetsTextual.mp4" type="video/mp4">
+                                <source src="https://web.ist.utl.pt/antonio.menezes.leitao/ADA/documents/publications_pres/2020_VisualMeetsTextual.mp4" type="video/mp4">
                             </video>
 
                         <pcenter> Skip to min 2:11 for specifics on the project.</pcenter>
@@ -118,118 +118,177 @@
 
                     <section class="wrapper style3 container special">
 
-                        <h2>Implementation and Features</h2>
+                        <h2>Features</h2>
 
-                        <p> Khepri.gh&#39;s implementation is in many ways similar to Grasshopper&#39;s currently
-                        available textual scripting editors: (A) users drag a blank Khepri component
-                        onto the canvas, (B) open up the editor box by double-clicking a component
-                        and develop Julia code within; (C) they can then save the new components
-                        onto a dedicated tab.
-                        </p>
-
-                        <div class="row"><div class="1u 12u"></div>
-                        <div class="10u 12u"> 
-                            <a href="kheprigh/basics.png" class="image
-                            featured"><img src="kheprigh/basics.png" alt="" title="Khepri.gh&#39;s
-                            implementation"></a>
-                            </div></div>
+                        <div class="row">
+                            <div class="4u 12u(narrower) ">
+                                <h2 class="icon fa-wrench"></h2> <!-- fa-cog -->
+                                <a class="button textmodal" onclick="openModal('refModal1')" href="#refModal1">Implementation</a>
+                                <!-- <a class="textmodal" onclick="openModal('refModal2')"href="#refModal2"> <h2>Implementation</h2> </a>  -->
+                            </div>
+                            <div class="4u 12u(narrower) ">
+                                <h2 class="icon fa-exchange"></h2>
+                                <a class="button textmodal" onclick="openModal('refModal2')" href="#refModal2">Traceability</a>
+                            </div>
+                            <div class="4u 12u(narrower) ">  
+                                <h2 class="icon fa-reply"></h2>  
+                                <a class="button textmodal" onclick="openModal('refModal3')">Immediate Feedback</a> 
+                            </div> 
+                        </div>  
+                        <br />
+                        <div class="row"> 
+                            <div class="4u 12u(narrower) ">
+                                <h2 class="icon fa-bug"></h2>          
+                                <a class="button textmodal" onclick="openModal('refModal4')">Code editing options</a>
+                            </div>
+                            <div class="4u 12u(narrower) ">
+                                <h2 class="icon fa-comments"></h2>
+                                <a class="button textmodal" onclick="openModal('refModal5')">No Repetition</a>
+                            </div>
+                            <div class="4u 12u(narrower) ">
+                                <h2 class="icon fa-bomb"></h2>
+                                <a class="button textmodal" onclick="openModal('refModal6')">Complexity</a>
+                            </div>
+                        </div>  
                         
-                        <p> However, while Grasshopper&#39;s C\#, VB, and Python scripting editors only
-                        provide the features of each programming language unless other libraries are
-                        loaded, our implementation not only integrates the Julia language but also
-                        the Khepri programming tool from the start. This means, that besides the
-                        language primitives, users have access to the modeling primitives available
-                        in Khepri, which are transversal to the multiple backends.
-                        </p>
+                        <!-- CONTENT FOR THE MODALS -->
 
-                        <h3>Traceability</h3>
+                        <div id="refModal1" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal('refModal1')" >&times;</span>
+                                <h2>Implementation</h2>
+                                <p> Khepri.gh&#39;s implementation is in many ways similar to Grasshopper&#39;s currently
+                                    available textual scripting editors: (A) users drag a blank Khepri component
+                                    onto the canvas, (B) open up the editor box by double-clicking a component
+                                    and develop Julia code within; (C) they can then save the new components
+                                    onto a dedicated tab.
+                                    </p>     
+                                    <div class="row"><div class="1u 12u"></div>
+                                    <div class="10u 12u"> 
+                                        <a href="kheprigh/basics.png" class="image
+                                        featured"><img src="kheprigh/basics.png" alt="" title="Khepri.gh&#39;s
+                                        implementation"></a>
+                                        </div></div>                                 
+                                    <p> However, while Grasshopper&#39;s C\#, VB, and Python scripting editors only
+                                    provide the features of each programming language unless other libraries are
+                                    loaded, our implementation not only integrates the Julia language but also
+                                    the Khepri programming tool from the start. This means, that besides the
+                                    language primitives, users have access to the modeling primitives available
+                                    in Khepri, which are transversal to the multiple backends.
+                                    </p>              
+                            </div>
+                        </div>
+                        
+                        <div id="refModal2" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal('refModal2')">&times;</span>
+                                <h2>Traceability</h2>
+                                <p>Traceability entails the identification of which parts of the model
+                                    correspond to which parts of the program, and vice-versa, a crucial
+                                    correlation to understand, maintain, and debug the program. Khepri.gh
+                                    maintains Grasshopper&#39;s unidirectional traceability, relating program
+                                    components to model elements but across multiple backends.
+                                </p>  
+                                <a href="kheprigh/traceability.png" class="image
+                                    featured"><img src="kheprigh/traceability.png" alt="" title="Traceability"/></a>
+                            </div>
+                        </div>
+                        
+                        <div id="refModal3" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal('refModal3')">&times;</span>
+                                <h2>Immediate Feedback</h2>
+                                <p>Immediate feedback is the ability to re-compute changes to the program&#39;s
+                                input or to the program itself in (near) real time, allowing designers to
+                                easily understand the program&#39;s behavior. Grasshopper immediately updates
+                                the geometry upon adding/changing components, Boolean toggles or sliders.
+                                Khepri.gh extends this feature to the various backends but performance must
+                                be taken into consideration when dealing with complex models. Scale is
+                                already an issue for Grasshopper&#39;s optimized preview mode (i.e., non-baked
+                                geometry); even more so for Khepri.gh, which has to generate the geometry in
+                                the backends, a somewhat equivalent process to baking. This process is
+                                considerably faster in more performative backends, such as game engines, or
+                                using CAD tool&#39;s more performative view options, such as wireframe models.
+                                </p>
+                                <a href="kheprigh/immediate_feedback.png" class="image
+                                featured"><img src="kheprigh/immediate_feedback.png" alt=""
+                                title="Model variations"/></a>
+                            </div>
+                        </div>
+                        
+                        <div id="refModal4" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal('refModal4')">&times;</span>
+                                <h2>Code editing options</h2>
+                                <p>Khepri.gh supports different code editing options. In the visual
+                                    programming environment, the user can (A) manipulate existing Grasshopper
+                                    components and (B) create new Khepri components, each one representing a
+                                    parcel of code, using the textual programming editor available within
+                                    Grasshopper. However, for more lengthier components, (C) the code can also
+                                    be accessed in a textual programming editor, such as Atom by right clicking
+                                    a component and choosing the ‘Khepri code&#39; option.
+                                </p>
 
-                        <p>Traceability entails the identification of which parts of the model
-                        correspond to which parts of the program, and vice-versa, a crucial
-                        correlation to understand, maintain, and debug the program. Khepri.gh
-                        maintains Grasshopper’s unidirectional traceability, relating program
-                        components to model elements but across multiple backends.
-                        </p>
-                         
-                        <a href="kheprigh/traceability.png" class="image
-                            featured"><img src="kheprigh/traceability.png" alt="" title="Traceability"/></a>
-                        <br />
-
-                        <h3>Immediate Feedback</h3>
-
-                        <p>Immediate feedback is the ability to re-compute changes to the program’s
-                        input or to the program itself in (near) real time, allowing designers to
-                        easily understand the program’s behavior. Grasshopper immediately updates
-                        the geometry upon adding/changing components, Boolean toggles or sliders.
-                        Khepri.gh extends this feature to the various backends but performance must
-                        be taken into consideration when dealing with complex models. Scale is
-                        already an issue for Grasshopper’s optimized preview mode (i.e., non-baked
-                        geometry); even more so for Khepri.gh, which has to generate the geometry in
-                        the backends, a somewhat equivalent process to baking. This process is
-                        considerably faster in more performative backends, such as game engines, or
-                        using CAD tool’s more performative view options, such as wireframe models.
-                        </p>
-
-                        <h3>Code editing options</h3>
-
-                        <p>Khepri.gh supports different code editing options. In the visual
-                        programming environment, the user can (A) manipulate existing Grasshopper
-                        components and (B) create new Khepri components, each one representing a
-                        parcel of code, using the textual programming editor available within
-                        Grasshopper. However, for more lengthier components, (C) the code can also
-                        be accessed in a textual programming editor, such as Atom by right clicking
-                        a component and choosing the ‘Khepri code’ option.
-                        </p>
-
-                        <a href="kheprigh/code_options.png" class="image
-                        featured"><img src="kheprigh/code_options.png" alt="" title="Code editing options"/></a>
-                        <br />
-
-                        <h3>No Repetition</h3>
-
-                        <p>Following Grasshopper’s native structure, VB, C\# or Python components
-                        motivate the construction of standalone components which both implement and
-                        execute operations. When reusing such components, the code is essentially
-                        duplicated and further changes to that structure must be performed in all
-                        similar components. Textual programming follows a different logic, where
-                        repetition is avoided at all costs for logic and organizational purposes.
-                        This makes the code structure more comprehensible and manageable, sparing
-                        the user the time-consuming and error-prone task of maintaining several
-                        versions of the same functionality. 
-                        <br /><br />
-                        Khepri.gh follows the textual logic in this issue, introducing a
-                        fundamental separation between function definitions and function calls.
-                        All components on canvas are processed on demand, with or without
-                        inputs, with or without specific modeling instructions. Users may gather
-                        function definitions, in one or more components, that can be used in all
-                        the others that call them, thus eliminating repeated definitions. When
-                        the user edits a definition component, the changes will have automatic
-                        repercussions in any other components dependent upon this one.
-                        </p>
-
-                        <h3>Complexity</h3>
-
-                        <p>The scalability issue inherent to visual programming languages affects
-                        many of the features that make these systems so appealing to users in
-                        earlier stages: both immediate feedback and program readability are
-                        compromised as complexity increases. For the first issue, Grasshopper
-                        cleverly offers a solution unsurprisingly inspired in the way textual
-                        programming languages deal with geometry generation: inputting numbers
-                        directly onto sliders instead of dragging them, or even disabling the solver
-                        as we edit the program, thus significantly reducing the number of times the
-                        model is recomputed. 
-                        <br /><br /> For the second problem, the most obvious solution is
-                        abstraction: the possibility to encapsulate complex computations in much
-                        simpler program structures, such as recursive and iterative first-order or
-                        higher-order functions. These mechanisms allow the development of more
-                        complex programs without resorting to the repetition of instructions.
-                        However, most visual programming languages, including Grasshopper, do not
-                        (directly) support these functionalities. Since Khepri.gh is built on top of
-                        the Julia language, any Julia functionality can be used from Grasshopper as
-                        well, meaning that the data that flows between components includes not only
-                        basic data structures, such as numbers and positions, but also functions,
-                        arrays, tuples, dictionaries, etc., and arbitrary combinations of these.
-                        </p>
+                                <a href="kheprigh/code_options.png" class="image
+                                featured"><img src="kheprigh/code_options.png" alt="" title="Code
+                                editing options"/></a>
+                        
+                            </div>
+                        </div>
+                        
+                        <div id="refModal5" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal('refModal5')">&times;</span>
+                                <h2>No Repetition</h2>
+                                <p>Following Grasshopper&#39;s native structure, VB, C\# or Python components
+                                    motivate the construction of standalone components which both implement and
+                                    execute operations. When reusing such components, the code is essentially
+                                    duplicated and further changes to that structure must be performed in all
+                                    similar components. Textual programming follows a different logic, where
+                                    repetition is avoided at all costs for logic and organizational purposes.
+                                    This makes the code structure more comprehensible and manageable, sparing
+                                    the user the time-consuming and error-prone task of maintaining several
+                                    versions of the same functionality. 
+                                    <br /><br />
+                                    Khepri.gh follows the textual logic in this issue, introducing a
+                                    fundamental separation between function definitions and function calls.
+                                    All components on canvas are processed on demand, with or without
+                                    inputs, with or without specific modeling instructions. Users may gather
+                                    function definitions, in one or more components, that can be used in all
+                                    the others that call them, thus eliminating repeated definitions. When
+                                    the user edits a definition component, the changes will have automatic
+                                    repercussions in any other components dependent upon this one.
+                                    </p>                     
+                            </div>
+                        </div>
+                        
+                        <div id="refModal6" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal('refModal6')">&times;</span>
+                                <h2>Complexity</h2>
+                                <p>The scalability issue inherent to visual programming languages affects
+                                    many of the features that make these systems so appealing to users in
+                                    earlier stages: both immediate feedback and program readability are
+                                    compromised as complexity increases. For the first issue, Grasshopper
+                                    cleverly offers a solution unsurprisingly inspired in the way textual
+                                    programming languages deal with geometry generation: inputting numbers
+                                    directly onto sliders instead of dragging them, or even disabling the solver
+                                    as we edit the program, thus significantly reducing the number of times the
+                                    model is recomputed. 
+                                    <br /><br /> For the second problem, the most obvious solution is
+                                    abstraction: the possibility to encapsulate complex computations in much
+                                    simpler program structures, such as recursive and iterative first-order or
+                                    higher-order functions. These mechanisms allow the development of more
+                                    complex programs without resorting to the repetition of instructions.
+                                    However, most visual programming languages, including Grasshopper, do not
+                                    (directly) support these functionalities. Since Khepri.gh is built on top of
+                                    the Julia language, any Julia functionality can be used from Grasshopper as
+                                    well, meaning that the data that flows between components includes not only
+                                    basic data structures, such as numbers and positions, but also functions,
+                                    arrays, tuples, dictionaries, etc., and arbitrary combinations of these.
+                                    </p>                     
+                            </div>
+                        </div>                   
 
                     </section> 
                     
@@ -239,7 +298,7 @@
 
                         <div class="row">
                             <div class="9u 12u(narrower)">
-                            <p> &#x2714; Download files from <a href="kheprigh_plugins.zip">here</a>.
+                            <p> &#x2714; Download the relevant <a href="kheprigh_plugins.zip">files</a>.
                                 You should have 4 files as shown in the image.
                                 <br />
                                 &#x2714; Make sure the files are unblocked: <i>rigth click > properties >
@@ -281,10 +340,11 @@
 
                         <h3>Save Khepri components</h3>
 
-                        <p> Go to <i>File</i> > <i>Create User Object</i>, then select the component
-                        you want to save. You may change the name, nickname, description, and icon
-                        if you want. Saved components will be available in the <i>User</i>
-                        tab.
+                        <p> Select the component you want to save and go to <i>File</i> <i>Create
+                        User Object</i> (note: make sure the <i>Hide Object</i> option is
+                        unchecked). You may change the name, nickname, description, and icon if you
+                        want. Choose a <i>Category</i> tab or create a new one. The saved components
+                        will be available in that tab afterwards.   
                         </p>
 
                         <a href="kheprigh/user_tab.png" class="image featured">
@@ -343,6 +403,8 @@
 
                         <h3>Typical Component Layout</h3>
 
+<div class="row">
+    <div class="10u 12u(narrower)">
 <pre><code>
     # Title 
     # v &#60; Type("Input", "I", "I Parameter", default)
@@ -352,6 +414,12 @@
     sqrt(a^2 + b^2)   
 
 </code></pre>
+    </div>
+    <div class="2u 12u(narrower)">
+        <a href="kheprigh/kcomponent.png" class="image featured">
+            <img src="kheprigh/kcomponent.png" alt="" title="Basic Khepri component"/></a>
+        </div>
+    </div>
 <br />
                         <p> The first line will be used as the component&#39;s <b>title</b> by default. You may
                         ignore this and edit the title later by double clicking on the component and
@@ -363,12 +431,12 @@
                         <div class="row">
                             <div class="1u 12u(narrower)"></div>
                             <div class="5u 12u(narrower)">
-                                <a href="kheprigh/1.png" class="image featured">
-                                    <img src="kheprigh/1.png" alt="" title="Component title"/></a>
+                                <a href="kheprigh/title.png" class="image featured">
+                                    <img src="kheprigh/title.png" alt="" title="Component title"/></a>
                             </div>
                             <div class="4u 12u(narrower)">
-                                <a href="kheprigh/2.png" class="image featured">
-                                    <img src="kheprigh/2.png" alt="" title="Change component title"/></a>
+                                <a href="kheprigh/title_change.png" class="image featured">
+                                    <img src="kheprigh/title_change.png" alt="" title="Change component title"/></a>
                             </div>
                         </div>
                         
@@ -384,18 +452,18 @@
                         initialization value.
                         </p>
 
-                        <a href="kheprigh/3.png" class="image featured">
-                            <img src="kheprigh/3.png" alt="" title="Component Layout"/></a>
+                        <a href="kheprigh/layout.png" class="image featured">
+                            <img src="kheprigh/layout.png" alt="" title="Component Layout"/></a>
 
                         <p>The order of input/output is irrelevant. Use normal Julia programming
-                        order. Note b’s imperative assignment in the following example.     
+                        order. Note b&#39;s imperative assignment in the following example.     
                         </p>
 
                         <div class="row">
                             <div class="1u 12u(narrower)"></div>
                             <div class="10u 12u(narrower)">
-                                <a href="kheprigh/4.png" class="image featured">
-                            <img src="kheprigh/4.png" alt="" title="Julia programming within
+                                <a href="kheprigh/julia_editor.png" class="image featured">
+                            <img src="kheprigh/julia_editor.png" alt="" title="Julia programming within
                             components"/></a>
                             </div>
                         </div><br />
@@ -408,7 +476,7 @@
                         <code>pts > Points("pts_down_curve", "PsC", "List of GH locations for Curve")</code>
                         </p>
 
-                        <h3>Supported Types</h3>
+                        <h3>Supported Variable Types</h3>
 
                         <p>Type Function:</p>
 <pre><code>
@@ -417,6 +485,8 @@
 </code></pre>
 <br />
                         <p>Items:</p>
+<div class="row">
+    <div class="9u 12u(narrower)">
 <pre><code>
     Integer(name, Nickname=name[1:1], Description=name, Default=0)
     Number(name, Nickname=name[1:1], Description=name, Default=0) 
@@ -430,8 +500,16 @@
     Eval(name, Nickname=name[1:1], Description=name, Default="")     
 
 </code></pre>
+</div>
+<div class="3u 12u(narrower)">
+    <a href="kheprigh/items.png" class="image featured">
+        <img src="kheprigh/items.png" alt="" title="Items example"/></a>
+    </div>
+</div>
 <br />                            
                         <p>Lists:</p>
+<div class="row">
+    <div class="9u 12u(narrower)">
 <pre><code>
     Integers(name, Nickname=name[1:1], Description=name, Default=[])
     Numbers(name, Nickname=name[1:1], Description=name, Default=[])
@@ -445,8 +523,17 @@
     Evals(name, Nickname=name[1:1], Description=name, Default=[])
 
 </code></pre>
+</div>
+<div class="3u 12u(narrower)">
+    <a href="kheprigh/list.png" class="image featured">
+        <img src="kheprigh/list.png" alt="" title="List example"/></a>
+    </div>
+</div>
 <br />                              
                         <p>Lists of Lists (Trees):</p>
+
+<div class="row">
+    <div class="9u 12u(narrower)">
 <pre><code>
     Integerss(name, Nickname=name[1:1], Description=name, Default=[])
     Numberss(name, Nickname=name[1:1], Description=name, Default=[])
@@ -460,61 +547,68 @@
     Evalss(name, Nickname=name[1:1], Description=name, Default=[])    
 
 </code></pre>
+    </div>
+    <div class="3u 12u(narrower)">
+        <a href="kheprigh/tree.png" class="image featured">
+            <img src="kheprigh/tree.png" alt="" title="Tree example"/></a>
+        </div>
+</div>
 <br />  
-                        <h3>Types explained</h3>
+                        <a href="kheprigh/types.png" class="image featured">
+                            <img src="kheprigh/types.png" alt="" title="Types example"/></a>
+                            <br />
 
-                        <p>
-                        <b>Number(ss), Integer(ss), Point(ss), Vector(ss), String(ss), Boolean(ss),
-                        Path(ss)</b>
-                        <br /> <br />
-                        For the 7 basic types there is a direct correspondence between Julia and
-                        Grasshopper. This means you can input and output them at will, interchanging
-                        data between the two programming languages, whist Khepri automatically
-                        converts from one end to the other as needed.
-                        <br /> <br />
-                        <b>Eval(ss)</b>
-                        <br /> <br />
-                        Eval deals with any Julia expression provided as a sting – these may come
-                        from a Grasshopper panel (no quotation marks needed! The panel produces a
-                        string) or from another Khepri component (with eval/evals as an output).
-                        Eval evaluates the given expression as Julia code. The result will be a
-                        value in Julia. 
-                        <br /> <br />
-                        <b>Any/Many/Manies</b>
-                        <br /> <br />
-                        To output the result of Julia calculation within a Khepri component for
-                        Grasshopper, you can use any of 7 basic types: the output can be used to
-                        feed Grasshopper components as Khepri covers everything in the background.
-                        <br /> 
-                        If you do not know what the result of the computation will be yet (could be
-                        one of multiple types depending on the input), choose the Any/Many type
-                        instead. Khepri will dynamically try to match the type of the result to any
-                        of the 7 basic types. If it fails (meaning, none of the types apply) it will
-                        simply return a pointer (much like the result of the JL type).
-                        <br /> 
-                        Attention: this type cannot be initialized within the component, meaning it
-                        cannot have a default.
-                        <br /> <br />
-                        <b>JL(ss)</b>
-                        <br /> <br />
-                        Data types only Julia can process. There is no correspondent representation
-                        in Grasshopper. Hence, Khepri will return a pointer (memory). You may
-                        visualize the pointer using a Grasshopper panel, but you may not operate on
-                        it using Grasshopper components, only Khepri’s. Examples include functions,
-                        shapes, etc.
-                        </p>
-
-                        <h3>&#x26A0; Notes for debugging</h3>
-
-                        <p>
-                        &#x2022; &#960; is not a float! It is an irrational. It will not fit the
-                        Number Type.
+                        <h3>Variable Types explained</h3>
                         <br />
-                        &#x2022; Code written in components is more efficient than using panels and Eval
-                        types (although the latter is more visually appealing), because everything is
-                        compiled on a first read. Panels being inputted onto an Eval must recompile
-                        all the time. this is a time vs. beauty tradeoff.
-                        </p>
+                        
+                        <div class="row">
+                            <div class="6u 12u(narrower)">
+                                <p> <b>Number(s(s)), Integer(s(s)), Point(s(s)), Vector(s(s)), <br />
+                                String(s(s)), Boolean(s(s)), Path(s(s))</b>
+                                <br /> <br /> For the 7 basic types there is a direct correspondence
+                                between Julia and Grasshopper. This means you can input and output them
+                                at will, interchanging data between the two programming languages,
+                                whilst Khepri automatically converts from one end to the other as
+                                needed.</p>
+
+                                <p> <b>Any/Many/Manies</b>
+                                <br /> <br /> To output the result of Julia calculation within a
+                                Khepri component for Grasshopper, you can use any of 7 basic types:
+                                the output can be used to feed Grasshopper components as Khepri
+                                covers everything in the background.
+                                <br /> If you do not know what the result of the computation will be
+                                yet (could be one of multiple types depending on the input), choose
+                                the Any/Many type instead. Khepri will dynamically try to match the
+                                type of the result to any of the 7 basic types. If it fails
+                                (meaning, none of the types apply) it will simply return a pointer
+                                (much like the result of the JL type).
+                                <br /> &#x26A0; This type cannot be initialized within the
+                                component, meaning it cannot have a default.</p>
+                            </div>
+
+                            <div class="6u 12u(narrower)">
+                                <p><b>Eval(s(s))</b>
+                                <br /> <br /> Eval deals with any Julia expression provided as a
+                                string – these may come from a Grasshopper panel (no quotation marks
+                                needed! The panel produces a string) or from another Khepri
+                                component (with eval/evals as an output). Eval evaluates the given
+                                expression as Julia code. The result will be a value in Julia. 
+                                <br /> &#x26A0; Code written in components is more efficient
+                                than using panels and Eval types (although the latter is more
+                                visually appealing), because everything is compiled on a first read.
+                                Panels being inputted onto an Eval must recompile
+                                all the time. this is a time vs. beauty tradeoff.</p>
+                           
+                                <p> <b>JL(s(s))</b>
+                                <br /> <br /> Data types only Julia can process. There is no correspondent
+                                representation in Grasshopper. Hence, Khepri will return a pointer (memory).
+                                You may visualize the pointer using a Grasshopper panel, but you may not
+                                operate on it using Grasshopper components, only Khepri&#39;s. Examples
+                                include functions, shapes, etc.
+                                </p>
+                            </div>
+                        </div>
+                        <br />
 
                         <h3>Definitions Component</h3>
 
@@ -527,11 +621,48 @@
                         <div class="row">
                             <div class="1u 12u(narrower)"></div>
                             <div class="10u 12u(narrower)">
-                                <a href="kheprigh/6.png" class="image featured">
-                                    <img src="kheprigh/6.png" alt="" title="Definitions
+                                <a href="kheprigh/definitions_c.png" class="image featured">
+                                    <img src="kheprigh/definitions_c.png" alt="" title="Definitions
                                     component"/></a>
                                 </div>
                         </div>
+                        <br />
+
+                        <h3>Grasshopper vs Julia iterations</h3>
+
+                        <p>Singular (item) variables can also receive plural (list) inputs. In this
+                        case. See Example 1 in the image below. In this case, Grasshopper itself
+                        iterates over the inputs one by one, running the component multiple times.
+                        In this case, adding 1 to each item of the list at a time.
+                        <br /> 
+                        In Example 2 we force Julia to make the iteration instead by
+                        specifying the plurality of the input. In this case the component runs only
+                        once as the input is swallowed altogether the first time. Only like this can
+                        Julia retain the information of the inputs for computations within the
+                        component. In this case, we sum all the elements of the list.
+                        <br />
+                        The same sum cannot be achieved if Grasshopper is left in charge of
+                        the iteration. As visible in Example 3, the component runs 3 times, once for
+                        each item, performing a useless sum for each and never arriving at the total
+                        of 12.                            
+                        </p>
+
+                        <a href="kheprigh/iterations.png" class="image featured">
+                            <img src="kheprigh/iterations.png" alt="" title="Grasshopper vs Julia
+                            iterations"/></a>
+
+                        <p>The following image shows the sum example with a tree for input. Instead
+                        of Eval, we require the Evalss type to swallow this input as whole. Like so,
+                        Julia is in charge of the entire process, the component runs only one, and
+                        the input is treated as a list os lists. Hence we need to use the broadcast
+                        operator in Julia (.) to iterate over the list, mapping the sum operation to
+                        both sub-lists.
+                        </p>
+
+                        <a href="kheprigh/iterations_tree.png" class="image featured">
+                            <img src="kheprigh/iterations_tree.png" alt="" title="Grasshopper vs
+                            Julia iterations with trees"/></a>
+                        <br />
 
                         <h3>General Examples</h3>
 
@@ -539,8 +670,8 @@
                         <div class="row">
                             <div class="1u 12u(narrower)"></div>
                             <div class="10u 12u(narrower)">
-                                <a href="kheprigh/7.png" class="image featured">
-                                    <img src="kheprigh/7.png" alt="" title="2 Outputs with no name"/></a>
+                                <a href="kheprigh/nonameouts.png" class="image featured">
+                                    <img src="kheprigh/nonameouts.png" alt="" title="2 Outputs with no name"/></a>
                                 </div>
                         </div>  
                         
@@ -548,8 +679,8 @@
                         <div class="row">
                             <div class="1u 12u(narrower)"></div>
                             <div class="10u 12u(narrower)">
-                                <a href="kheprigh/8.png" class="image featured">
-                                    <img src="kheprigh/8.png" alt="" title="Plural outputs"/></a>
+                                <a href="kheprigh/pluralouts.png" class="image featured">
+                                    <img src="kheprigh/pluralouts.png" alt="" title="Plural outputs"/></a>
                                 </div>
                         </div>
 
@@ -557,8 +688,8 @@
                         <div class="row">
                             <div class="1u 12u(narrower)"></div>
                             <div class="10u 12u(narrower)">
-                                <a href="kheprigh/9.png" class="image featured">
-                                    <img src="kheprigh/9.png" alt="" title="Eval"/></a>
+                                <a href="kheprigh/eval.png" class="image featured">
+                                    <img src="kheprigh/eval.png" alt="" title="Eval"/></a>
                                 </div>
                         </div>
 
@@ -567,8 +698,8 @@
                         <div class="row">
                             <div class="1u 12u(narrower)"></div>
                             <div class="10u 12u(narrower)">
-                                <a href="kheprigh/10.png" class="image featured">
-                                    <img src="kheprigh/10.png" alt="" title="Evals"/></a>
+                                <a href="kheprigh/evals.png" class="image featured">
+                                    <img src="kheprigh/evals.png" alt="" title="Evals"/></a>
                                 </div>
                         </div>
 
@@ -576,63 +707,62 @@
                             <div class="row">
                                 <div class="2u 12u(narrower)"></div>
                                 <div class="8u 12u(narrower)">
-                                    <a href="kheprigh/11.png" class="image featured">
-                                        <img src="kheprigh/11.png" alt="" title="Strings"/></a>
+                                    <a href="kheprigh/strings.png" class="image featured">
+                                        <img src="kheprigh/strings.png" alt="" title="Strings"/></a>
                                     </div>
                             </div>
 
                         <p>Many/Manies:</p>
                         <div class="row">
                             <div class="4u 12u(narrower)">
-                                <a href="kheprigh/12.png" class="image featured">
-                                    <img src="kheprigh/12.png" alt="" title="Many"/></a>
+                                <a href="kheprigh/many.png" class="image featured">
+                                    <img src="kheprigh/many.png" alt="" title="Many"/></a>
                                 </div>
                             <div class="8u 12u(narrower)">
-                                <a href="kheprigh/13.png" class="image featured">
-                                    <img src="kheprigh/13.png" alt="" title="Manies"/></a>
+                                <a href="kheprigh/manies.png" class="image featured">
+                                    <img src="kheprigh/manies.png" alt="" title="Manies"/></a>
                             </div>
                         </div>
 
                         <p>Jls:</p>
                         <div class="row">
-                            <div class="2u 12u(narrower)"></div>
-                            <div class="8u 12u(narrower)">
-                                <a href="kheprigh/14.png" class="image featured">
-                                    <img src="kheprigh/14.png" alt="" title="Eval > Jl > Point"/></a>
-                                </div>
-                        </div>
-
-                        <p>Tree decomposition examples using List Types only:</p>
-                        <div class="row">
                             <div class="6u 12u(narrower)">
-                                <a href="kheprigh/15.png" class="image featured">
-                                    <img src="kheprigh/15.png" alt="" title="Tree > Jls > Numbers"/></a>
+                                <a href="kheprigh/jl.png" class="image featured">
+                                    <img src="kheprigh/jl.png" alt="" title="Eval > Jl > Point"/></a>
                                 </div>
                             <div class="6u 12u(narrower)">
-                                <a href="kheprigh/16.png" class="image featured">
-                                    <img src="kheprigh/16.png" alt="" title="Imperative list assignment"/></a>
+                                <a href="kheprigh/jls1.png" class="image featured">
+                                    <img src="kheprigh/jls1.png" alt="" title="Tree > Jls > Numbers"/></a>
                                 </div>
                         </div>
                         <div class="row">
                             <div class="6u 12u(narrower)">
-                                <a href="kheprigh/17.png" class="image featured">
-                                    <img src="kheprigh/17.png" alt="" title="Tree > JLs > Strings "/></a>
+                                <a href="kheprigh/jls2.png" class="image featured">
+                                    <img src="kheprigh/jls2.png" alt="" title="Imperative list assignment"/></a>
                                 </div>
                             <div class="6u 12u(narrower)">
-                                <a href="kheprigh/18.png" class="image featured">
-                                    <img src="kheprigh/18.png" alt="" title="Tree > JLs > Strings "/></a>
+                                <a href="kheprigh/jls3.png" class="image featured">
+                                    <img src="kheprigh/jls3.png" alt="" title="Tree > JLs > Strings "/></a>
                                 </div>
                         </div>
 
-                        <p>The previous cases can be handled in a much simpler way using Tree Types
-                        (lists of lists):</p>
+                        <p>Tree Types  (lists of lists):</p>
                         <div class="row">
                             <div class="3u 12u(narrower)"></div>
                             <div class="6u 12u(narrower)">
-                                <a href="kheprigh/19.png" class="image featured">
-                                    <img src="kheprigh/19.png" alt="" title="Tree > Jls > Integerss"/></a>
+                                <a href="kheprigh/integerss.png" class="image featured">
+                                    <img src="kheprigh/integerss.png" alt="" title="Tree > JLs > Integerss"/></a>
                                 </div>
                         </div>
+
+                        <div class="row">
+                            <div class="1u 12u(narrower)"></div>
+                            <div class="10u 12u(narrower)">
+                                <a href="kheprigh/numberss.png" class="image featured">
+                                    <img src="kheprigh/numberss.png" alt="" title="JLss > Integers > Numberss"/></a>
+                                </div>
+                        </div>
+
                     </section> 
 
                 </div>
@@ -651,14 +781,17 @@
 				</footer>
 
 		</div>
+        
 
-		!-- Scripts -->
+		<!-- Scripts -->
 			<script src="../assets/js/jquery.min.js"></script>
 			<script src="../assets/js/jquery.dropotron.min.js"></script>
 			<script src="../assets/js/jquery.scrolly.min.js"></script>
 			<script src="../assets/js/jquery.scrollgress.min.js"></script>
 			<script src="../assets/js/skel.min.js"></script>
 			<script src="../assets/js/util.js"></script>
+            <script src="../assets/js/modal.js"></script>
+            
 			<!--[if lte IE 8]><script src="../assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="../assets/js/main.js"></script>
             <script type="text/javascript" src="../assets/js/simple-lightbox.js"></script>
