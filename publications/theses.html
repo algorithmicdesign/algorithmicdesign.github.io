@@ -539,57 +539,46 @@
 
                 <header> <h2> Grade Statistics </h2> </header>
 
-                <div><canvas id="gradesChart"></canvas></div>
+                <canvas id="gradesChart"></canvas>
 
                 <script>
-
                 new Chart("gradesChart", {
-                type: "line",
-                data: {
-                    labels: [14,15,16,17,18,19,20],
-                    datasets: [
-                        { 
-                        label: 'Computer Science and Engineering',
-                        data: [2,2,1,4,3,5,3],
-                        borderColor: 'rgb(63, 177, 163)', // DARK GREEN
-                        backgroundColor: 'rgba(63, 177, 163, 0.2)', // DARK GREEN
-                        // borderColor: 'rgba(124, 128, 129, 0.5)', // DARK GREY
-                        fill: true
-                        }, 
-                        {
-                        label: 'Architecture',
-                        data: [0,0,3,1,6,4,2],
-                        borderColor: 'rgb(131, 211, 201)', // LIGHT GREEN
-                        backgroundColor: 'rgba(131, 211, 201, 0.2)', // DARK GREEN
-                        // borderColor: 'rgba(124, 128, 129, 0.3)', // DARK GREY
-                        fill: true
-                        }
-                    ]
-                },
-                options: {
-                    elements: {
-                        line: {
-                            tension: 0
-                        }
-                    },
-                    scales: {
-                        xAxes: [{
-                            scaleLabel: {
-                                display: true,
-                                labelString: 'Grade'
-                            }
+                    type: "bar",
+                    data: {
+                        labels: [14,15,16,17,18,19,20],
+                        datasets: [{ 
+                            label: 'Computer Science and Engineering',
+                            data: [2,2,1,4,3,5,3],
+                            borderColor: 'rgb(63, 177, 163)', // DARK GREEN
+                            // borderWidth: 2, 
+                            backgroundColor: 'rgba(63, 177, 163, 0.5)', // DARK GREEN FADED
+                            // borderColor: 'rgba(124, 128, 129, 0.5)', // DARK GREY
+                            // fill: true // FOR LINE CHART
+                            },{
+                            label: 'Architecture',
+                            data: [0,0,3,1,6,4,2],
+                            borderColor: 'rgb(131, 211, 201)', // LIGHT GREEN
+                            // borderWidth: 2,
+                            backgroundColor: 'rgba(131, 211, 201, 0.5)', // LIGHT GREEN FADED
+                            // borderColor: 'rgba(124, 128, 129, 0.3)', // DARK GREY
+                            // fill: true // FOR LINE CHART
                             }]
                     },
-                    legend: {
-                        position: 'bottom',
-                        labels: {
-                            padding: 30
-                        }
+                    options: { 
+                        elements: { line: { tension: 0 } },
+                        scales: {
+                            xAxes: [{
+                                scaleLabel: { display: true, labelString: 'Thesis Grade', fontSize: 18, fontFamily: 'Lato' },
+                                stacked: true,
+                                gridLines: { display: false },
+                                ticks: { fontSize: 15, fontFamily: 'Lato' }
+                                }],                               
+                            yAxes: [{ stacked: true, ticks: { fontSize: 15, fontFamily: 'Lato' }}]
+                        },
+                        legend: { position: 'bottom', labels: { padding: 30, fontSize: 18, fontFamily: 'Lato' }, }
                     }
-                }
-                });
+                    });
                 </script>
-
 
             </section>
 
