@@ -17,8 +17,7 @@ Projecto: Gerkin / 30 St Mary Axe by Foster + Partners
 Autores do render: Maria João Sammer* (GAC) | Tiago Reynolds
 
 -- 2017/2018 -- 
-Projecto: Cayan Tower / Infinity Tower by SOM (Skidmore, 
-Owings, and Merrill)
+Projecto: Cayan Tower / Infinity Tower by SOM (Skidmore, Owings, and Merrill)
 Autores do render: Clara Maria Oliveira* 83588 | João Pedro Delgado* 84734
 e-mails: clara.oliveira@tecnico.ulisboa.pt; joao.pedro.delgado@tecnico.ulisboa.pt
 --
