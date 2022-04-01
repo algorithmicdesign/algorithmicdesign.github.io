@@ -38,8 +38,10 @@ $(function(){
                     ...opts
                 }));
                 $("#bibtex-url").attr("href", bibtexURL);
-                $("#bibtex-vancouver .csl-left-margin").remove();
+                $("#bibtex-vancouver .csl-left-margin").remove();                
             });
+            $("#bibtex-text").html(data);
+            // $("#bibtex-text").html(HTMLtemp(data));
         });
         return true;
     });
@@ -52,3 +54,8 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
+
+// function HTMLtemp(data) {
+//     let	Template =`<blockquote> ${data} </blockquote>`;
+//     return Template;
+// }
