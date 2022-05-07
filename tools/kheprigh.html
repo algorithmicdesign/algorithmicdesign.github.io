@@ -96,9 +96,13 @@
                                 analysis tools.
                                 </p>
                             </div>
-                            <div class="5u 12u(narrower) "><br/><br/><br/><br/>
+                            <div class="5u 12u(narrower) "><br/><br/><br/>
                                 <a href="logos-04.png" class="image featured"><img src="logos-04.png" alt="" title="Khepri.gh"/></a>
-                            </div>
+                                <a href="https://web.ist.utl.pt/antonio.menezes.leitao/ADA/documents/publications_docs/2020_VisualMeetsTextual.pdf">
+                                    <strong> Read full article </strong> </a>
+                                <br />
+                                <a class="bibtex" src="../publications/conferences/castelobranco20_CAADRIA.bib"> Cite this work </a>
+                                </div>
                         </div>
 
                     </section>
@@ -589,7 +593,7 @@
                             <div class="6u 12u(narrower)">
                                 <p><b>Eval(s(s))</b>
                                 <br /> <br /> Eval deals with any Julia expression provided as a
-                                string – these may come from a Grasshopper panel (no quotation marks
+                                string - these may come from a Grasshopper panel (no quotation marks
                                 needed! The panel produces a string) or from another Khepri
                                 component (with eval/evals as an output). Eval evaluates the given
                                 expression as Julia code. The result will be a value in Julia. 
@@ -613,7 +617,7 @@
                         <h3>Definitions Component</h3>
 
                         <p> Components with no inputs or outputs are treated differently (like text
-                        files) – use them for definitions only, no geometry generation. This one
+                        files) - use them for definitions only, no geometry generation. This one
                         forces the recomputation of all the others, because it does not know which
                         other components depend on it. The other types of components only force
                         recomputation on their node/wire chain.</p>
@@ -782,19 +786,39 @@
 
 		</div>
         
+         <!-- The Modal -->
+         <div id="refModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h1><strong>Apa</strong></h1>
+                <div id="bibtex-apa">Apa Format Goes Here</div>
+                <br/>
+                <h1><strong>Vancouver</strong></h1>
+                <div id="bibtex-vancouver">Vancouver Format Goes Here</div>
+                <br/>
+                <h1><strong>Harvard</strong></h1>
+                <div id="bibtex-harvard">Harvard Format Goes Here</div>
+                <br/>
+                <div class="bibtex-url"> <a id="bibtex-url">Download BibTeX</a> </div>
+                <h1><strong>BibTeX</strong></h1>
+                <pre id="bibtex-text">BibTeX text goes here </pre>
+            </div>
+        </div>
 
 		<!-- Scripts -->
-			<script src="../assets/js/jquery.min.js"></script>
-			<script src="../assets/js/jquery.dropotron.min.js"></script>
-			<script src="../assets/js/jquery.scrolly.min.js"></script>
-			<script src="../assets/js/jquery.scrollgress.min.js"></script>
-			<script src="../assets/js/skel.min.js"></script>
-			<script src="../assets/js/util.js"></script>
-            <script src="../assets/js/modal.js"></script>
-            
-			<!--[if lte IE 8]><script src="../assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="../assets/js/main.js"></script>
+            <script src="../assets/js/jquery.min.js"></script>
+            <script src="../assets/js/jquery.dropotron.min.js"></script>
+            <script src="../assets/js/jquery.scrolly.min.js"></script>
+            <script src="../assets/js/jquery.scrollgress.min.js"></script>
+            <script src="../assets/js/skel.min.js"></script>
+            <script src="../assets/js/util.js"></script>
+            <!--[if lte IE 8]><script src="../assets/js/ie/respond.min.js"></script><![endif]-->
+            <script src="../assets/js/main.js"></script>
             <script type="text/javascript" src="../assets/js/simple-lightbox.js"></script>
+            <script src="../assets/js/citation-0.4.0-9.min.js"></script>
+            <script src="../assets/js/references.js"></script>
+            <script src="../assets/js/modal.js"></script>
             <script>
                 $(function(){
                     var $gallery = $('.gallery a').simpleLightbox();});
