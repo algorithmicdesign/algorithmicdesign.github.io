@@ -77,17 +77,20 @@
                         
                         <p> In order to use Khepri, three software pieces are required:
                             <br /> <br />
-                            1. The programming language, <b>Julia</b>.
+                            1 &#x2022; The programming language, <b>Julia</b>.
                             <br />
-                            2. A programming environment, <b>Visual Studio Code</b> or
-                            <b>Atom</b>, along with the proper extensions for the Julia programming
-                            language. We recommend the first option.
+                            2 &#x2022; A programming environment, <b>Visual Studio Code</b>, 
+                            along with the proper extensions for the Julia programming
+                            language.
                             <br />
-                            3. The algorithmic design tool, <b>Khepri</b>.
+                            3 &#x2022; The algorithmic design tool, <b>Khepri</b>.
                             <br /><br />
                             This page contains the instructions for the required installations, as
-                            well as some beginner tips on how to use either programming
-                            environment.    
+                            well as:
+                            <br /><br />
+                            4 &#x2022; Beginner tips on how to use the programming environment.
+                            <br />
+                            5 &#x2022; Instruction on how to install and use Khepri <b>Traceability</b>. 
                         </p>
                      </section>  
 
@@ -96,11 +99,9 @@
                             <div class="10u 12u">
                                 <div class="row">
                                     <h3>1.</h3>
-                                    <h3> Installing the Julia programming language </h3>
+                                    <h3> Julia programming language </h3>
                                 </div>
                                 <p> First, install <b>Julia</b>: <a href="https://julialang.org/downloads/">https://julialang.org/downloads/</a>
-                                    <br />
-                                    More specifically, use: <a href="https://julialang-s3.julialang.org/bin/winnt/x64/1.5/julia-1.5.1-win64.exe">https://julialang-s3.julialang.org/bin/winnt/x64/1.5/julia-1.5.1-win64.exe</a>
                                     <br />
                                     We recommend that you accept the default installation options.
                                 </p>
@@ -114,11 +115,11 @@
                      <section class="wrapper style3 container special">
 
                         <div class="row"><h3>2.</h3>
-                            <h3> Installing the Programming Environment </h3>
+                            <h3> Programming Environment </h3>
                             </div>
                             
-                        <div class="row"><h3>OPTION A:</h3>
-                        <h3> Visual Studio Code </h3> </div>
+                        <!-- <div class="row"><h3>OPTION A:</h3>
+                        <h3> Visual Studio Code </h3> </div> -->
 
                         <div class="row">
                             <div class="10u 12u">
@@ -164,9 +165,9 @@
                                 terminal should appear at the bottom of your workspace. The same can
                                 be achieved with the following key bindings: Alt+J Alt+O.
                                 </p>
-                                <br />
+                                <!-- <br /> -->
                     
-                        <div class="row"><h3>OPTION B:</h3>
+                        <!-- <div class="row"><h3>OPTION B:</h3>
                         <h3> Atom </h3></div> 
 
                         <div class="row">
@@ -203,20 +204,26 @@
                                 after the Juno installation, and click on the REPL icon, which
                                 resembles a rectangular screen with the symbols <code>>_</code> on
                                 it.
-                                </p>
+                                </p> -->
                     </section> 
                 
                     <section class="wrapper style3 container special">
                         <div class="row">
                             <div class="10u 12u">
                                 <div class="row"><h3>3.</h3>
-                                <h3> Installing the Khepri algorithmic design tool </h3> </div>
+                                <h3> Khepri algorithmic design tool: Released version </h3> </div>
+                                <br />
+
+                            <p><b>In this section we show you how to install the released version of the Khepri AD
+                                tool. Khepri v1.1.0 is a stable and documented version of the tool from 2022. However,
+                                it does accommodate the developments the research team has been working on since then.</b>
+                            </p> 
 
                                 <p> With the cursor in the REPL press <i>Enter</i>. Julia should have
                                     started and will begin its own installation process. When finished,
                                     press the <b>]</b> key. The Julia prompt (<code>julia></code>) should change to
                                     a package installation prompt (<code>pkg></code>). In front of it, type
-                                    <code>add https://github.com/aptmcl/Khepri.jl</code> and press <i>Enter</i>.
+                                    <code>add Khepri</code> and press <i>Enter</i>.
                                     <br />
                                     After the installation is done, press <i>backspace</i>
                                     (&#8592;) to return to the Julia prompt (<code>julia></code>).
@@ -256,23 +263,90 @@
                             <i>Registry.toml</i> file, which should be in the path provided and is
                             not. 
 
-                            <br /> Close the editor (Visual Studio Code/Atom), and delete the
-                            <i>.julia</i> folder from the suggested path (<i>C:\Users\&#60;user
-                            name>\.julia</i>). Then, open the editor (Visual Studio Code/Atom),
-                            launch the <i>Julia REPL</i> and repeat Khepri&#39;s inhalation process.
+                            <br /> Close the editor, and delete the
+                            <i>.julia</i> folder from the suggested path (<i>C:\Users\&#60;user name>\.julia</i>). Then,
+                            open the editor, launch the <i>Julia REPL</i>, and repeat Khepri&#39;s inhalation process.
 
-                            <br /> If this does not work, repeat the process once more, this time
-                            also uninstalling the Julia language from your computer entirely.
-                            Reinstall it again and try anew.
+                            <br /> If this does not work, repeat the process once more, this time also uninstalling
+                            Julia from your computer entirely. Reinstall it again and try anew.
                             </p>
                  </section>    
+
+                 <section class="wrapper style3 container special">
+                    <div class="row">
+                        <div class="10u 12u">
+                            <div class="row"><h3>3.</h3>
+                            <h3> Khepri algorithmic design tool: Main version </h3> </div>
+
+                            <br />
+                            <p><b>In this section we show you how to install the most recent version version of the
+                            Khepri AD tool. Khepri main/master is a branch under development. It benefits from the most
+                            recent updates our team has been working on. Occasional inconsistencies are expected tough.
+                            It is also divided in modules so that users may install only the ones they are interested in
+                            exploring. The Base module should always be installed, as it provides support to all others.
+                            We will exemplify with the AutoCAD module. </b>
+                            </p>
+
+                            <p> Press the <b>]</b> key in the Julia REPL. The Julia prompt (<code>julia></code>) should
+                            change to a package installation prompt (<code>pkg></code>). In front of it, type
+                                <code>add https://github.com/aptmcl/KhepriBase.jl</code> and press <i>Enter</i>.
+                                <br /> When this installation is done, repeat the process for <code>add
+                                https://github.com/aptmcl/KhepriAutoCAD.jl</code>. After the latter installation is
+                                done, you may press <i>backspace</i>
+                                (&#8592;) to return to the Julia prompt (<code>julia></code>).
+                            </p> 
+                        </div>
+                        <div class="2u 12u">
+                            <a class="image featured"><img src="khepri/khepri.png" alt="" title="Khepri"/></a>
+                        </div>
+                    </div>
+                    <p> To test if the installation worked, write and evaluate the following lines of code in the REPL
+                    by clicking <i>Enter</i> after each instruction:
+                    </p>
+
+<pre><code>
+    using KhepriAutoCAD
+    circle()
+
+</code></pre>   
+                        <br />
+                        <p> AutoCAD should start automatically. Please select the KhepriTemplate tab in AutoCAD as
+                        suggested in the REPL. If a dialog box appears in AutoCAD asking if you want to load
+                        <b>Khepri</b>, click on the
+                        <i>Always Load</i> button. A circle should then appear in AutoCAD.
+                            <br /><br />
+                            Note: in case the REPL shows errors and messages such as <i>&#39;Please,
+                            close AutoCAD and retry&#39;</i> or <i>&#39;Please, start/restart
+                            AutoCAD&#39;</i>... just do what it says.
+                        </p>
+
+                        <h4> &#x26A0; Troubleshooting </h4> 
+
+                        <p> If, <b>during the Khepri package installation</b>, the following
+                        error appears: <i>ERROR: SystemError: opening file "C:\\Users\\&#60;user
+                        name>\\.julia\\registries\\General\\Registry.toml" : No such file or
+                        directory.</i>, it means the package installer is trying to find the
+                        <i>Registry.toml</i> file, which should be in the path provided and is
+                        not. 
+
+                        <br /> Close the editor, and delete the
+                        <i>.julia</i> folder from the suggested path (<i>C:\Users\&#60;user name>\.julia</i>). Then,
+                        open the editor, launch the <i>Julia REPL</i>, and repeat Khepri&#39;s inhalation process.
+
+                        <br /> If this does not work, repeat the process once more, this time also uninstalling
+                        Julia from your computer entirely. Reinstall it again and try anew.
+                        </p>
+             </section>   
 
             <div class="gallery">     
 
                  <section class="wrapper style3 container special">
-                    <h2> Beginner tips for the programming environment</h2>
 
-                    <h3>OPTION A - Visual Studio Code </h3> 
+                    <div class="row"><h3>4.</h3>
+                        <h3> Beginner tips for the programming environment </h3>
+                        </div>
+
+                    <!-- <h3>OPTION A - Visual Studio Code </h3>  -->
 
                     <a href="khepri/vscode_env.png" class="image featured"><img src="khepri/vscode_env.png"
                     alt="" title="Visual Studio Code programming environment"/></a>
@@ -290,12 +364,12 @@
                     bar and choose <i>New File</i> (Ctrl+N). This will open a new text file. There
                     are two options to convert it into a Julia file:
                     <br />
-                    A. On the bottom right corner of the workspace, notice that the
+                    &#x2022; On the bottom right corner of the workspace, notice that the
                     file is cataloged as <i>Plain Text</i> in the <i>Select Language Mode</i> button. Click on
                     it to change the file type. A search engine will appear, where you should
                     write and select <i>Julia</i>. The file should now be recognized as a Julia file.
                     <br />
-                    B. The same effect can be achieved by saving the new text file with the
+                    &#x2022; The same effect can be achieved by saving the new text file with the
                     Julia extension. Select the <i>File</i> menu in the top bar and choose <i>Save As</i>
                     (Ctrl+Shift+S). In the <i>Save as type</i> dropdown menu select the <i>Julia (*.jl)</i>
                     option, or simply add the extension to the <i>file name</i> (e.g.,
@@ -304,56 +378,53 @@
 
                     <h4> Running Code </h4>
 
-                    <p>There are several options to run code in Visual Studio Code: running the
-                        full program or only parts of it. In either case, the
-                        results of each run will appear in the Julia REPL.
-                        <br />
-                        To run the full program click <i>Shift+Enter</i> when your cursor is anywhere
+                    <p>There are several options to run the code in your program. You may run the full program, or you
+                    may prefer to run only parts of it. In either case, the results of each run will show in the Julia
+                    REPL.
+                        <br /><br />
+                        To run the full program click <i>Alt+Enter</i> when your cursor is anywhere
                         within the program file. 
-                        <br /> 
-                        To run only parts of the program file, use <i>Ctrl+Enter</i>, which
-                        sends the current line (where your cursor is) or selection to the REPL and
-                        runs it simultaneously, or use
-                        <i>Alt+Enter</i>, which runs the current instruction and moves your cursor
-                        downwards simultaneously.
+                        <br /><br />
+                        To run only parts of the file, you can use:
+                        <br />
+                        &#x2022; <i>Ctrl+Enter</i> or <i>Alt+J Alt+K</i>, which sends the current line (where your cursor is) or selection to the REPL.
+                        <br />
+                        &#x2022; <i>Shift+Enter</i>, which runs the current instruction and moves your cursor downwards simultaneously.
                         <br /><br />
                         Other useful commands include:
                         <br />
                         &#x2022; <i>Ctrl+D</i> or <i>Alt+J Alt+K</i> to exit the Julia REPL
                         <br />
-                        &#x2022; <i>Ctrl+C</i> to interrupt or cancel a process.
+                        &#x2022; <i>Ctrl+C</i> to interrupt or cancel a process. Useful to break infinite loops or erroneous runs.
                         <br />
                         &#x2022; <i>Ctrl+L</i> to clear the terminal screen.
                     </p>
 
                     <h4> Inline visualization of results </h4>
 
-                    <p> Besides the REPL, there are
-                        other options for the visualization of results, namely the <i>inline</i> visualization,
-                        which shows the results of the program directly in the program
-                        file, in front of the line(S) that were ran. To activate this, go to the <i>File</i> menu in the top bar,
-                        choose <i>Preferences</i>, and then <i>Settings</i> (Ctrl+,). Here open the <i>Extensions</i>
-                        drop-down menu and find <i>Julia</i>. In the <i>Julia extension settings</i> menu, change the
-                        default options in <i>Execution: Result Type</i> to inline or to both.
+                    <p> We have shown you how to visualize program results in the REPL. There are other options for the
+                    visualization of results, namely <i>inline</i> visualization, which allows you to see the results of
+                    your program directly in the program file, in front of the line you just ran. Go to the <i>File</i>
+                    menu in the top bar, choose <i>Preferences</i>, and then <i>Settings</i> (Ctrl+,). Here, open the
+                    <i>Extensions</i> drop-down menu and find <i>Julia</i>. In the <i>Julia extension settings</i> menu,
+                    change the default options in <i>Execution: Result Type</i> to <i>inline</i> or to <i>both</i>.
                     </p>
 
                    <h4> &#x26A0; Troubleshooting </h4> <!-- &#x2718 -->
                    
-                    <p> When the <b>Julia REPL fails to start</b> the following error messages may
-                    appear: <i>The terminal process failed to launch: Path to shell executable is
-                    not a file of a symlink</i> or <i>Path to shell executable does not exist.</i>
-                        <br /> 
-                        These messages mean that Visual Studio Code could not find the
-                        <i>Julia.exe</i> file to launch the Julia shell in the editor. In these
-                        cases, provide the file path by hand by going to the <i>File</i> menu in the
-                        top bar, choosing <i>Preferences</i>, and then <i>Settings</i>
-                        (Ctrl+,). Here open the <i>Extensions</i> drop-down menu and find <i>Julia</i>. In the
-                        <i>Julia extension settings</i> menu, find the <i>Julia: Executable Path</i>
-                        option. The correct path should be pasted on the text box below. To find the
-                        file on the computer:
+                    <p> When the <b>Julia REPL fails to start</b> and an error message with either of the following texts
+                        appears: <i>The terminal process failed to launch: Path to shell executable is not a file of a
+                        symlink</i> or <i>Path to shell executable does not exist.</i>
+                        If this is the case, Visual Studio Code could not find the <i>Julia.exe</i> file to
+                        launch the Julia shell in the editor. You must provide the path by hand.
+                        <br />
+                        Go to the <i>File</i> menu in the top bar, chose <i>Preferences</i>, and then
+                        <i>Settings</i> (Ctrl+,). Here open the <i>Extensions</i> drop-down menu and find <i>Julia</i>.
+                        In the <i>Julia extension settings</i> menu, find the <i>Julia: Executable Path</i>
+                        option. You will paste the correct path to the text box below. But first, find the file on your computer:
                         <br /> <br />
 
-                        A. The <i>Julia.exe</i> should be located deep in the <i>AppData</i> hidden
+                        A &#x2022; The <i>Julia.exe</i> should be located deep in the <i>AppData</i> hidden
                         folder. This folder can be found at <i>C:\\Users\\&#60;user
                             name></i> if you check the <i>Hiden items</i> option on the
                         <i>View > Show/Hide</i> tab. Alternatively, type %APPDATA% on Windows&#39;
@@ -368,16 +439,21 @@
                         name>\\AppData\\Local\\Programs\\Julia\\Julia-*.*.*\\bin\\julia.exe</i>
                         <br /> <br />
 
-                        B. In case no Julia file exists on the AppData folder, find Julia&#39;s
+                        B &#x2022; In case no Julia file exists on the AppData folder, find Julia&#39;s
                         shortcut either on your <i>Desktop</i> or <i>Start Menu</i>. Right-click on
                         the icon and choose the option <i>Open File Location</i>. This will most
                         likely lead you to another shortcut, so repeat the process until you reach
                         the
                         <i>Julia.exe</i> file. At this stage, follow the remaining steps in option A.
+                        <br /> <br />
+
+                        C &#x2022; If none of the above work, run the following command on the REPL to acquire the bin file path
+                        on your computer: <code>println(Sys.BINDIR)</code>. Then follow the remaining steps in option A.
+ 
                     </p>
                     <br />
 
-                    <h3>OPTION B - Atom </h3> 
+                    <!-- <h3>OPTION B - Atom </h3> 
 
                   <a href="khepri/atom_env.png" class="image featured"><img src="khepri/atom_env.png"
                     alt="" title="Atom programming environment"/></a>
@@ -392,7 +468,7 @@
                         <br /><br />
                         To begin programming, open a new Julia file. Go to the <i>Juno</i> menu in the top
                         bar and choose <i>New Julia File</i> or click on the <i>New Julia File</i>
-                        icon (<code><!--&#128466;-->&#128196;</code>) on the <i>Juno</i> pane on the left of the workspace, which resembles a
+                        icon (<code>&#128196;</code>) on the <i>Juno</i> pane on the left of the workspace, which resembles a
                         sheet of paper with the symbol <code>&#60;/></code> on it. 
                         <br /><br />
                         Note that Atom offers you a blank file (untitled) to start with, or you can
@@ -429,9 +505,53 @@
                         <br /> 
                         &#x2022; <i>Clear REPL</i> (Ctrl+L or Ctrl+J Ctrl +C) to clean the
                         REPL history. This action is also available in the 
-                        <i>Juno</i> menu.
+                        <i>Juno</i> menu. -->
 
                </section>  
+
+               <section class="wrapper style3 container special">
+
+                        <div class="row"><h3>5.</h3>
+                        <h3> Khepri Traceability </h3> </div>
+
+                        <br />
+                        <p><b>Traceability is an excellent aid for program comprehension as it allows users to identify
+                        which lines of code are responsible for which objects in the model, and vise-versa. Traceability
+                        in Khepri is only available for users of the main/master version (net the released one).</b>
+                        </p>
+
+                        <h4> Installing Traceability </h4>
+
+                        <p> 1 &#x2022; Download the following file: <a href="/tools/khepri/vsckhepri-0.0.1.vsix">vsix file</a> <br />
+                            2 &#x2022; <i>Ctrl+Shift+P</i> > Find and select the <i>Extensions: Install from VSIX</i> option <br />
+                            3 &#x2022; Choose the downloaded file and click <i>Install</i> <br />
+                            4 &#x2022; If the editor asks for a <i>reload</i>, just do what it says
+                        </p>
+
+                        <h4> Using Traceability </h4>
+
+                        <p> [Tip] &#x2022; Divide your screen in two: VS Code on one side and AutoCAD on the other <br />
+                            1 &#x2022; Add the following line to your program: <i>traceability(true)</i> <br />
+                            2 &#x2022; Run the program as usual so as to generate geometry in AutoCAD <br />
+                            3 &#x2022; Save any changes made to the code files you wish to trace <br />
+                            <br />
+                            4 &#x2022; <b>Program &#x2192; model</b> traceability <br />
+                        </p>
+
+                        <h4> Tutorial Video </h4>
+
+                        <iframe width="100%" height=""
+                        src="https://www.youtube.com/embed/b37LPzuwf8g" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;
+                        web-share" allowfullscreen></iframe>
+                        
+
+                        <video controls preload="auto" id="ADA FILM" class="spetial container" style="width: 100%">
+                            <source src="https://youtu.be/b37LPzuwf8g" type="video/mp4">
+                        </video>
+
+
+         </section>   
                                                 
             </div>
 
