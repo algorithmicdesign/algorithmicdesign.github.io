@@ -77,20 +77,19 @@
                         
                         <p> In order to use Khepri, three software pieces are required:
                             <br /> <br />
-                            1 &#x2022; The programming language, <b>Julia</b>.
+                            <a href="#julia">1 &#x2022;</a> The programming language, <b>Julia</b>.
                             <br />
-                            2 &#x2022; A programming environment, <b>Visual Studio Code</b>, 
-                            along with the proper extensions for the Julia programming
-                            language.
+                            <a href="#vscode">2 &#x2022;</a> A programming environment, <b>Visual Studio Code</b>, 
+                            along with the proper extensions for Julia.
                             <br />
-                            3 &#x2022; The algorithmic design tool, <b>Khepri</b>.
+                            <a href="#khepri">3 &#x2022;</a> The algorithmic design tool, <b>Khepri</b>.
                             <br /><br />
                             This page contains the instructions for the required installations, as
                             well as:
                             <br /><br />
-                            4 &#x2022; Beginner tips on how to use the programming environment.
+                            <a href="#tips">4 &#x2022;</a> <b>Beginner tips</b> on how to use Visual Studio Code.
                             <br />
-                            5 &#x2022; Instruction on how to install and use Khepri <b>Traceability</b>. 
+                            <a href="#traceability">5 &#x2022;</a> Instruction on how to install and use Khepri <b>Traceability</b>. 
                         </p>
                      </section>  
 
@@ -98,7 +97,7 @@
                         <div class="row">
                             <div class="10u 12u">
                                 <div class="row">
-                                    <h3>1.</h3>
+                                    <h3 id="julia">1.</h3>
                                     <h3> Julia programming language </h3>
                                 </div>
                                 <p> First, install <b>Julia</b>: <a href="https://julialang.org/downloads/">https://julialang.org/downloads/</a>
@@ -114,7 +113,7 @@
                          
                      <section class="wrapper style3 container special">
 
-                        <div class="row"><h3>2.</h3>
+                        <div class="row"><h3 id="vscode">2.</h3>
                             <h3> Programming Environment </h3>
                             </div>
                             
@@ -210,14 +209,18 @@
                     <section class="wrapper style3 container special">
                         <div class="row">
                             <div class="10u 12u">
-                                <div class="row"><h3>3.</h3>
+                                <div class="row"><h3 id="khepri">3.</h3>
                                 <h3> Khepri algorithmic design tool: Released version </h3> </div>
                                 <br />
 
                             <p><b>In this section we show you how to install the released version of the Khepri AD
                                 tool. Khepri v1.1.0 is a stable and documented version of the tool from 2022. However,
                                 it does not accommodate the developments the research team has been working on since then.</b>
-                            </p> 
+                            </p>  
+                            </div>
+                            <div class="2u 12u">
+                                <a class="image featured"><img src="khepri/khepri.png" alt="" title="Khepri"/></a>
+                            </div>
 
                                 <p> With the cursor in the REPL press <i>Enter</i>. Julia should have
                                     started and will begin its own installation process. When finished,
@@ -227,11 +230,7 @@
                                     <br />
                                     After the installation is done, press <i>backspace</i>
                                     (&#8592;) to return to the Julia prompt (<code>julia></code>).
-                                </p> 
-                            </div>
-                            <div class="2u 12u">
-                                <a class="image featured"><img src="khepri/khepri.png" alt="" title="Khepri"/></a>
-                            </div>
+                                </p>
                         </div>
                         <p> To test if the installation worked, start by connecting to the AutoCAD
                         backend. Write and evaluate the following lines of code in the REPL by
@@ -286,6 +285,10 @@
                             exploring. The Base module should always be installed, as it provides support to all others.
                             We will exemplify the installation process with the AutoCAD module. </b>
                             </p>
+                        </div>
+                        <div class="2u 12u">
+                            <a class="image featured"><img src="khepri/khepri_up.png" alt="" title="Khepri"/></a>
+                        </div>
 
                             <p> Press the <b>]</b> key in the Julia REPL. The Julia prompt (<code>julia></code>) should
                             change to a package installation prompt (<code>pkg></code>). In front of it, type
@@ -295,10 +298,6 @@
                                 done, you may press <i>backspace</i>
                                 (&#8592;) to return to the Julia prompt (<code>julia></code>).
                             </p> 
-                        </div>
-                        <div class="2u 12u">
-                            <a class="image featured"><img src="khepri/khepri_up.png" alt="" title="Khepri"/></a>
-                        </div>
                     </div>
                     <p> To test if the installation worked, write and evaluate the following lines of code in the REPL
                     by clicking <i>Enter</i> after each instruction:
@@ -320,12 +319,27 @@
                             AutoCAD&#39;</i>... just do what it says.
                         </p>
                         
-                        <h4> Khepri Modules </h4> <br />
+                        <h4> Khepri Application Modules </h4> <br />
+
                         <div class="row">
+                            <div class="3u 12u"></div>
                             <div class="2u 12u">
                                 <pcenter>KhepriBase</pcenter><br /><br />
-                                <a class="image featured"><img src="khepri/khepri.png" alt="" title="Base"/></a>
+                                <a class="image featured"><img src="khepri/modules/khepri.jpg" alt="" title="Base"/></a>
                             </div>
+                            <div class="2u 12u">
+                                <pcenter>KhepriIllustrator</pcenter><br /><br />
+                                <a class="image featured"><img src="khepri/modules/illustrator.jpg" alt="" title="Illustrator"/></a>
+                            </div>
+                            <div class="2u 12u">
+                                <pcenter>KhepriGrasshopper</pcenter><br /><br />
+                                <a class="image featured"><img src="khepri/modules/grashopper.png" alt="" title="Grasshopper"/></a>
+                            </div>
+                        </div><br /><br />
+
+                        <h4> Khepri Backend Modules </h4> <br />
+
+                        <div class="row">
                             <div class="2u 12u">
                                 <pcenter>KhepriAutoCAD</pcenter><br /><br />
                                 <a class="image featured"><img src="khepri/modules/autocad.jpg" alt="" title="AutoCAD"/></a>
@@ -338,16 +352,14 @@
                                 <pcenter>KhepriFreeCAD</pcenter><br /><br />
                                 <a class="image featured"><img src="khepri/modules/freecad.jpg" alt="" title="FreeCAD"/></a>
                             </div>
-                            <div class="2u 12u">
+                            <!-- <div class="2u 12u">
                                 <pcenter>KhepriIFC</pcenter><br /><br />
                                 <a class="image featured"><img src="khepri/modules/ifc.jpg" alt="" title="IFC"/></a>
-                            </div>
+                            </div> -->
                             <div class="2u 12u">
                                 <pcenter>KhepriRevit</pcenter><br /><br />
                                 <a class="image featured"><img src="khepri/modules/revit.jpg" alt="" title="Revit"/></a>
                             </div>
-                        </div>
-                        <div class="row">
                             <div class="2u 12u">
                                 <pcenter>KhepriBlender</pcenter><br /><br />
                                 <a class="image featured"><img src="khepri/modules/blender.jpg" alt="" title="Blender"/></a>
@@ -356,23 +368,20 @@
                                 <pcenter>KhepriUnity</pcenter><br /><br />
                                 <a class="image featured"><img src="khepri/modules/unity.jpg" alt="" title="Unity"/></a>
                             </div>
-                            <div class="2u 12u">
-                                <pcenter>KhepriUnreal</pcenter><br /><br />
-                                <a class="image featured"><img src="khepri/modules/unreal.jpg" alt="" title="Unreal"/></a>
-                            </div><div class="2u 12u">
-                                <pcenter>KhepriMeshCat</pcenter><br /><br />
-                                <a class="image featured"><img src="khepri/modules/meshcat.png" alt="" title="MeshCat"/></a>
-                            </div>
-                            <div class="2u 12u">
-                                <pcenter>KhepriTikZ</pcenter><br /><br /><br />
-                                <a class="image featured"><img src="khepri/modules/tikz.jpg" alt="" title="TikZ"/></a>
-                            </div>
-                            <div class="2u 12u">
-                                <pcenter>KhepriIllustrator</pcenter><br /><br />
-                                <a class="image featured"><img src="khepri/modules/illustrator.png" alt="" title="Illustrator"/></a>
-                            </div>
                         </div>
                         <div class="row">
+                            <!-- <div class="2u 12u">
+                                <pcenter>KhepriUnreal</pcenter><br /><br />
+                                <a class="image featured"><img src="khepri/modules/unreal.jpg" alt="" title="Unreal"/></a>
+                            </div> -->
+                            <div class="2u 12u">
+                                <pcenter>KhepriMeshCat</pcenter><br /><br />
+                                <a class="image featured"><img src="khepri/modules/meshcat.jpg" alt="" title="MeshCat"/></a>
+                            </div>
+                            <div class="2u 12u">
+                                <pcenter>KhepriTikZ</pcenter><br /><br />
+                                <a class="image featured"><img src="khepri/modules/tikz.jpg" alt="" title="TikZ"/></a>
+                            </div>
                             <div class="2u 12u">
                                 <pcenter>KhepriRobot</pcenter><br /><br />
                                 <a class="image featured"><img src="khepri/modules/robot.jpg" alt="" title="Robot"/></a>
@@ -389,10 +398,6 @@
                                 <pcenter>KhepriPOVRay</pcenter><br /><br />
                                 <a class="image featured"><img src="khepri/modules/povray.jpg" alt="" title="POVRay"/></a>
                             </div>
-                            <div class="2u 12u">
-                                <pcenter>KhepriGrasshopper</pcenter><br /><br />
-                                <a class="image featured"><img src="khepri/modules/grashopper.png" alt="" title="Grasshopper"/></a>
-                            </div>
                         </div>
 
 
@@ -402,13 +407,13 @@
 
                  <section class="wrapper style3 container special">
 
-                    <div class="row"><h3>4.</h3>
+                    <div class="row"><h3 id="tips">4.</h3>
                         <h3> Beginner tips for the programming environment </h3>
                         </div>
 
                     <!-- <h3>OPTION A - Visual Studio Code </h3>  -->
 
-                    <a href="khepri/vscode_env.jpg" class="image featured"><img src="khepri/vscode_env.jpg"
+                    <a href="khepri/vscode_env.jpg" class="image featured"><img src="khepri/vscode_env.png"
                     alt="" title="Visual Studio Code programming environment"/></a>
                     <br />
 
@@ -571,7 +576,7 @@
 
                <section class="wrapper style3 container special">
 
-                        <div class="row"><h3>5.</h3>
+                        <div class="row"><h3 id="traceability">5.</h3>
                         <h3> Khepri Traceability </h3> </div>
 
                         <br />
